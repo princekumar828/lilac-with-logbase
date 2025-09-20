@@ -1,0 +1,1209 @@
+LineId,EventId,Content,EventTemplate
+1,E1,caffemodel: modelBin_1,caffemodel: <*>
+2,E1,caffemodel: modelBin_2,caffemodel: <*>
+3,E1,caffemodel: modelBin_3,caffemodel: <*>
+4,E1,caffemodel: modelBin_4,caffemodel: <*>
+5,E1,caffemodel: modelBin_5,caffemodel: <*>
+6,E1,caffemodel: modelBin_6,caffemodel: <*>
+7,E1,caffemodel: modelBin_7,caffemodel: <*>
+8,E1,caffemodel: modelBin_8,caffemodel: <*>
+9,E1,caffemodel: modelBin_9,caffemodel: <*>
+10,E1,caffemodel: modelBin_10,caffemodel: <*>
+11,E1,caffemodel: modelBin_11,caffemodel: <*>
+12,E1,caffemodel: modelBin_12,caffemodel: <*>
+13,E1,caffemodel: modelBin_13,caffemodel: <*>
+14,E1,caffemodel: modelBin_14,caffemodel: <*>
+15,E1,caffemodel: modelBin_15,caffemodel: <*>
+16,E2,Seek in file containing video and audio,Seek in file containing <*>
+17,E2,Seek in file containing video only,Seek in file containing <*>
+18,E2,Seek in file containing audio only,Seek in file containing <*>
+19,E2,Seek in file containing video and audio,Seek in file containing <*>
+20,E2,Seek in file containing video only,Seek in file containing <*>
+21,E2,Seek in file containing audio only,Seek in file containing <*>
+22,E2,Seek in file containing video and audio,Seek in file containing <*>
+23,E2,Seek in file containing video only,Seek in file containing <*>
+24,E2,Seek in file containing audio only,Seek in file containing <*>
+25,E2,Seek in file containing video and audio,Seek in file containing <*>
+26,E2,Seek in file containing video only,Seek in file containing <*>
+27,E2,Seek in file containing audio only,Seek in file containing <*>
+28,E2,Seek in file containing video and audio,Seek in file containing <*>
+29,E2,Seek in file containing video only,Seek in file containing <*>
+30,E2,Seek in file containing audio only,Seek in file containing <*>
+31,E3,Testing file tempFile1.txt,Testing file <*>
+32,E3,Testing file tempFile2.csv,Testing file <*>
+33,E3,Testing file tempFile3.docx,Testing file <*>
+34,E3,Testing file tempFile4.pdf,Testing file <*>
+35,E3,Testing file tempFile5.jpg,Testing file <*>
+36,E3,Testing file tempFile6.png,Testing file <*>
+37,E3,Testing file tempFile7.zip,Testing file <*>
+38,E3,Testing file tempFile8.exe,Testing file <*>
+39,E3,Testing file tempFile9.mp3,Testing file <*>
+40,E3,Testing file tempFile10.mp4,Testing file <*>
+41,E3,Testing file tempFile11.html,Testing file <*>
+42,E3,Testing file tempFile12.java,Testing file <*>
+43,E3,Testing file tempFile13.py,Testing file <*>
+44,E3,Testing file tempFile14.log,Testing file <*>
+45,E3,Testing file tempFile15.json,Testing file <*>
+46,E4,Length = 0.0,Length = <*>
+47,E4,Length = 1.2,Length = <*>
+48,E4,Length = 2.4,Length = <*>
+49,E4,Length = 3.6,Length = <*>
+50,E4,Length = 4.8,Length = <*>
+51,E4,Length = 6.0,Length = <*>
+52,E4,Length = 7.2,Length = <*>
+53,E4,Length = 8.4,Length = <*>
+54,E4,Length = 9.6,Length = <*>
+55,E4,Length = 10.8,Length = <*>
+56,E4,Length = 12.0,Length = <*>
+57,E4,Length = 13.2,Length = <*>
+58,E4,Length = 14.4,Length = <*>
+59,E4,Length = 15.6,Length = <*>
+60,E4,Length = 16.8,Length = <*>
+61,E5,Framerate = 30.0,Framerate = <*>
+62,E5,Framerate = 29.9,Framerate = <*>
+63,E5,Framerate = 30.1,Framerate = <*>
+64,E5,Framerate = 28.7,Framerate = <*>
+65,E5,Framerate = 31.2,Framerate = <*>
+66,E5,Framerate = 29.5,Framerate = <*>
+67,E5,Framerate = 30.3,Framerate = <*>
+68,E5,Framerate = 27.8,Framerate = <*>
+69,E5,Framerate = 32.1,Framerate = <*>
+70,E5,Framerate = 29.7,Framerate = <*>
+71,E5,Framerate = 30.4,Framerate = <*>
+72,E5,Framerate = 28.3,Framerate = <*>
+73,E5,Framerate = 31.6,Framerate = <*>
+74,E5,Framerate = 29.2,Framerate = <*>
+75,E5,Framerate = 30.6,Framerate = <*>
+76,E6,delta from 0.01 to 0.05,delta from <*> to <*>
+77,E6,delta from 0.1 to 0.2,delta from <*> to <*>
+78,E6,delta from 0.02 to 0.03,delta from <*> to <*>
+79,E6,delta from 0.15 to 0.25,delta from <*> to <*>
+80,E6,delta from 0.05 to 0.1,delta from <*> to <*>
+81,E6,delta from 0.2 to 0.3,delta from <*> to <*>
+82,E6,delta from 0.03 to 0.04,delta from <*> to <*>
+83,E6,delta from 0.25 to 0.35,delta from <*> to <*>
+84,E6,delta from 0.1 to 0.15,delta from <*> to <*>
+85,E6,delta from 0.3 to 0.4,delta from <*> to <*>
+86,E6,delta from 0.04 to 0.06,delta from <*> to <*>
+87,E6,delta from 0.35 to 0.45,delta from <*> to <*>
+88,E6,delta from 0.15 to 0.2,delta from <*> to <*>
+89,E6,delta from 0.4 to 0.5,delta from <*> to <*>
+90,E6,delta from 0.06 to 0.08,delta from <*> to <*>
+91,E7,frame number:1 timestamp:1635008667,frame number:<*> timestamp:<*>
+92,E7,frame number:2 timestamp:1635008668,frame number:<*> timestamp:<*>
+93,E7,frame number:3 timestamp:1635008669,frame number:<*> timestamp:<*>
+94,E7,frame number:4 timestamp:1635008670,frame number:<*> timestamp:<*>
+95,E7,frame number:5 timestamp:1635008671,frame number:<*> timestamp:<*>
+96,E7,frame number:6 timestamp:1635008672,frame number:<*> timestamp:<*>
+97,E7,frame number:7 timestamp:1635008673,frame number:<*> timestamp:<*>
+98,E7,frame number:8 timestamp:1635008674,frame number:<*> timestamp:<*>
+99,E7,frame number:9 timestamp:1635008675,frame number:<*> timestamp:<*>
+100,E7,frame number:10 timestamp:1635008676,frame number:<*> timestamp:<*>
+101,E7,frame number:11 timestamp:1635008677,frame number:<*> timestamp:<*>
+102,E7,frame number:12 timestamp:1635008678,frame number:<*> timestamp:<*>
+103,E7,frame number:13 timestamp:1635008679,frame number:<*> timestamp:<*>
+104,E7,frame number:14 timestamp:1635008680,frame number:<*> timestamp:<*>
+105,E7,frame number:15 timestamp:1635008681,frame number:<*> timestamp:<*>
+106,E8,AudioFrameDuration = 0.02,AudioFrameDuration = <*>
+107,E8,AudioFrameDuration = 0.03,AudioFrameDuration = <*>
+108,E8,AudioFrameDuration = 0.01,AudioFrameDuration = <*>
+109,E8,AudioFrameDuration = 0.04,AudioFrameDuration = <*>
+110,E8,AudioFrameDuration = 0.05,AudioFrameDuration = <*>
+111,E8,AudioFrameDuration = 0.02,AudioFrameDuration = <*>
+112,E8,AudioFrameDuration = 0.03,AudioFrameDuration = <*>
+113,E8,AudioFrameDuration = 0.01,AudioFrameDuration = <*>
+114,E8,AudioFrameDuration = 0.04,AudioFrameDuration = <*>
+115,E8,AudioFrameDuration = 0.05,AudioFrameDuration = <*>
+116,E8,AudioFrameDuration = 0.02,AudioFrameDuration = <*>
+117,E8,AudioFrameDuration = 0.03,AudioFrameDuration = <*>
+118,E8,AudioFrameDuration = 0.01,AudioFrameDuration = <*>
+119,E8,AudioFrameDuration = 0.04,AudioFrameDuration = <*>
+120,E8,AudioFrameDuration = 0.05,AudioFrameDuration = <*>
+121,E9,"audioFrame # 100, timeStamp = 5000000, difference = 2","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+122,E9,"audioFrame # 150, timeStamp = 7500000, difference = 0","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+123,E9,"audioFrame # 200, timeStamp = 10000000, difference = -1","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+124,E9,"audioFrame # 250, timeStamp = 12500000, difference = 1","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+125,E9,"audioFrame # 300, timeStamp = 15000000, difference = -2","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+126,E9,"audioFrame # 350, timeStamp = 17500000, difference = 0","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+127,E9,"audioFrame # 400, timeStamp = 20000000, difference = 1","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+128,E9,"audioFrame # 450, timeStamp = 22500000, difference = -1","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+129,E9,"audioFrame # 500, timeStamp = 25000000, difference = 2","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+130,E9,"audioFrame # 550, timeStamp = 27500000, difference = -2","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+131,E9,"audioFrame # 600, timeStamp = 30000000, difference = 0","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+132,E9,"audioFrame # 650, timeStamp = 32500000, difference = -1","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+133,E9,"audioFrame # 700, timeStamp = 35000000, difference = -2","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+134,E9,"audioFrame # 750, timeStamp = 37500000, difference = -1","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+135,E9,"audioFrame # 800, timeStamp = 40000000, difference = -2","audioFrame # <*>, timeStamp = <*>, difference = <*>"
+136,E10,======= seek in data.txt is finished ===========,======= seek in <*> is finished ===========
+137,E10,======= seek in report.pdf is finished ===========,======= seek in <*> is finished ===========
+138,E10,======= seek in image.jpg is finished ===========,======= seek in <*> is finished ===========
+139,E10,======= seek in video.mp4 is finished ===========,======= seek in <*> is finished ===========
+140,E10,======= seek in music.mp3 is finished ===========,======= seek in <*> is finished ===========
+141,E10,======= seek in archive.zip is finished ===========,======= seek in <*> is finished ===========
+142,E10,======= seek in document.docx is finished ===========,======= seek in <*> is finished ===========
+143,E10,======= seek in presentation.pptx is finished ===========,======= seek in <*> is finished ===========
+144,E10,======= seek in spreadsheet.xlsx is finished ===========,======= seek in <*> is finished ===========
+145,E10,======= seek in code.py is finished ===========,======= seek in <*> is finished ===========
+146,E10,======= seek in log.txt is finished ===========,======= seek in <*> is finished ===========
+147,E10,======= seek in config.ini is finished ===========,======= seek in <*> is finished ===========
+148,E10,======= seek in database.db is finished ===========,======= seek in <*> is finished ===========
+149,E10,======= seek in backup.bak is finished ===========,======= seek in <*> is finished ===========
+150,E10,======= seek in script.sh is finished ===========,======= seek in <*> is finished ===========
+151,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=3,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+152,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=0,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+153,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=4,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+154,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=2,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+155,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=5,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+156,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=6,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+157,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=7,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+158,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=8,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+159,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=9,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+160,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=10,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+161,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=11,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+162,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=12,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+163,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=13,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+164,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=14,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+165,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels=15,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+166,E12,File with classes labels not found image.jpg,File with classes labels not found <*>
+167,E12,File with classes labels not found data.csv,File with classes labels not found <*>
+168,E12,File with classes labels not found train.txt,File with classes labels not found <*>
+169,E12,File with classes labels not found test.json,File with classes labels not found <*>
+170,E12,File with classes labels not found labels.pkl,File with classes labels not found <*>
+171,E12,File with classes labels not found model.h5,File with classes labels not found <*>
+172,E12,File with classes labels not found config.ini,File with classes labels not found <*>
+173,E12,File with classes labels not found video.mp4,File with classes labels not found <*>
+174,E12,File with classes labels not found audio.wav,File with classes labels not found <*>
+175,E12,File with classes labels not found report.docx,File with classes labels not found <*>
+176,E12,File with classes labels not found script.py,File with classes labels not found <*>
+177,E12,File with classes labels not found style.css,File with classes labels not found <*>
+178,E12,File with classes labels not found index.html,File with classes labels not found <*>
+179,E12,File with classes labels not found log.txt,File with classes labels not found <*>
+180,E12,File with classes labels not found backup.zip,File with classes labels not found <*>
+181,E13,prototxt:   modelTxt,prototxt: <*>
+182,E13,prototxt:   modelTxt_1,prototxt: <*>
+183,E13,prototxt:   modelTxt_2,prototxt: <*>
+184,E13,prototxt:   modelTxt_3,prototxt: <*>
+185,E13,prototxt:   modelTxt_4,prototxt: <*>
+186,E13,prototxt:   modelTxt_5,prototxt: <*>
+187,E13,prototxt:   modelTxt_6,prototxt: <*>
+188,E13,prototxt:   modelTxt_7,prototxt: <*>
+189,E13,prototxt:   modelTxt_8,prototxt: <*>
+190,E13,prototxt:   modelTxt_9,prototxt: <*>
+191,E13,prototxt:   modelTxt_10,prototxt: <*>
+192,E13,prototxt:   modelTxt_11,prototxt: <*>
+193,E13,prototxt:   modelTxt_12,prototxt: <*>
+194,E13,prototxt:   modelTxt_13,prototxt: <*>
+195,E13,prototxt:   modelTxt_14,prototxt: <*>
+196,E1,caffemodel: modelBin_1,caffemodel: <*>
+197,E1,caffemodel: modelBin_2,caffemodel: <*>
+198,E1,caffemodel: modelBin_3,caffemodel: <*>
+199,E1,caffemodel: modelBin_4,caffemodel: <*>
+200,E1,caffemodel: modelBin_5,caffemodel: <*>
+201,E1,caffemodel: modelBin_6,caffemodel: <*>
+202,E1,caffemodel: modelBin_7,caffemodel: <*>
+203,E1,caffemodel: modelBin_8,caffemodel: <*>
+204,E1,caffemodel: modelBin_9,caffemodel: <*>
+205,E1,caffemodel: modelBin_10,caffemodel: <*>
+206,E1,caffemodel: modelBin_11,caffemodel: <*>
+207,E1,caffemodel: modelBin_12,caffemodel: <*>
+208,E1,caffemodel: modelBin_13,caffemodel: <*>
+209,E1,caffemodel: modelBin_14,caffemodel: <*>
+210,E1,caffemodel: modelBin_15,caffemodel: <*>
+211,E14,Can't read image from the file: logo.png,Can't read image from the file: <*>
+212,E14,Can't read image from the file: photo.jpg,Can't read image from the file: <*>
+213,E14,Can't read image from the file: wallpaper.bmp,Can't read image from the file: <*>
+214,E14,Can't read image from the file: icon.gif,Can't read image from the file: <*>
+215,E14,Can't read image from the file: avatar.jpeg,Can't read image from the file: <*>
+216,E14,Can't read image from the file: banner.svg,Can't read image from the file: <*>
+217,E14,Can't read image from the file: poster.tiff,Can't read image from the file: <*>
+218,E14,Can't read image from the file: screenshot.psd,Can't read image from the file: <*>
+219,E14,Can't read image from the file: artwork.ai,Can't read image from the file: <*>
+220,E14,Can't read image from the file: meme.webp,Can't read image from the file: <*>
+221,E14,Can't read image from the file: diagram.pdf,Can't read image from the file: <*>
+222,E14,Can't read image from the file: thumbnail.heic,Can't read image from the file: <*>
+223,E14,Can't read image from the file: collage.pptx,Can't read image from the file: <*>
+224,E14,Can't read image from the file: animation.gifv,Can't read image from the file: <*>
+225,E14,Can't read image from the file: map.kml,Can't read image from the file: <*>
+226,E15,Best class: #1 'Math',Best class: <*> '<*>'
+227,E15,Best class: #2 'English',Best class: <*> '<*>'
+228,E15,Best class: #3 'Science',Best class: <*> '<*>'
+229,E15,Best class: #4 'History',Best class: <*> '<*>'
+230,E15,Best class: #5 'Art',Best class: <*> '<*>'
+231,E15,Best class: #6 'Music',Best class: <*> '<*>'
+232,E15,Best class: #7 'PE',Best class: <*> '<*>'
+233,E15,Best class: #8 'Computer',Best class: <*> '<*>'
+234,E15,Best class: #9 'French',Best class: <*> '<*>'
+235,E15,Best class: #10 'Spanish',Best class: <*> '<*>'
+236,E15,Best class: #11 'Biology',Best class: <*> '<*>'
+237,E15,Best class: #12 'Chemistry',Best class: <*> '<*>'
+238,E15,Best class: #13 'Physics',Best class: <*> '<*>'
+239,E15,Best class: #14 'Geography',Best class: <*> '<*>'
+240,E15,Best class: #15 'Literature',Best class: <*> '<*>'
+241,E15,Best class: #123,Best class: <*> '<*>'
+242,E15,Best class: #456,Best class: <*> '<*>'
+243,E15,Best class: #789,Best class: <*> '<*>'
+244,E15,Best class: #101,Best class: <*> '<*>'
+245,E15,Best class: #112,Best class: <*> '<*>'
+246,E15,Best class: #131,Best class: <*> '<*>'
+247,E15,Best class: #415,Best class: <*> '<*>'
+248,E15,Best class: #617,Best class: <*> '<*>'
+249,E15,Best class: #819,Best class: <*> '<*>'
+250,E15,Best class: #921,Best class: <*> '<*>'
+251,E15,Best class: #1020,Best class: <*> '<*>'
+252,E15,Best class: #1119,Best class: <*> '<*>'
+253,E15,Best class: #1218,Best class: <*> '<*>'
+254,E15,Best class: #1317,Best class: <*> '<*>'
+255,E15,Best class: #1416,Best class: <*> '<*>'
+256,E16,Probability: 12.34%,Probability: <*>%
+257,E16,Probability: 56.78%,Probability: <*>%
+258,E16,Probability: 98.76%,Probability: <*>%
+259,E16,Probability: 45.67%,Probability: <*>%
+260,E16,Probability: 23.45%,Probability: <*>%
+261,E16,Probability: 67.89%,Probability: <*>%
+262,E16,Probability: 34.56%,Probability: <*>%
+263,E16,Probability: 89.01%,Probability: <*>%
+264,E16,Probability: 10.11%,Probability: <*>%
+265,E16,Probability: 76.54%,Probability: <*>%
+266,E16,Probability: 54.32%,Probability: <*>%
+267,E16,Probability: 32.10%,Probability: <*>%
+268,E16,Probability: 90.12%,Probability: <*>%
+269,E16,Probability: 21.23%,Probability: <*>%
+270,E16,Probability: 43.21%,Probability: <*>%
+271,E17,"Error loading classifier file ""face_recognition.model"".",Error loading classifier file <*>.
+272,E17,"Error loading classifier file ""spam_filter.pkl"".",Error loading classifier file <*>.
+273,E17,"Error loading classifier file ""sentiment_analysis.h5"".",Error loading classifier file <*>.
+274,E17,"Error loading classifier file ""object_detection.pb"".",Error loading classifier file <*>.
+275,E17,"Error loading classifier file ""speech_recognition.pth"".",Error loading classifier file <*>.
+276,E17,"Error loading classifier file ""image_classification.tflite"".",Error loading classifier file <*>.
+277,E17,"Error loading classifier file ""text_summarization.pt"".",Error loading classifier file <*>.
+278,E17,"Error loading classifier file ""machine_translation.npz"".",Error loading classifier file <*>.
+279,E17,"Error loading classifier file ""handwriting_recognition.onnx"".",Error loading classifier file <*>.
+280,E17,"Error loading classifier file ""music_generation.mid"".",Error loading classifier file <*>.
+281,E17,"Error loading classifier file ""style_transfer.jpg"".",Error loading classifier file <*>.
+282,E17,"Error loading classifier file ""anomaly_detection.csv"".",Error loading classifier file <*>.
+283,E17,"Error loading classifier file ""recommendation_system.json"".",Error loading classifier file <*>.
+284,E17,"Error loading classifier file ""question_answering.bin"".",Error loading classifier file <*>.
+285,E17,"Error loading classifier file ""natural_language_generation.txt"".",Error loading classifier file <*>.
+286,E18,exception: NullPointerException,exception: <*>
+287,E18,exception: IOException,exception: <*>
+288,E18,exception: ArithmeticException,exception: <*>
+289,E18,exception: OutOfMemoryError,exception: <*>
+290,E18,exception: ClassNotFoundException,exception: <*>
+291,E18,exception: ArrayIndexOutOfBoundsException,exception: <*>
+292,E18,exception: NumberFormatException,exception: <*>
+293,E18,exception: FileNotFoundException,exception: <*>
+294,E18,exception: SQLException,exception: <*>
+295,E18,exception: IllegalArgumentException,exception: <*>
+296,E18,exception: InterruptedException,exception: <*>
+297,E18,exception: AssertionError,exception: <*>
+298,E18,exception: StackOverflowError,exception: <*>
+299,E18,exception: SecurityException,exception: <*>
+300,E18,exception: MalformedURLException,exception: <*>
+301,E19,frame grabbed at 1635014128,frame grabbed at <*>
+302,E19,frame grabbed at 1635014130,frame grabbed at <*>
+303,E19,frame grabbed at 1635014132,frame grabbed at <*>
+304,E19,frame grabbed at 1635014134,frame grabbed at <*>
+305,E19,frame grabbed at 1635014136,frame grabbed at <*>
+306,E19,frame grabbed at 1635014138,frame grabbed at <*>
+307,E19,frame grabbed at 1635014140,frame grabbed at <*>
+308,E19,frame grabbed at 1635014142,frame grabbed at <*>
+309,E19,frame grabbed at 1635014144,frame grabbed at <*>
+310,E19,frame grabbed at 1635014146,frame grabbed at <*>
+311,E19,frame grabbed at 1635014148,frame grabbed at <*>
+312,E19,frame grabbed at 1635014150,frame grabbed at <*>
+313,E19,frame grabbed at 1635014152,frame grabbed at <*>
+314,E19,frame grabbed at 1635014154,frame grabbed at <*>
+315,E19,frame grabbed at 1635014156,frame grabbed at <*>
+316,E20,loop end with frame: 0,loop end with frame: <*>
+317,E20,loop end with frame: 1,loop end with frame: <*>
+318,E20,loop end with frame: 2,loop end with frame: <*>
+319,E20,loop end with frame: 3,loop end with frame: <*>
+320,E20,loop end with frame: 4,loop end with frame: <*>
+321,E20,loop end with frame: 5,loop end with frame: <*>
+322,E20,loop end with frame: 6,loop end with frame: <*>
+323,E20,loop end with frame: 7,loop end with frame: <*>
+324,E20,loop end with frame: 8,loop end with frame: <*>
+325,E20,loop end with frame: 9,loop end with frame: <*>
+326,E20,loop end with frame: 10,loop end with frame: <*>
+327,E20,loop end with frame: 11,loop end with frame: <*>
+328,E20,loop end with frame: 12,loop end with frame: <*>
+329,E20,loop end with frame: 13,loop end with frame: <*>
+330,E20,loop end with frame: 14,loop end with frame: <*>
+331,E21,"callback, interrupt flag == 0","<*>, interrupt flag == <*>"
+332,E21,"callback, interrupt flag == 1","<*>, interrupt flag == <*>"
+333,E21,"callback, interrupt flag == -1","<*>, interrupt flag == <*>"
+334,E21,"callback, interrupt flag == 2","<*>, interrupt flag == <*>"
+335,E21,"callback, interrupt flag == 3","<*>, interrupt flag == <*>"
+336,E21,"callback, interrupt flag == 4","<*>, interrupt flag == <*>"
+337,E21,"callback, interrupt flag == 5","<*>, interrupt flag == <*>"
+338,E21,"callback, interrupt flag == 6","<*>, interrupt flag == <*>"
+339,E21,"callback, interrupt flag == 7","<*>, interrupt flag == <*>"
+340,E21,"callback, interrupt flag == 8","<*>, interrupt flag == <*>"
+341,E21,"callback, interrupt flag == 9","<*>, interrupt flag == <*>"
+342,E21,"callback, interrupt flag == 10","<*>, interrupt flag == <*>"
+343,E21,"callback, interrupt flag == -2","<*>, interrupt flag == <*>"
+344,E21,"callback, interrupt flag == -3","<*>, interrupt flag == <*>"
+345,E21,"callback, interrupt flag == -4","<*>, interrupt flag == <*>"
+346,E18,exception in interruption thread: NullPointerException,exception: <*>
+347,E18,exception in interruption thread: InterruptedException,exception: <*>
+348,E18,exception in interruption thread: IOException,exception: <*>
+349,E18,exception in interruption thread: OutOfMemoryError,exception: <*>
+350,E18,exception in interruption thread: ArithmeticException,exception: <*>
+351,E18,exception in interruption thread: ClassCastException,exception: <*>
+352,E18,exception in interruption thread: ArrayIndexOutOfBoundsException,exception: <*>
+353,E18,exception in interruption thread: IllegalArgumentException,exception: <*>
+354,E18,exception in interruption thread: AssertionError,exception: <*>
+355,E18,exception in interruption thread: StackOverflowError,exception: <*>
+356,E18,exception in interruption thread: NumberFormatException,exception: <*>
+357,E18,exception in interruption thread: SecurityException,exception: <*>
+358,E18,exception in interruption thread: FileNotFoundException,exception: <*>
+359,E18,exception in interruption thread: NoSuchMethodException,exception: <*>
+360,E18,exception in interruption thread: ClassNotFoundException,exception: <*>
+361,E22,rho= 0.5,rho= <*>
+362,E22,rho= 0.75,rho= <*>
+363,E22,rho= 0.25,rho= <*>
+364,E22,rho= 0.6,rho= <*>
+365,E22,rho= 0.4,rho= <*>
+366,E22,rho= 0.8,rho= <*>
+367,E22,rho= 0.3,rho= <*>
+368,E22,rho= 0.7,rho= <*>
+369,E22,rho= 0.2,rho= <*>
+370,E22,rho= 0.9,rho= <*>
+371,E22,rho= 0.1,rho= <*>
+372,E22,rho= 1.0,rho= <*>
+373,E22,rho= -0.1,rho= <*>
+374,E22,rho= -0.2,rho= <*>
+375,E22,rho= -0.3,rho= <*>
+376,E23,Faces detected: 0,Faces detected: <*>
+377,E23,Faces detected: 1,Faces detected: <*>
+378,E23,Faces detected: 2,Faces detected: <*>
+379,E23,Faces detected: 3,Faces detected: <*>
+380,E23,Faces detected: 4,Faces detected: <*>
+381,E23,Faces detected: 5,Faces detected: <*>
+382,E23,Faces detected: 6,Faces detected: <*>
+383,E23,Faces detected: 7,Faces detected: <*>
+384,E23,Faces detected: 8,Faces detected: <*>
+385,E23,Faces detected: 9,Faces detected: <*>
+386,E23,Faces detected: 10,Faces detected: <*>
+387,E23,Faces detected: 11,Faces detected: <*>
+388,E23,Faces detected: 12,Faces detected: <*>
+389,E23,Faces detected: 13,Faces detected: <*>
+390,E23,Faces detected: 14,Faces detected: <*>
+391,E24,Predicted label: spam,Predicted label: <*>
+392,E24,Predicted label: ham,Predicted label: <*>
+393,E24,Predicted label: positive,Predicted label: <*>
+394,E24,Predicted label: negative,Predicted label: <*>
+395,E24,Predicted label: neutral,Predicted label: <*>
+396,E24,Predicted label: cat,Predicted label: <*>
+397,E24,Predicted label: dog,Predicted label: <*>
+398,E24,Predicted label: bird,Predicted label: <*>
+399,E24,Predicted label: flower,Predicted label: <*>
+400,E24,Predicted label: tree,Predicted label: <*>
+401,E24,Predicted label: rock,Predicted label: <*>
+402,E24,Predicted label: paper,Predicted label: <*>
+403,E24,Predicted label: scissors,Predicted label: <*>
+404,E24,Predicted label: red,Predicted label: <*>
+405,E24,Predicted label: blue,Predicted label: <*>
+406,E25,Vector size: 1024,Vector size: <*>
+407,E25,Vector size: 512,Vector size: <*>
+408,E25,Vector size: 2048,Vector size: <*>
+409,E25,Vector size: 256,Vector size: <*>
+410,E25,Vector size: 4096,Vector size: <*>
+411,E25,Vector size: 128,Vector size: <*>
+412,E25,Vector size: 8192,Vector size: <*>
+413,E25,Vector size: 64,Vector size: <*>
+414,E25,Vector size: 16384,Vector size: <*>
+415,E25,Vector size: 32,Vector size: <*>
+416,E25,Vector size: 32768,Vector size: <*>
+417,E25,Vector size: 16,Vector size: <*>
+418,E25,Vector size: 65536,Vector size: <*>
+419,E25,Vector size: 8,Vector size: <*>
+420,E25,Vector size: 131072,Vector size: <*>
+421,E26,Descriptor size: 1024,Descriptor size: <*>
+422,E26,Descriptor size: 512,Descriptor size: <*>
+423,E26,Descriptor size: 2048,Descriptor size: <*>
+424,E26,Descriptor size: 768,Descriptor size: <*>
+425,E26,Descriptor size: 1280,Descriptor size: <*>
+426,E26,Descriptor size: 256,Descriptor size: <*>
+427,E26,Descriptor size: 1536,Descriptor size: <*>
+428,E26,Descriptor size: 1792,Descriptor size: <*>
+429,E26,Descriptor size: 640,Descriptor size: <*>
+430,E26,Descriptor size: 1152,Descriptor size: <*>
+431,E26,Descriptor size: 896,Descriptor size: <*>
+432,E26,Descriptor size: 1408,Descriptor size: <*>
+433,E26,Descriptor size: 1664,Descriptor size: <*>
+434,E26,Descriptor size: 1920,Descriptor size: <*>
+435,E26,Descriptor size: 1088,Descriptor size: <*>
+436,E27,Countour count 12,Countour count <*>
+437,E27,Countour count 7,Countour count <*>
+438,E27,Countour count 9,Countour count <*>
+439,E27,Countour count 15,Countour count <*>
+440,E27,Countour count 10,Countour count <*>
+441,E27,Countour count 8,Countour count <*>
+442,E27,Countour count 11,Countour count <*>
+443,E27,Countour count 13,Countour count <*>
+444,E27,Countour count 6,Countour count <*>
+445,E27,Countour count 14,Countour count <*>
+446,E27,Countour count 5,Countour count <*>
+447,E27,Countour count 16,Countour count <*>
+448,E27,Countour count 4,Countour count <*>
+449,E27,Countour count 17,Countour count <*>
+450,E27,Countour count 3,Countour count <*>
+451,E28,Channels: 1,Channels: <*>
+452,E28,Channels: 3,Channels: <*>
+453,E28,Channels: 4,Channels: <*>
+454,E28,Channels: 2,Channels: <*>
+455,E28,Channels: 6,Channels: <*>
+456,E28,Channels: 8,Channels: <*>
+457,E28,Channels: 5,Channels: <*>
+458,E28,Channels: 7,Channels: <*>
+459,E28,Channels: 9,Channels: <*>
+460,E28,Channels: 10,Channels: <*>
+461,E28,Channels: 12,Channels: <*>
+462,E28,Channels: 11,Channels: <*>
+463,E28,Channels: 14,Channels: <*>
+464,E28,Channels: 13,Channels: <*>
+465,E28,Channels: 15,Channels: <*>
+466,E29,Rows: 5,Rows: <*>
+467,E29,Rows: 12,Rows: <*>
+468,E29,Rows: 8,Rows: <*>
+469,E29,Rows: 10,Rows: <*>
+470,E29,Rows: 7,Rows: <*>
+471,E29,Rows: 9,Rows: <*>
+472,E29,Rows: 6,Rows: <*>
+473,E29,Rows: 11,Rows: <*>
+474,E29,Rows: 4,Rows: <*>
+475,E29,Rows: 13,Rows: <*>
+476,E29,Rows: 3,Rows: <*>
+477,E29,Rows: 14,Rows: <*>
+478,E29,Rows: 2,Rows: <*>
+479,E29,Rows: 15,Rows: <*>
+480,E29,Rows: 1,Rows: <*>
+481,E30,Cols: 5,Cols: <*>
+482,E30,Cols: 12,Cols: <*>
+483,E30,Cols: 9,Cols: <*>
+484,E30,Cols: 7,Cols: <*>
+485,E30,Cols: 10,Cols: <*>
+486,E30,Cols: 4,Cols: <*>
+487,E30,Cols: 8,Cols: <*>
+488,E30,Cols: 6,Cols: <*>
+489,E30,Cols: 11,Cols: <*>
+490,E30,Cols: 3,Cols: <*>
+491,E30,Cols: 13,Cols: <*>
+492,E30,Cols: 14,Cols: <*>
+493,E30,Cols: 2,Cols: <*>
+494,E30,Cols: 15,Cols: <*>
+495,E30,Cols: 1,Cols: <*>
+496,E31,Type: CV_8UC1,Type: <*>
+497,E31,Type: CV_16SC2,Type: <*>
+498,E31,Type: CV_32FC3,Type: <*>
+499,E31,Type: CV_64FC4,Type: <*>
+500,E31,Type: CV_8UC2,Type: <*>
+501,E31,Type: CV_16SC3,Type: <*>
+502,E31,Type: CV_32FC4,Type: <*>
+503,E31,Type: CV_64FC1,Type: <*>
+504,E31,Type: CV_8UC3,Type: <*>
+505,E31,Type: CV_16SC4,Type: <*>
+506,E31,Type: CV_32FC1,Type: <*>
+507,E31,Type: CV_64FC2,Type: <*>
+508,E31,Type: CV_8UC4,Type: <*>
+509,E31,Type: CV_16SC1,Type: <*>
+510,E31,Type: CV_32FC2,Type: <*>
+511,E32,"Dims: [2, 3]",Dims: [<*>]
+512,E32,"Dims: [1, 4]",Dims: [<*>]
+513,E32,"Dims: [3, 2]",Dims: [<*>]
+514,E32,"Dims: [4, 1]",Dims: [<*>]
+515,E32,"Dims: [2, 2]",Dims: [<*>]
+516,E32,"Dims: [3, 3]",Dims: [<*>]
+517,E32,"Dims: [4, 4]",Dims: [<*>]
+518,E32,"Dims: [5, 2]",Dims: [<*>]
+519,E32,"Dims: [2, 5]",Dims: [<*>]
+520,E32,"Dims: [6, 3]",Dims: [<*>]
+521,E32,"Dims: [3, 6]",Dims: [<*>]
+522,E32,"Dims: [7, 1]",Dims: [<*>]
+523,E32,"Dims: [1, 7]",Dims: [<*>]
+524,E32,"Dims: [8, 2]",Dims: [<*>]
+525,E32,"Dims: [2, 8]",Dims: [<*>]
+526,E33,Depth: 0,Depth: <*>
+527,E33,Depth: 1,Depth: <*>
+528,E33,Depth: 2,Depth: <*>
+529,E33,Depth: 3,Depth: <*>
+530,E33,Depth: 4,Depth: <*>
+531,E33,Depth: 5,Depth: <*>
+532,E33,Depth: 6,Depth: <*>
+533,E33,Depth: 7,Depth: <*>
+534,E33,Depth: 8,Depth: <*>
+535,E33,Depth: 9,Depth: <*>
+536,E33,Depth: 10,Depth: <*>
+537,E33,Depth: 11,Depth: <*>
+538,E33,Depth: 12,Depth: <*>
+539,E33,Depth: 13,Depth: <*>
+540,E33,Depth: 14,Depth: <*>
+541,E34,PSNR: 32.45,PSNR: <*>
+542,E34,PSNR: 28.76,PSNR: <*>
+543,E34,PSNR: 35.12,PSNR: <*>
+544,E34,PSNR: 30.89,PSNR: <*>
+545,E34,PSNR: 33.67,PSNR: <*>
+546,E34,PSNR: 29.54,PSNR: <*>
+547,E34,PSNR: 34.23,PSNR: <*>
+548,E34,PSNR: 31.78,PSNR: <*>
+549,E34,PSNR: 32.98,PSNR: <*>
+550,E34,PSNR: 27.65,PSNR: <*>
+551,E34,PSNR: 36.41,PSNR: <*>
+552,E34,PSNR: 30.23,PSNR: <*>
+553,E34,PSNR: 33.14,PSNR: <*>
+554,E34,PSNR: 29.87,PSNR: <*>
+555,E34,PSNR: 34.56,PSNR: <*>
+556,E35,"SSIM: 0.95, 0.92, 0.89",SSIM: <*>
+557,E35,"SSIM: 0.87, 0.85, 0.83",SSIM: <*>
+558,E35,"SSIM: 0.91, 0.88, 0.86",SSIM: <*>
+559,E35,"SSIM: 0.93, 0.90, 0.87",SSIM: <*>
+560,E35,"SSIM: 0.89, 0.86, 0.84",SSIM: <*>
+561,E35,"SSIM: 0.94, 0.91, 0.88",SSIM: <*>
+562,E35,"SSIM: 0.88, 0.85, 0.82",SSIM: <*>
+563,E35,"SSIM: 0.92, 0.89, 0.86",SSIM: <*>
+564,E35,"SSIM: 0.90, 0.87, 0.85",SSIM: <*>
+565,E35,"SSIM: 0.96, 0.93, 0.90",SSIM: <*>
+566,E35,"SSIM: 0.86, 0.83, 0.81",SSIM: <*>
+567,E35,"SSIM: 0.97, 0.94, 0.91",SSIM: <*>
+568,E35,"SSIM: 0.85, 0.82, 0.80",SSIM: <*>
+569,E35,"SSIM: 0.98, 0.95, 0.92",SSIM: <*>
+570,E35,"SSIM: 0.84, 0.81, 0.79",SSIM: <*>
+571,E36,"(1,2) = 0.5",Device: <*> <*> <*> Locked: <*>
+572,E36,"(3,4) = 0.75",Device: <*> <*> <*> Locked: <*>
+573,E36,"(5,6) = 0.83",Device: <*> <*> <*> Locked: <*>
+574,E36,"(7,8) = 0.88",Device: <*> <*> <*> Locked: <*>
+575,E36,"(9,10) = 0.9",Device: <*> <*> <*> Locked: <*>
+576,E36,"(11,12) = 0.92",Device: <*> <*> <*> Locked: <*>
+577,E36,"(13,14) = 0.93",Device: <*> <*> <*> Locked: <*>
+578,E36,"(15,16) = 0.94",Device: <*> <*> <*> Locked: <*>
+579,E36,"(17,18) = 0.95",Device: <*> <*> <*> Locked: <*>
+580,E36,"(19,20) = 0.96",Device: <*> <*> <*> Locked: <*>
+581,E36,"(21,22) = 0.97",Device: <*> <*> <*> Locked: <*>
+582,E36,"(23,24) = 0.98",Device: <*> <*> <*> Locked: <*>
+583,E36,"(25,26) = 0.99",Device: <*> <*> <*> Locked: <*>
+584,E36,"(27,28) = 1",Device: <*> <*> <*> Locked: <*>
+585,E36,"(29,30) = 1",Device: <*> <*> <*> Locked: <*>
+586,E37,Lip-flap correction: 0.12 : 0.34 -> -0.22,Lip-flap correction: <*> : <*> -> <*>
+587,E37,Lip-flap correction: 0.25 : 0.15 -> 0.10,Lip-flap correction: <*> : <*> -> <*>
+588,E37,Lip-flap correction: 0.18 : 0.21 -> -0.03,Lip-flap correction: <*> : <*> -> <*>
+589,E37,Lip-flap correction: 0.32 : 0.29 -> 0.03,Lip-flap correction: <*> : <*> -> <*>
+590,E37,Lip-flap correction: 0.27 : 0.33 -> -0.06,Lip-flap correction: <*> : <*> -> <*>
+591,E37,Lip-flap correction: 0.15 : 0.18 -> -0.03,Lip-flap correction: <*> : <*> -> <*>
+592,E37,Lip-flap correction: 0.22 : 0.19 -> 0.03,Lip-flap correction: <*> : <*> -> <*>
+593,E37,Lip-flap correction: 0.29 : 0.26 -> 0.03,Lip-flap correction: <*> : <*> -> <*>
+594,E37,Lip-flap correction: 0.24 : 0.31 -> -0.07,Lip-flap correction: <*> : <*> -> <*>
+595,E37,Lip-flap correction: 0.17 : 0.14 -> 0.03,Lip-flap correction: <*> : <*> -> <*>
+596,E37,Lip-flap correction: 0.21 : 0.24 -> -0.03,Lip-flap correction: <*> : <*> -> <*>
+597,E37,Lip-flap correction: 0.28 : 0.23 -> 0.05,Lip-flap correction: <*> : <*> -> <*>
+598,E37,Lip-flap correction: 0.19 : 0.22 -> -0.03,Lip-flap correction: <*> : <*> -> <*>
+599,E37,Lip-flap correction: 0.26 : 0.28 -> -0.02,Lip-flap correction: <*> : <*> -> <*>
+600,E37,Lip-flap correction: 0.23 : 0.25 -> -0.02,Lip-flap correction: <*> : <*> -> <*>
+601,E38,Detected 5 objects:,Detected <*> objects:
+602,E38,Detected 12 objects:,Detected <*> objects:
+603,E38,Detected 0 objects:,Detected <*> objects:
+604,E38,Detected 8 objects:,Detected <*> objects:
+605,E38,Detected 3 objects:,Detected <*> objects:
+606,E38,Detected 10 objects:,Detected <*> objects:
+607,E38,Detected 1 objects:,Detected <*> objects:
+608,E38,Detected 7 objects:,Detected <*> objects:
+609,E38,Detected 4 objects:,Detected <*> objects:
+610,E38,Detected 9 objects:,Detected <*> objects:
+611,E38,Detected 6 objects:,Detected <*> objects:
+612,E38,Detected 2 objects:,Detected <*> objects:
+613,E38,Detected 11 objects:,Detected <*> objects:
+614,E38,Detected 13 objects:,Detected <*> objects:
+615,E38,Detected 14 objects:,Detected <*> objects:
+616,E39,Dog - 95%,Dog - <*>%
+617,E40,Cat - 87%,Cat - <*>%
+618,E41,Bird - 76%,Bird - <*>%
+619,E42,Flower - 65%,Flower - <*>%
+620,E43,Car - 92%,Car - <*>%
+621,E44,Tree - 81%,Tree - <*>%
+622,E45,Fish - 74%,Fish - <*>%
+623,E46,Book - 68%,Book - <*>%
+624,E47,Phone - 89%,Phone - <*>%
+625,E48,Clock - 83%,Clock - <*>%
+626,E49,House - 78%,House - <*>%
+627,E50,Star - 71%,Star - <*>%
+628,E51,Moon - 67%,Moon - <*>%
+629,E52,Sun - 94%,Sun - <*>%
+630,E53,Cloud - 86%,Cloud - <*>%
+631,E54,Error on InputStream.reset(): java.io.IOException: Stream closed,Error on InputStream.reset(): <*>
+632,E54,Error on InputStream.reset(): java.lang.NullPointerException: Attempt to invoke virtual method 'void java.io.InputStream.reset()' on a null object reference,Error on InputStream.reset(): <*>
+633,E54,Error on InputStream.reset(): java.io.SyncFailedException: Failed to sync bytes to underlying stream,Error on InputStream.reset(): <*>
+634,E54,Error on InputStream.reset(): java.lang.IllegalStateException: Mark has been invalidated,Error on InputStream.reset(): <*>
+635,E54,Error on InputStream.reset(): java.io.EOFException: Unexpected end of stream,Error on InputStream.reset(): <*>
+636,E54,Error on InputStream.reset(): java.net.SocketTimeoutException: Read timed out,Error on InputStream.reset(): <*>
+637,E54,Error on InputStream.reset(): java.lang.SecurityException: Permission denied for reading from the stream,Error on InputStream.reset(): <*>
+638,E54,Error on InputStream.reset(): java.io.FileNotFoundException: File not found,Error on InputStream.reset(): <*>
+639,E54,Error on InputStream.reset(): java.lang.OutOfMemoryError: Failed to allocate buffer for the stream,Error on InputStream.reset(): <*>
+640,E54,Error on InputStream.reset(): java.io.InterruptedIOException: Thread interrupted while reading from the stream,Error on InputStream.reset(): <*>
+641,E54,Error on InputStream.reset(): java.io.UTFDataFormatException: Malformed input around byte 10,Error on InputStream.reset(): <*>
+642,E54,Error on InputStream.reset(): java.util.zip.ZipException: Not in GZIP format,Error on InputStream.reset(): <*>
+643,E54,Error on InputStream.reset(): javax.crypto.IllegalBlockSizeException: Input length must be multiple of 16 when decrypting with padded cipher,Error on InputStream.reset(): <*>
+644,E54,Error on InputStream.reset(): org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 1; Content is not allowed in prolog.,Error on InputStream.reset(): <*>
+645,E54,Error on InputStream.reset(): com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $,Error on InputStream.reset(): <*>
+646,E55,Error on InputStream.read(): java.io.IOException: Stream closed,Error on InputStream.read(): <*>
+647,E55,Error on InputStream.read(): java.net.SocketTimeoutException: Read timed out,Error on InputStream.read(): <*>
+648,E55,Error on InputStream.read(): java.lang.NullPointerException: InputStream is null,Error on InputStream.read(): <*>
+649,E55,Error on InputStream.read(): java.io.EOFException: End of input stream reached,Error on InputStream.read(): <*>
+650,E55,Error on InputStream.read(): java.io.FileNotFoundException: File not found,Error on InputStream.read(): <*>
+651,E55,Error on InputStream.read(): java.lang.OutOfMemoryError: Java heap space,Error on InputStream.read(): <*>
+652,E55,Error on InputStream.read(): java.io.InterruptedIOException: Thread interrupted,Error on InputStream.read(): <*>
+653,E55,Error on InputStream.read(): java.io.UTFDataFormatException: Malformed input,Error on InputStream.read(): <*>
+654,E55,Error on InputStream.read(): java.io.SyncFailedException: Sync failed,Error on InputStream.read(): <*>
+655,E55,Error on InputStream.read(): java.io.CharConversionException: Invalid UTF-8 character,Error on InputStream.read(): <*>
+656,E55,Error on InputStream.read(): java.net.SocketException: Connection reset,Error on InputStream.read(): <*>
+657,E55,Error on InputStream.read(): java.io.InvalidClassException: Incompatible class version,Error on InputStream.read(): <*>
+658,E55,Error on InputStream.read(): java.lang.SecurityException: Permission denied,Error on InputStream.read(): <*>
+659,E55,Error on InputStream.read(): java.io.IOException: Broken pipe,Error on InputStream.read(): <*>
+660,E55,Error on InputStream.read(): java.lang.IllegalArgumentException: Negative array size,Error on InputStream.read(): <*>
+661,E54,Error on InputStream.reset() or skip(): java.io.IOException: Stream closed,Error on InputStream.reset(): <*>
+662,E54,Error on InputStream.reset() or skip(): java.lang.IllegalArgumentException: Negative skip length,Error on InputStream.reset(): <*>
+663,E54,Error on InputStream.reset() or skip(): java.io.EOFException: End of input stream reached,Error on InputStream.reset(): <*>
+664,E54,Error on InputStream.reset() or skip(): java.lang.NullPointerException: InputStream is null,Error on InputStream.reset(): <*>
+665,E54,Error on InputStream.reset() or skip(): java.io.IOException: Stream is not markable,Error on InputStream.reset(): <*>
+666,E54,Error on InputStream.reset() or skip(): java.lang.InterruptedException: Thread interrupted while waiting for input,Error on InputStream.reset(): <*>
+667,E54,Error on InputStream.reset() or skip(): java.io.IOException: Stream corrupted,Error on InputStream.reset(): <*>
+668,E54,Error on InputStream.reset() or skip(): java.lang.IllegalStateException: Stream already reset,Error on InputStream.reset(): <*>
+669,E54,Error on InputStream.reset() or skip(): java.io.IOException: Stream is not readable,Error on InputStream.reset(): <*>
+670,E54,Error on InputStream.reset() or skip(): java.lang.OutOfMemoryError: Java heap space,Error on InputStream.reset(): <*>
+671,E54,Error on InputStream.reset() or skip(): java.io.IOException: Stream is closed by another thread,Error on InputStream.reset(): <*>
+672,E54,Error on InputStream.reset() or skip(): java.lang.UnsupportedOperationException: Operation not supported by stream,Error on InputStream.reset(): <*>
+673,E54,Error on InputStream.reset() or skip(): java.io.IOException: Stream reset failed,Error on InputStream.reset(): <*>
+674,E54,Error on InputStream.reset() or skip(): java.lang.SecurityException: Access denied to stream,Error on InputStream.reset(): <*>
+675,E54,Error on InputStream.reset() or skip(): java.io.IOException: Stream is too large to skip,Error on InputStream.reset(): <*>
+676,E56,Error on OutputStream.seek(): t=0.5,Error on OutputStream.seek(): t=<*>
+677,E56,Error on OutputStream.seek(): t=-1.2,Error on OutputStream.seek(): t=<*>
+678,E56,Error on OutputStream.seek(): t=3.14,Error on OutputStream.seek(): t=<*>
+679,E56,Error on OutputStream.seek(): t=NaN,Error on OutputStream.seek(): t=<*>
+680,E56,Error on OutputStream.seek(): t=Infinity,Error on OutputStream.seek(): t=<*>
+681,E56,Error on OutputStream.seek(): t=null,Error on OutputStream.seek(): t=<*>
+682,E56,Error on OutputStream.seek(): t=undefined,Error on OutputStream.seek(): t=<*>
+683,E56,Error on OutputStream.seek(): t=10,Error on OutputStream.seek(): t=<*>
+684,E56,Error on OutputStream.seek(): t=0,Error on OutputStream.seek(): t=<*>
+685,E56,Error on OutputStream.seek(): t=1.23e-4,Error on OutputStream.seek(): t=<*>
+686,E56,Error on OutputStream.seek(): t=-5.67e+3,Error on OutputStream.seek(): t=<*>
+687,E56,Error on OutputStream.seek(): t=9.87e+6,Error on OutputStream.seek(): t=<*>
+688,E56,Error on OutputStream.seek(): t=0xFF,Error on OutputStream.seek(): t=<*>
+689,E56,Error on OutputStream.seek(): t='hello',Error on OutputStream.seek(): t=<*>
+690,E56,Error on OutputStream.seek(): t=true,Error on OutputStream.seek(): t=<*>
+691,E57,Exception in the TryLoad !java.lang.NullPointerException,Exception in the TryLoad !<*>
+692,E57,Exception in the TryLoad !java.io.FileNotFoundException,Exception in the TryLoad !<*>
+693,E57,Exception in the TryLoad !java.lang.ClassCastException,Exception in the TryLoad !<*>
+694,E57,Exception in the TryLoad !java.lang.OutOfMemoryError,Exception in the TryLoad !<*>
+695,E57,Exception in the TryLoad !java.lang.StackOverflowError,Exception in the TryLoad !<*>
+696,E57,Exception in the TryLoad !java.lang.IllegalArgumentException,Exception in the TryLoad !<*>
+697,E57,Exception in the TryLoad !java.lang.ArithmeticException,Exception in the TryLoad !<*>
+698,E57,Exception in the TryLoad !java.lang.ArrayIndexOutOfBoundsException,Exception in the TryLoad !<*>
+699,E57,Exception in the TryLoad !java.lang.SecurityException,Exception in the TryLoad !<*>
+700,E57,Exception in the TryLoad !java.net.SocketTimeoutException,Exception in the TryLoad !<*>
+701,E57,Exception in the TryLoad !java.sql.SQLException,Exception in the TryLoad !<*>
+702,E57,Exception in the TryLoad !java.lang.NoSuchMethodError,Exception in the TryLoad !<*>
+703,E57,Exception in the TryLoad !java.lang.NoClassDefFoundError,Exception in the TryLoad !<*>
+704,E57,Exception in the TryLoad !java.util.ConcurrentModificationException,Exception in the TryLoad !<*>
+705,E57,Exception in the TryLoad !java.lang.UnsupportedOperationException,Exception in the TryLoad !<*>
+706,E58,cvRemap: 12.34,cvRemap: <*>
+707,E58,cvRemap: 8.76,cvRemap: <*>
+708,E58,cvRemap: 15.29,cvRemap: <*>
+709,E58,cvRemap: 10.45,cvRemap: <*>
+710,E58,cvRemap: 9.87,cvRemap: <*>
+711,E58,cvRemap: 13.56,cvRemap: <*>
+712,E58,cvRemap: 11.23,cvRemap: <*>
+713,E58,cvRemap: 14.78,cvRemap: <*>
+714,E58,cvRemap: 7.65,cvRemap: <*>
+715,E58,cvRemap: 16.34,cvRemap: <*>
+716,E58,cvRemap: 8.90,cvRemap: <*>
+717,E58,cvRemap: 12.67,cvRemap: <*>
+718,E58,cvRemap: 10.12,cvRemap: <*>
+719,E58,cvRemap: 9.43,cvRemap: <*>
+720,E58,cvRemap: 14.56,cvRemap: <*>
+721,E59,10 object descriptors,<*> object descriptors
+722,E59,5 object descriptors,<*> object descriptors
+723,E59,12 object descriptors,<*> object descriptors
+724,E59,8 object descriptors,<*> object descriptors
+725,E59,7 object descriptors,<*> object descriptors
+726,E59,9 object descriptors,<*> object descriptors
+727,E59,6 object descriptors,<*> object descriptors
+728,E59,11 object descriptors,<*> object descriptors
+729,E59,4 object descriptors,<*> object descriptors
+730,E59,3 object descriptors,<*> object descriptors
+731,E59,13 object descriptors,<*> object descriptors
+732,E59,14 object descriptors,<*> object descriptors
+733,E59,15 object descriptors,<*> object descriptors
+734,E59,2 object descriptors,<*> object descriptors
+735,E60,0 matching pairs found,<*> matching pairs found
+736,E60,2 matching pairs found,<*> matching pairs found
+737,E60,3 matching pairs found,<*> matching pairs found
+738,E60,4 matching pairs found,<*> matching pairs found
+739,E60,5 matching pairs found,<*> matching pairs found
+740,E60,6 matching pairs found,<*> matching pairs found
+741,E60,7 matching pairs found,<*> matching pairs found
+742,E60,8 matching pairs found,<*> matching pairs found
+743,E60,9 matching pairs found,<*> matching pairs found
+744,E60,10 matching pairs found,<*> matching pairs found
+745,E60,11 matching pairs found,<*> matching pairs found
+746,E60,12 matching pairs found,<*> matching pairs found
+747,E60,13 matching pairs found,<*> matching pairs found
+748,E60,14 matching pairs found,<*> matching pairs found
+749,E61,Can not load car.obj and/or city.scn,Can not load <*> and/or <*>
+750,E61,Can not load tree.obj and/or forest.scn,Can not load <*> and/or <*>
+751,E61,Can not load house.obj and/or village.scn,Can not load <*> and/or <*>
+752,E61,Can not load character.obj and/or game.scn,Can not load <*> and/or <*>
+753,E61,Can not load plane.obj and/or sky.scn,Can not load <*> and/or <*>
+754,E61,Can not load flower.obj and/or garden.scn,Can not load <*> and/or <*>
+755,E61,Can not load boat.obj and/or ocean.scn,Can not load <*> and/or <*>
+756,E61,Can not load book.obj and/or library.scn,Can not load <*> and/or <*>
+757,E61,Can not load ball.obj and/or playground.scn,Can not load <*> and/or <*>
+758,E61,Can not load dog.obj and/or park.scn,Can not load <*> and/or <*>
+759,E61,Can not load cat.obj and/or room.scn,Can not load <*> and/or <*>
+760,E61,Can not load guitar.obj and/or music.scn,Can not load <*> and/or <*>
+761,E61,Can not load cake.obj and/or kitchen.scn,Can not load <*> and/or <*>
+762,E61,Can not load star.obj and/or space.scn,Can not load <*> and/or <*>
+763,E61,Can not load coin.obj and/or shop.scn,Can not load <*> and/or <*>
+764,E62,Finding time = 12 ms,Finding time = <*> ms
+765,E62,Finding time = 8 ms,Finding time = <*> ms
+766,E62,Finding time = 15 ms,Finding time = <*> ms
+767,E62,Finding time = 10 ms,Finding time = <*> ms
+768,E62,Finding time = 9 ms,Finding time = <*> ms
+769,E62,Finding time = 11 ms,Finding time = <*> ms
+770,E62,Finding time = 13 ms,Finding time = <*> ms
+771,E62,Finding time = 7 ms,Finding time = <*> ms
+772,E62,Finding time = 14 ms,Finding time = <*> ms
+773,E62,Finding time = 6 ms,Finding time = <*> ms
+774,E62,Finding time = 16 ms,Finding time = <*> ms
+775,E62,Finding time = 5 ms,Finding time = <*> ms
+776,E62,Finding time = 17 ms,Finding time = <*> ms
+777,E62,Finding time = 4 ms,Finding time = <*> ms
+778,E62,Finding time = 18 ms,Finding time = <*> ms
+779,E63,Firmware: 1.0.0,Firmware: <*>
+780,E63,Firmware: 2.3.4,Firmware: <*>
+781,E63,Firmware: 3.1.2,Firmware: <*>
+782,E63,Firmware: 4.0.1,Firmware: <*>
+783,E63,Firmware: 5.5.5,Firmware: <*>
+784,E63,Firmware: 6.6.6,Firmware: <*>
+785,E63,Firmware: 7.7.7,Firmware: <*>
+786,E63,Firmware: 8.8.8,Firmware: <*>
+787,E63,Firmware: 9.9.9,Firmware: <*>
+788,E63,Firmware: 10.10.10,Firmware: <*>
+789,E63,Firmware: 11.11.11,Firmware: <*>
+790,E63,Firmware: 12.12.12,Firmware: <*>
+791,E63,Firmware: 13.13.13,Firmware: <*>
+792,E63,Firmware: 14.14.14,Firmware: <*>
+793,E63,Firmware: 15.15.15,Firmware: <*>
+794,E64,RealSense2 devices found: 3,RealSense2 devices found: <*>
+795,E64,RealSense2 devices found: 0,RealSense2 devices found: <*>
+796,E64,RealSense2 devices found: 1,RealSense2 devices found: <*>
+797,E64,RealSense2 devices found: 4,RealSense2 devices found: <*>
+798,E64,RealSense2 devices found: 2,RealSense2 devices found: <*>
+799,E64,RealSense2 devices found: 5,RealSense2 devices found: <*>
+800,E64,RealSense2 devices found: 6,RealSense2 devices found: <*>
+801,E64,RealSense2 devices found: 7,RealSense2 devices found: <*>
+802,E64,RealSense2 devices found: 8,RealSense2 devices found: <*>
+803,E64,RealSense2 devices found: 9,RealSense2 devices found: <*>
+804,E64,RealSense2 devices found: 10,RealSense2 devices found: <*>
+805,E64,RealSense2 devices found: 11,RealSense2 devices found: <*>
+806,E64,RealSense2 devices found: 12,RealSense2 devices found: <*>
+807,E64,RealSense2 devices found: 13,RealSense2 devices found: <*>
+808,E64,RealSense2 devices found: 14,RealSense2 devices found: <*>
+809,E65,RealSense devices found: 0,RealSense devices found: <*>
+810,E65,RealSense devices found: 1,RealSense devices found: <*>
+811,E65,RealSense devices found: 2,RealSense devices found: <*>
+812,E65,RealSense devices found: 3,RealSense devices found: <*>
+813,E65,RealSense devices found: 4,RealSense devices found: <*>
+814,E65,RealSense devices found: 5,RealSense devices found: <*>
+815,E65,RealSense devices found: 6,RealSense devices found: <*>
+816,E65,RealSense devices found: 7,RealSense devices found: <*>
+817,E65,RealSense devices found: 8,RealSense devices found: <*>
+818,E65,RealSense devices found: 9,RealSense devices found: <*>
+819,E65,RealSense devices found: 10,RealSense devices found: <*>
+820,E65,RealSense devices found: 11,RealSense devices found: <*>
+821,E65,RealSense devices found: 12,RealSense devices found: <*>
+822,E65,RealSense devices found: 13,RealSense devices found: <*>
+823,E65,RealSense devices found: 14,RealSense devices found: <*>
+824,E66,Devices found: 0,Devices found: <*>
+825,E66,Devices found: 1,Devices found: <*>
+826,E66,Devices found: 2,Devices found: <*>
+827,E66,Devices found: 3,Devices found: <*>
+828,E66,Devices found: 4,Devices found: <*>
+829,E66,Devices found: 5,Devices found: <*>
+830,E66,Devices found: 6,Devices found: <*>
+831,E66,Devices found: 7,Devices found: <*>
+832,E66,Devices found: 8,Devices found: <*>
+833,E66,Devices found: 9,Devices found: <*>
+834,E66,Devices found: 10,Devices found: <*>
+835,E66,Devices found: 11,Devices found: <*>
+836,E66,Devices found: 12,Devices found: <*>
+837,E66,Devices found: 13,Devices found: <*>
+838,E66,Devices found: 14,Devices found: <*>
+839,E67,"Using device 0, an NVIDIA GeForce RTX 3080","Using device <*>, an <*>"
+840,E67,"Using device 0, an AMD Radeon RX 6900 XT","Using device <*>, an <*>"
+841,E67,"Using device 0, an Intel Iris Xe Graphics","Using device <*>, an <*>"
+842,E67,"Using device 0, an Apple M1 GPU","Using device <*>, an <*>"
+843,E67,"Using device 0, an Qualcomm Adreno 660","Using device <*>, an <*>"
+844,E67,"Using device 0, an ARM Mali-G78","Using device <*>, an <*>"
+845,E67,"Using device 0, an Samsung Exynos 2100","Using device <*>, an <*>"
+846,E67,"Using device 0, an MediaTek Dimensity 1200","Using device <*>, an <*>"
+847,E67,"Using device 0, an Huawei Kirin 9000","Using device <*>, an <*>"
+848,E67,"Using device 0, an Sony PlayStation 5 GPU","Using device <*>, an <*>"
+849,E67,"Using device 0, an Microsoft Xbox Series X GPU","Using device <*>, an <*>"
+850,E67,"Using device 0, an NVIDIA Tegra X1+","Using device <*>, an <*>"
+851,E67,"Using device 0, an AMD Ryzen Embedded V2000","Using device <*>, an <*>"
+852,E67,"Using device 0, an Intel UHD Graphics 630","Using device <*>, an <*>"
+853,E67,"Using device 0, an Google Pixel Neural Core","Using device <*>, an <*>"
+854,E68,Serial number: 123456789,Serial number: <*>
+855,E68,Serial number: 987654321,Serial number: <*>
+856,E68,Serial number: 456789123,Serial number: <*>
+857,E68,Serial number: 789123456,Serial number: <*>
+858,E68,Serial number: 321456789,Serial number: <*>
+859,E68,Serial number: 654321987,Serial number: <*>
+860,E68,Serial number: 147258369,Serial number: <*>
+861,E68,Serial number: 963852741,Serial number: <*>
+862,E68,Serial number: 258369147,Serial number: <*>
+863,E68,Serial number: 369147258,Serial number: <*>
+864,E68,Serial number: 741258963,Serial number: <*>
+865,E68,Serial number: 852963741,Serial number: <*>
+866,E68,Serial number: 036914725,Serial number: <*>
+867,E68,Serial number: 572036914,Serial number: <*>
+868,E68,Serial number: 914572036,Serial number: <*>
+869,E69,iteratingTime = 2345  iterations = 10  objectiveRMSE = 0.12,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+870,E69,iteratingTime = 4567  iterations = 15  objectiveRMSE = 0.09,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+871,E69,iteratingTime = 6789  iterations = 20  objectiveRMSE = 0.07,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+872,E69,iteratingTime = 8910  iterations = 25  objectiveRMSE = 0.05,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+873,E69,iteratingTime = 1123  iterations = 30  objectiveRMSE = 0.04,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+874,E69,iteratingTime = 3345  iterations = 35  objectiveRMSE = 0.03,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+875,E69,iteratingTime = 5567  iterations = 40  objectiveRMSE = 0.02,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+876,E69,iteratingTime = 7789  iterations = 45  objectiveRMSE = 0.01,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+877,E69,iteratingTime = 9901  iterations = 50  objectiveRMSE = 0.00,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+878,E69,iteratingTime = 1012  iterations = 55  objectiveRMSE = -0.01,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+879,E69,iteratingTime = 3234  iterations = 60  objectiveRMSE = -0.02,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+880,E69,iteratingTime = 5456  iterations = 65  objectiveRMSE = -0.03,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+881,E65,RealSense devices found: 0,RealSense devices found: <*>
+882,E65,RealSense devices found: 1,RealSense devices found: <*>
+883,E65,RealSense devices found: 2,RealSense devices found: <*>
+884,E65,RealSense devices found: 3,RealSense devices found: <*>
+885,E65,RealSense devices found: 4,RealSense devices found: <*>
+886,E65,RealSense devices found: 5,RealSense devices found: <*>
+887,E65,RealSense devices found: 6,RealSense devices found: <*>
+888,E65,RealSense devices found: 7,RealSense devices found: <*>
+889,E65,RealSense devices found: 8,RealSense devices found: <*>
+890,E65,RealSense devices found: 9,RealSense devices found: <*>
+891,E65,RealSense devices found: 10,RealSense devices found: <*>
+892,E65,RealSense devices found: 11,RealSense devices found: <*>
+893,E65,RealSense devices found: 12,RealSense devices found: <*>
+894,E65,RealSense devices found: 13,RealSense devices found: <*>
+895,E65,RealSense devices found: 14,RealSense devices found: <*>
+896,E63,Firmware: 1.0.0,Firmware: <*>
+897,E63,Firmware: 2.1.3,Firmware: <*>
+898,E63,Firmware: 3.4.5,Firmware: <*>
+899,E63,Firmware: 4.7.8,Firmware: <*>
+900,E63,Firmware: 5.9.10,Firmware: <*>
+901,E63,Firmware: 6.12.13,Firmware: <*>
+902,E63,Firmware: 7.14.15,Firmware: <*>
+903,E63,Firmware: 8.16.17,Firmware: <*>
+904,E63,Firmware: 9.18.19,Firmware: <*>
+905,E63,Firmware: 10.20.21,Firmware: <*>
+906,E63,Firmware: 11.22.23,Firmware: <*>
+907,E63,Firmware: 12.24.25,Firmware: <*>
+908,E63,Firmware: 13.26.27,Firmware: <*>
+909,E63,Firmware: 14.28.29,Firmware: <*>
+910,E63,Firmware: 15.30.31,Firmware: <*>
+911,E23,Faces detected: 0,Faces detected: <*>
+912,E23,Faces detected: 1,Faces detected: <*>
+913,E23,Faces detected: 2,Faces detected: <*>
+914,E23,Faces detected: 3,Faces detected: <*>
+915,E23,Faces detected: 4,Faces detected: <*>
+916,E23,Faces detected: 5,Faces detected: <*>
+917,E23,Faces detected: 6,Faces detected: <*>
+918,E23,Faces detected: 7,Faces detected: <*>
+919,E23,Faces detected: 8,Faces detected: <*>
+920,E23,Faces detected: 9,Faces detected: <*>
+921,E23,Faces detected: 10,Faces detected: <*>
+922,E23,Faces detected: 11,Faces detected: <*>
+923,E23,Faces detected: 12,Faces detected: <*>
+924,E23,Faces detected: 13,Faces detected: <*>
+925,E23,Faces detected: 14,Faces detected: <*>
+926,E56,Error on OutputStream.seek(): t=0.5,Error on OutputStream.seek(): t=<*>
+927,E56,Error on OutputStream.seek(): t=-1.2,Error on OutputStream.seek(): t=<*>
+928,E56,Error on OutputStream.seek(): t=3.14,Error on OutputStream.seek(): t=<*>
+929,E56,Error on OutputStream.seek(): t=NaN,Error on OutputStream.seek(): t=<*>
+930,E56,Error on OutputStream.seek(): t=Infinity,Error on OutputStream.seek(): t=<*>
+931,E56,Error on OutputStream.seek(): t=null,Error on OutputStream.seek(): t=<*>
+932,E56,Error on OutputStream.seek(): t=undefined,Error on OutputStream.seek(): t=<*>
+933,E56,Error on OutputStream.seek(): t=100,Error on OutputStream.seek(): t=<*>
+934,E56,Error on OutputStream.seek(): t=-0.01,Error on OutputStream.seek(): t=<*>
+935,E56,Error on OutputStream.seek(): t=1.23e4,Error on OutputStream.seek(): t=<*>
+936,E56,Error on OutputStream.seek(): t=-5.67e-3,Error on OutputStream.seek(): t=<*>
+937,E56,Error on OutputStream.seek(): t=0,Error on OutputStream.seek(): t=<*>
+938,E56,Error on OutputStream.seek(): t=1,Error on OutputStream.seek(): t=<*>
+939,E56,Error on OutputStream.seek(): t=-1,Error on OutputStream.seek(): t=<*>
+940,E56,Error on OutputStream.seek(): t=2.718,Error on OutputStream.seek(): t=<*>
+941,E60,5 matching pairs found,<*> matching pairs found
+942,E60,12 matching pairs found,<*> matching pairs found
+943,E60,0 matching pairs found,<*> matching pairs found
+944,E60,8 matching pairs found,<*> matching pairs found
+945,E60,3 matching pairs found,<*> matching pairs found
+946,E60,10 matching pairs found,<*> matching pairs found
+947,E60,7 matching pairs found,<*> matching pairs found
+948,E60,4 matching pairs found,<*> matching pairs found
+949,E60,9 matching pairs found,<*> matching pairs found
+950,E60,6 matching pairs found,<*> matching pairs found
+951,E60,11 matching pairs found,<*> matching pairs found
+952,E60,2 matching pairs found,<*> matching pairs found
+953,E60,14 matching pairs found,<*> matching pairs found
+954,E60,13 matching pairs found,<*> matching pairs found
+955,E70,12 image descriptors,<*> image descriptors
+956,E70,8 image descriptors,<*> image descriptors
+957,E70,15 image descriptors,<*> image descriptors
+958,E70,10 image descriptors,<*> image descriptors
+959,E70,9 image descriptors,<*> image descriptors
+960,E70,11 image descriptors,<*> image descriptors
+961,E70,13 image descriptors,<*> image descriptors
+962,E70,7 image descriptors,<*> image descriptors
+963,E70,14 image descriptors,<*> image descriptors
+964,E70,6 image descriptors,<*> image descriptors
+965,E70,16 image descriptors,<*> image descriptors
+966,E70,5 image descriptors,<*> image descriptors
+967,E70,17 image descriptors,<*> image descriptors
+968,E70,4 image descriptors,<*> image descriptors
+969,E70,18 image descriptors,<*> image descriptors
+970,E61,Can not load car.obj and/or city.scn,Can not load <*> and/or <*>
+971,E61,Can not load tree.obj and/or forest.scn,Can not load <*> and/or <*>
+972,E61,Can not load house.obj and/or village.scn,Can not load <*> and/or <*>
+973,E61,Can not load dragon.obj and/or cave.scn,Can not load <*> and/or <*>
+974,E61,Can not load spaceship.obj and/or space.scn,Can not load <*> and/or <*>
+975,E61,Can not load character.obj and/or game.scn,Can not load <*> and/or <*>
+976,E61,Can not load flower.obj and/or garden.scn,Can not load <*> and/or <*>
+977,E61,Can not load book.obj and/or library.scn,Can not load <*> and/or <*>
+978,E61,Can not load sword.obj and/or dungeon.scn,Can not load <*> and/or <*>
+979,E61,Can not load dog.obj and/or park.scn,Can not load <*> and/or <*>
+980,E61,Can not load bird.obj and/or sky.scn,Can not load <*> and/or <*>
+981,E61,Can not load fish.obj and/or ocean.scn,Can not load <*> and/or <*>
+982,E61,Can not load robot.obj and/or factory.scn,Can not load <*> and/or <*>
+983,E61,Can not load pizza.obj and/or kitchen.scn,Can not load <*> and/or <*>
+984,E61,Can not load guitar.obj and/or music.scn,Can not load <*> and/or <*>
+985,E62,Finding time = 150 ms,Finding time = <*> ms
+986,E62,Finding time = 279 ms,Finding time = <*> ms
+987,E62,Finding time = 97 ms,Finding time = <*> ms
+988,E62,Finding time = 512 ms,Finding time = <*> ms
+989,E62,Finding time = 42 ms,Finding time = <*> ms
+990,E62,Finding time = 376 ms,Finding time = <*> ms
+991,E62,Finding time = 623 ms,Finding time = <*> ms
+992,E62,Finding time = 198 ms,Finding time = <*> ms
+993,E62,Finding time = 331 ms,Finding time = <*> ms
+994,E62,Finding time = 765 ms,Finding time = <*> ms
+995,E62,Finding time = 583 ms,Finding time = <*> ms
+996,E62,Finding time = 105 ms,Finding time = <*> ms
+997,E62,Finding time = 407 ms,Finding time = <*> ms
+998,E62,Finding time = 912 ms,Finding time = <*> ms
+999,E62,Finding time = 257 ms,Finding time = <*> ms
+1000,E71,Serial: 8F3A-6B4C-9D1E,Serial: <*>
+1001,E71,Serial: 5C9D-2A7F-4E8B,Serial: <*>
+1002,E71,Serial: 1B6E-3F8A-7C4D,Serial: <*>
+1003,E71,Serial: 9D4C-7B1E-2F6A,Serial: <*>
+1004,E71,Serial: 2F7A-4C9B-1E3D,Serial: <*>
+1005,E71,Serial: 6E1D-8B3F-5A7C,Serial: <*>
+1006,E71,Serial: 3A8B-5D1C-7E4F,Serial: <*>
+1007,E71,Serial: 7C4F-9E3A-6B1D,Serial: <*>
+1008,E71,Serial: 4E9B-2D7C-1F6E,Serial: <*>
+1009,E71,Serial: 8B3D-5F1E-4A7B,Serial: <*>
+1010,E71,Serial: 1F6A-3C9D-2E8F,Serial: <*>
+1011,E71,Serial: 5A7C-6E1B-9D4F,Serial: <*>
+1012,E71,Serial: 2D8F-4B7E-3A6C,Serial: <*>
+1013,E71,Serial: 7E4D-1F6B-5C9A,Serial: <*>
+1014,E71,Serial: 3C6E-2A8D-4B7F,Serial: <*>
+1015,E59,12 object descriptors,<*> object descriptors
+1016,E59,0 object descriptors,<*> object descriptors
+1017,E59,8 object descriptors,<*> object descriptors
+1018,E59,5 object descriptors,<*> object descriptors
+1019,E59,10 object descriptors,<*> object descriptors
+1020,E59,3 object descriptors,<*> object descriptors
+1021,E59,7 object descriptors,<*> object descriptors
+1022,E59,9 object descriptors,<*> object descriptors
+1023,E59,4 object descriptors,<*> object descriptors
+1024,E59,6 object descriptors,<*> object descriptors
+1025,E59,1 object descriptors,<*> object descriptors
+1026,E59,2 object descriptors,<*> object descriptors
+1027,E59,11 object descriptors,<*> object descriptors
+1028,E59,13 object descriptors,<*> object descriptors
+1029,E59,14 object descriptors,<*> object descriptors
+1030,E24,Predicted label: cat,Predicted label: <*>
+1031,E24,Predicted label: dog,Predicted label: <*>
+1032,E24,Predicted label: car,Predicted label: <*>
+1033,E24,Predicted label: flower,Predicted label: <*>
+1034,E24,Predicted label: bird,Predicted label: <*>
+1035,E24,Predicted label: apple,Predicted label: <*>
+1036,E24,Predicted label: banana,Predicted label: <*>
+1037,E24,Predicted label: house,Predicted label: <*>
+1038,E24,Predicted label: tree,Predicted label: <*>
+1039,E24,Predicted label: shoe,Predicted label: <*>
+1040,E24,Predicted label: book,Predicted label: <*>
+1041,E24,Predicted label: chair,Predicted label: <*>
+1042,E24,Predicted label: hat,Predicted label: <*>
+1043,E24,Predicted label: cup,Predicted label: <*>
+1044,E24,Predicted label: guitar,Predicted label: <*>
+1045,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= 3,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1046,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= 0,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1047,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= 4,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1048,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= -1,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1049,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= 2,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1050,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= 5,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1051,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= -2,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1052,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= 6,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1053,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= -3,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1054,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= 7,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1055,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= -4,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1056,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= 8,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1057,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= -5,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1058,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= 9,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1059,E11,ERROR: SkewGrayImage: Require 1 channel: nChannels= -6,ERROR: SkewGrayImage: Require <*> channel: nChannels=<*>
+1060,E68,Serial number: 3F4B-6A7C-9D0E,Serial number: <*>
+1061,E68,Serial number: 8A2D-4C6E-1B9F,Serial number: <*>
+1062,E68,Serial number: 5E9C-7D8A-2B6F,Serial number: <*>
+1063,E68,Serial number: 1B6F-9E8C-7D2A,Serial number: <*>
+1064,E68,Serial number: 9D0E-3F4B-6A7C,Serial number: <*>
+1065,E68,Serial number: 4C6E-8A2D-1B9F,Serial number: <*>
+1066,E68,Serial number: 7D8A-5E9C-2B6F,Serial number: <*>
+1067,E68,Serial number: 2B6F-5E9C-7D8A,Serial number: <*>
+1068,E68,Serial number: 6A7C-3F4B-9D0E,Serial number: <*>
+1069,E68,Serial number: 1B9F-8A2D-4C6E,Serial number: <*>
+1070,E68,Serial number: 7D2A-1B6F-9E8C,Serial number: <*>
+1071,E68,Serial number: 9D0E-5E9C-3F4B,Serial number: <*>
+1072,E68,Serial number: 4C6E-7D8A-8A2D,Serial number: <*>
+1073,E68,Serial number: 2B6F-9D0E-1B6F,Serial number: <*>
+1074,E68,Serial number: 6A7C-4C6E-3F4B,Serial number: <*>
+1075,E69,iteratingTime = 1234 iterations = 10 objectiveRMSE = 0.45,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1076,E69,iteratingTime = 5678 iterations = 20 objectiveRMSE = 0.42,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1077,E69,iteratingTime = 9012 iterations = 30 objectiveRMSE = 0.39,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1078,E69,iteratingTime = 3456 iterations = 40 objectiveRMSE = 0.37,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1079,E69,iteratingTime = 7890 iterations = 50 objectiveRMSE = 0.35,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1080,E69,iteratingTime = 2345 iterations = 60 objectiveRMSE = 0.34,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1081,E69,iteratingTime = 6789 iterations = 70 objectiveRMSE = 0.33,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1082,E69,iteratingTime = 12345 iterations = 80 objectiveRMSE = 0.32,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1083,E69,iteratingTime = 56789 iterations = 90 objectiveRMSE = 0.31,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1084,E69,iteratingTime = 90123 iterations = 100 objectiveRMSE = 0.30,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1085,E69,iteratingTime = 45678 iterations = 110 objectiveRMSE = 0.29,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1086,E69,iteratingTime = 89012 iterations = 120 objectiveRMSE = 0.28,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1087,E69,iteratingTime = 34567 iterations = 130 objectiveRMSE = 0.27,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1088,E69,iteratingTime = 78901 iterations = 140 objectiveRMSE = 0.26,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1089,E69,iteratingTime = 23456 iterations = 150 objectiveRMSE = 0.25,iteratingTime = <*> iterations = <*> objectiveRMSE = <*>
+1090,E57,Exception in the TryLoad ! java.lang.NullPointerException,Exception in the TryLoad !<*>
+1091,E57,Exception in the TryLoad ! java.io.FileNotFoundException,Exception in the TryLoad !<*>
+1092,E57,Exception in the TryLoad ! java.lang.ClassCastException,Exception in the TryLoad !<*>
+1093,E57,Exception in the TryLoad ! java.lang.OutOfMemoryError,Exception in the TryLoad !<*>
+1094,E57,Exception in the TryLoad ! java.lang.StackOverflowError,Exception in the TryLoad !<*>
+1095,E57,Exception in the TryLoad ! java.sql.SQLException,Exception in the TryLoad !<*>
+1096,E57,Exception in the TryLoad ! java.net.SocketTimeoutException,Exception in the TryLoad !<*>
+1097,E57,Exception in the TryLoad ! java.lang.IllegalArgumentException,Exception in the TryLoad !<*>
+1098,E57,Exception in the TryLoad ! java.lang.IllegalStateException,Exception in the TryLoad !<*>
+1099,E57,Exception in the TryLoad ! java.lang.SecurityException,Exception in the TryLoad !<*>
+1100,E57,Exception in the TryLoad ! java.lang.ArithmeticException,Exception in the TryLoad !<*>
+1101,E57,Exception in the TryLoad ! java.lang.IndexOutOfBoundsException,Exception in the TryLoad !<*>
+1102,E57,Exception in the TryLoad ! java.lang.UnsupportedOperationException,Exception in the TryLoad !<*>
+1103,E57,Exception in the TryLoad ! java.util.ConcurrentModificationException,Exception in the TryLoad !<*>
+1104,E57,Exception in the TryLoad ! java.lang.NoSuchMethodError,Exception in the TryLoad !<*>
+1105,E58,cvRemap: 12.34,cvRemap: <*>
+1106,E58,cvRemap: 9.87,cvRemap: <*>
+1107,E58,cvRemap: 15.67,cvRemap: <*>
+1108,E58,cvRemap: 11.23,cvRemap: <*>
+1109,E58,cvRemap: 13.45,cvRemap: <*>
+1110,E58,cvRemap: 10.56,cvRemap: <*>
+1111,E58,cvRemap: 14.89,cvRemap: <*>
+1112,E58,cvRemap: 8.76,cvRemap: <*>
+1113,E58,cvRemap: 16.54,cvRemap: <*>
+1114,E58,cvRemap: 12.78,cvRemap: <*>
+1115,E58,cvRemap: 10.98,cvRemap: <*>
+1116,E58,cvRemap: 14.32,cvRemap: <*>
+1117,E58,cvRemap: 9.45,cvRemap: <*>
+1118,E58,cvRemap: 15.76,cvRemap: <*>
+1119,E58,cvRemap: 11.67,cvRemap: <*>
+1120,E66,Devices found: 0,Devices found: <*>
+1121,E66,Devices found: 1,Devices found: <*>
+1122,E66,Devices found: 2,Devices found: <*>
+1123,E66,Devices found: 3,Devices found: <*>
+1124,E66,Devices found: 4,Devices found: <*>
+1125,E66,Devices found: 5,Devices found: <*>
+1126,E66,Devices found: 6,Devices found: <*>
+1127,E66,Devices found: 7,Devices found: <*>
+1128,E66,Devices found: 8,Devices found: <*>
+1129,E66,Devices found: 9,Devices found: <*>
+1130,E66,Devices found: 10,Devices found: <*>
+1131,E66,Devices found: 11,Devices found: <*>
+1132,E66,Devices found: 12,Devices found: <*>
+1133,E66,Devices found: 13,Devices found: <*>
+1134,E66,Devices found: 14,Devices found: <*>
+1135,E64,RealSense2 devices found: 0,RealSense2 devices found: <*>
+1136,E64,RealSense2 devices found: 1,RealSense2 devices found: <*>
+1137,E64,RealSense2 devices found: 2,RealSense2 devices found: <*>
+1138,E64,RealSense2 devices found: 3,RealSense2 devices found: <*>
+1139,E64,RealSense2 devices found: 4,RealSense2 devices found: <*>
+1140,E64,RealSense2 devices found: 5,RealSense2 devices found: <*>
+1141,E64,RealSense2 devices found: 6,RealSense2 devices found: <*>
+1142,E64,RealSense2 devices found: 7,RealSense2 devices found: <*>
+1143,E64,RealSense2 devices found: 8,RealSense2 devices found: <*>
+1144,E64,RealSense2 devices found: 9,RealSense2 devices found: <*>
+1145,E64,RealSense2 devices found: 10,RealSense2 devices found: <*>
+1146,E64,RealSense2 devices found: 11,RealSense2 devices found: <*>
+1147,E64,RealSense2 devices found: 12,RealSense2 devices found: <*>
+1148,E64,RealSense2 devices found: 13,RealSense2 devices found: <*>
+1149,E64,RealSense2 devices found: 14,RealSense2 devices found: <*>
+1150,E67,"Using device 0, an NVIDIA GeForce RTX 3090","Using device <*>, an <*>"
+1151,E67,"Using device 0, an AMD Radeon RX 6900 XT","Using device <*>, an <*>"
+1152,E67,"Using device 0, an Intel Iris Xe Graphics","Using device <*>, an <*>"
+1153,E67,"Using device 0, an Apple M1 GPU","Using device <*>, an <*>"
+1154,E67,"Using device 0, an Qualcomm Adreno 660","Using device <*>, an <*>"
+1155,E67,"Using device 0, an ARM Mali-G78 MP14","Using device <*>, an <*>"
+1156,E67,"Using device 0, an NVIDIA Tegra X1","Using device <*>, an <*>"
+1157,E67,"Using device 0, an AMD Ryzen Embedded V2000 Series","Using device <*>, an <*>"
+1158,E67,"Using device 0, an Intel UHD Graphics 630","Using device <*>, an <*>"
+1159,E67,"Using device 0, an Apple A14 Bionic GPU","Using device <*>, an <*>"
+1160,E67,"Using device 0, an Qualcomm Adreno 650","Using device <*>, an <*>"
+1161,E67,"Using device 0, an ARM Mali-G77 MP11","Using device <*>, an <*>"
+1162,E67,"Using device 0, an NVIDIA Jetson AGX Xavier","Using device <*>, an <*>"
+1163,E67,"Using device 0, an AMD Radeon RX Vega M GH","Using device <*>, an <*>"
+1164,E67,"Using device 0, an Intel HD Graphics 520","Using device <*>, an <*>"
+1165,E72,Contour count 12,Contour count <*>
+1166,E72,Contour count 7,Contour count <*>
+1167,E72,Contour count 9,Contour count <*>
+1168,E72,Contour count 15,Contour count <*>
+1169,E72,Contour count 10,Contour count <*>
+1170,E72,Contour count 8,Contour count <*>
+1171,E72,Contour count 11,Contour count <*>
+1172,E72,Contour count 13,Contour count <*>
+1173,E72,Contour count 6,Contour count <*>
+1174,E72,Contour count 14,Contour count <*>
+1175,E72,Contour count 4,Contour count <*>
+1176,E72,Contour count 5,Contour count <*>
+1177,E72,Contour count 3,Contour count <*>
+1178,E72,Contour count 16,Contour count <*>
+1179,E73,JavaCV version 1.5.6 Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1180,E73,JavaCV version 1.4.4 Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1181,E73,JavaCV version 1.3.3 Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1182,E73,JavaCV version 1.2.2 Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1183,E73,JavaCV version 1.1.1 Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1184,E73,JavaCV version 0.11 Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1185,E73,JavaCV version 0.10.2-beta2-SNAPSHOT (build 2023-10-27) Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1186,E73,JavaCV version 0.9.9-beta1-SNAPSHOT (build 2023-10-26) Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1187,E73,JavaCV version 0.8.8-alpha-SNAPSHOT (build 2023-10-25) Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1188,E73,JavaCV version 0.7.7-alpha-SNAPSHOT (build 2023-10-24) Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1189,E73,JavaCV version 0.6.6-alpha-SNAPSHOT (build 2023-10-23) Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1190,E73,JavaCV version 0.5.5-alpha-SNAPSHOT (build 2023-10-22) Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1191,E73,JavaCV version 0.4.4-alpha-SNAPSHOT (build 2023-10-21) Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1192,E73,JavaCV version 0.3.3-alpha-SNAPSHOT (build 2023-10-20) Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1193,E73,JavaCV version 0.2.2-alpha-SNAPSHOT (build 2023-10-19) Copyright (C) 2009-2018 Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv],JavaCV version <*> Copyright (C) <*>-<*> Samuel Audet <samuel.audet@gmail.com> Project site: [https://github.com/bytedeco/javacv]
+1194,E36,Device: Samsung Galaxy S21 Android 11 R58N34XZPE Locked: false,Device: <*> <*> <*> Locked: <*>
+1195,E36,Device: Apple iPhone 13 iOS 15.1 35FJ9C3HG Locked: true,Device: <*> <*> <*> Locked: <*>
+1196,E36,Device: Huawei P50 HarmonyOS 2.0 A9K5T4H3F Locked: false,Device: <*> <*> <*> Locked: <*>
+1197,E36,Device: Xiaomi Mi 11 Ultra MIUI 12.5 Q2X8G4C6Z Locked: true,Device: <*> <*> <*> Locked: <*>
+1198,E36,Device: OnePlus 9 Pro OxygenOS 11.2.9.9 L4H3N9P8R Locked: false,Device: <*> <*> <*> Locked: <*>
+1199,E36,Device: Google Pixel 6 Android 12 SP1A.210812.015 Locked: true,Device: <*> <*> <*> Locked: <*>
+1200,E36,Device: LG Wing Android 10 QKQ1.200614.002 Locked: false,Device: <*> <*> <*> Locked: <*>
+1201,E36,Device: Sony Xperia 1 III Android 11 58.1.A.5.159 Locked: true,Device: <*> <*> <*> Locked: <*>
+1202,E36,Device: Motorola Edge 20 Pro Android 11 RRR31.Q1-51-30-2 Locked: false,Device: <*> <*> <*> Locked: <*>
+1203,E36,Device: Nokia X20 Android 11 00WW_2_150_SP01 Locked: true,Device: <*> <*> <*> Locked: <*>
+1204,E36,Device: Asus Zenfone 8 Android 11 WW_30.11.55.50_20211019 Locked: false,Device: <*> <*> <*> Locked: <*>
+1205,E36,Device: Oppo Find X3 Pro ColorOS 11.2 CPH2173_11_A.39 Locked: true,Device: <*> <*> <*> Locked: <*>
+1206,E36,Device: Vivo X70 Pro+ Funtouch OS 12 PD2120_A_1.14.8 Locked: false,Device: <*> <*> <*> Locked: <*>
+1207,E36,Device: Realme GT Master Edition Realme UI 2.0 RMX3366_11_A.16 Locked: true,Device: <*> <*> <*> Locked: <*>
+1208,E36,Device: ZTE Axon 30 Ultra Android 11 GEN_EEA_A2021G_PROV2.7 Locked: false,Device: <*> <*> <*> Locked: <*>

@@ -1,0 +1,43 @@
+✅ Changes Made Successfully
+I've successfully added the --dataset parameter to both scripts:
+
+1. Updated common.py
+Added --dataset parameter to the argument parser
+Added help text explaining the parameter usage
+2. Updated LILAC_eval.py
+Added dataset validation logic
+Modified the script to process only the specified dataset when --dataset is provided
+Added informative error messages for invalid dataset names
+3. Updated LILAC_sampling.py
+Added argument parsing with --dataset parameter
+Added dataset validation logic
+Modified the script to process only the specified dataset when provided
+
+
+🚀 How to Use the New Features
+For Sampling (Proxifier only):
+cd sampling/
+python3 LILAC_sampling.py --dataset Proxifier
+
+
+For Evaluation (Proxifier only):
+
+cd benchmark/evaluation/
+python3 LILAC_eval.py --shot 8 --example_size 3 --model gpt-3.5-turbo --dataset Proxifier
+
+
+
+For All Datasets (original behavior):
+# Sampling
+python3 LILAC_sampling.py
+
+# Evaluation  
+python3 LILAC_eval.py --shot 8 --example_size 3 --model gpt-3.5-turbo
+
+
+Available Datasets
+Apache, BGL, Hadoop, HDFS, HealthApp, HPC, Linux, Mac, OpenSSH, OpenStack, Proxifier, Spark, Thunderbird, Zookeeper
+
+
+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
+

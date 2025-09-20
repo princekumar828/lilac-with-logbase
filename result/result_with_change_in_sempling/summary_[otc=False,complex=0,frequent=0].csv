@@ -1,0 +1,4 @@
+Dataset,parse_time,identified_templates,ground_templates,GA,PA,FGA,PTA,RTA,FTA
+Proxifier,12.19,11,11,1.000,1.000,1.000,1.000,1.000,1.000
+cassandra,2191.26,2741,1794,0.704,0.575,0.542,0.327,0.499,0.395
+jenkins,744.64,908,492,0.662,0.462,0.464,0.242,0.447,0.314

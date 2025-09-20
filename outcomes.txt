@@ -1,0 +1,109 @@
+The poor performance persists because:
+
+Sampling Quality Issue: The 8-shot examples for brave dataset are still poor quality
+Fundamental LogBase Complexity: LogBase datasets are inherently more complex than traditional system logs
+LILAC's Design Limitations: LILAC was designed for structured system logs, not diverse application logs
+
+Systematic Improvement Strategy
+Test 32-shot for Better Coverage
+
+
+32-shot Results for brave dataset:
+
+Grouping Accuracy (GA): 57.98% vs 58% (8-shot) - essentially identical
+Parsing Accuracy (PA): 27.70% vs 37% (8-shot) - significant drop
+PTA: 16.98% vs 18% (8-shot) - slightly worse
+Templates Generated: 53 vs 29 ground truth
+Key Observations:
+
+Unexpected Results: 32-shot performed worse than 8-shot, particularly in Parsing Accuracy (27.7% vs 37%)
+
+Over-Template Generation: Created 53 templates vs 29 ground truth, indicating the model is creating too many specific templates rather than generalizing well
+
+Template Quality Issues: I noticed several "ChatGPT template wrong: cannot match itself" messages, showing the LLM is generating invalid templates
+
+Pattern Over-Specificity: The 32-shot approach seems to be making templates too specific (e.g., very detailed regex patterns for headers) rather than finding good generalizations
+
+Found the problem! The sampling examples have serious quality issues:
+
+Duplicates: Multiple identical query-answer pairs (e.g., "error handling end [settings] 0.9" appears twice)
+Inconsistent Templates:
+Same content maps to different templates: "Invalid input: more than 4 fields exist in line 12" vs "Invalid input: more than 4 fields exist (expected 3)" both map to "Invalid input: more than 4 fields exist {variables}"
+Some templates are too generic: "{variables}Invalid input: {variables} is too long"
+Poor Generalization: Templates like "Ignoring request to add > {variables} dynamic entries {variables}" are too specific
+
+
+
+
+
+
+
+
+1. Inconsistent Template Examples
+The 16-shot file contains inconsistent templating:
+Good examples:
+
+{"query": "Running for 6 minutes now.", "answer": "Running for {variables} minutes now."}
+Bad examples (inconsistent):
+
+{"query": "This task runs for 15 minutes", "answer": "This task runs for 15 minutes"}
+{"query": "Assume this is a setup task", "answer": "Assume this is a setup task"}
+
+☝️ These should have been templated but weren't!
+
+2. Over-generalization Issues
+Some templates are too aggressive:
+
+{"query": "3 report successfully exported to monthly_report.pdf.", "answer": "{variables} {variables} successfully exported to {variables}."}
+
+The word "report" should probably stay as literal text, not become {variables}.
+
+3. LLM Confusion from Mixed Signals
+When the LLM sees both:
+
+"15 minutes" → stays literal
+"6 minutes" → becomes {variables}
+It gets confused about when to apply templating rules.
+
+4. Sampling Algorithm Issues
+The sampling algorithm that selected 16 examples included:
+
+Low-quality examples that should be templated but aren't
+Conflicting patterns that confuse the LLM
+Over-representation of certain patterns
+Solutions:
+Updated todo list
+
+Immediate Fixes:
+Stick with 8-shot for now (it's performing better)
+Improve sampling quality rather than quantity
+Fix the inconsistent examples in the sampling algorithm
+Better Approach:
+Instead of increasing shot count, focus on:
+
+Example quality: Ensure consistent templating
+Pattern coverage: Better selection of representative examples
+Preprocessing: Handle markup tags before templating
+The lesson here is: More examples ≠ Better performance if the examples are inconsistent or confusing to the LLM.
+
+The issue is clear: the hierarchical clustering algorithm is producing duplicate examples and inconsistent templates
+
+The Core Problem: Incorrect Ground Truth Format
+Your renaming of the files is a good start, but the internal structure of the files is different.
+
+LILAC's Expected _structured.csv Format: The LILAC evaluator (evaluator_main.py) requires a CSV with these four columns: LineId,Content,EventId,EventTemplate
+
+EventId: A unique ID for each template (e.g., E1, E2, E3). All log lines with the same template must have the same EventId.
+LogBase's GeneralAnnotation.csv Format: This file typically only has three columns: LineId,Content,EventTemplate It is missing the EventId column, which is crucial for the "Grouping Accuracy" (GA) metric. Without it, the evaluator cannot correctly group log messages, leading to extremely poor scores.
+
+The Solution: Generate the Correct _structured.csv
+You need to create a script that reads the GeneralAnnotation.csv and generates a new _structured.csv file with the required EventId column.
+
+
+
+Dataset,parse_time,identified_templates,ground_templates,GA,PA,FGA,PTA,RTA,FTA
+cassandra,3263.47,2799,1794,0.685,0.570,0.519,0.313,0.488,0.381
+
+
+Dataset,parse_time,identified_templates,ground_templates,GA,PA,FGA,PTA,RTA,FTA
+jenkins,800.50,908,492,0.781,0.470,0.551,0.247,0.455,0.320

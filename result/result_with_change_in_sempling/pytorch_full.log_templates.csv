@@ -1,0 +1,2025 @@
+EventId,EventTemplate
+E1,<*> Windows Python runtime is not supported. Please switch to <*> Python.
+E2,You are using Python <*>. Python >=<*> is required.
+E3,Moving <*> wheel to <*>
+E4,build pytorch with <*>+<*> backend
+E5,Auto-selecting conda option for docker images
+E6,Move <*> into a standard location
+E7,replace the original wheel with the repaired one
+E8,Terminating all instances of type <*>
+E9,Waiting for instance <*> to terminate
+E10,Updated tag from Tag: <*> to Tag: <*>
+E11,Can't embed libcurl.so.<*> as it could not be found
+E12,Can't embed libssl.so.<*> as it could not be found
+E13,Can't embed libcrypto.so.<*> as it could not be found
+E14,Can't embed libz.so.<*> as it could not be found
+E15,Can't embed libpng16.so.<*> as it could not be found
+E16,Can't embed libjpeg.so.<*> as it could not be found
+E17,Can't embed libfreetype.so.<*> as it could not be found
+E18,Can't embed libfontconfig.so.<*> as it could not be found
+E19,Can't embed libexpat.so.<*> as it could not be found
+E20,Can't embed libglib-<*>.so.<*> as it could not be found
+E21,Can't embed libpango-<*>.so.<*> as it could not be found
+E22,Can't embed libcairo.so.<*> as it could not be found
+E23,Can't embed libX11.so.<*> as it could not be found
+E24,Can't embed libXrender.so.<*> as it could not be found
+E25,Testing SSL certificate checking for Python: <*>
+E26,This version never checks SSL certs; skipping tests
+E27,"z-value < <*>, no perf regression detected."
+E28,We will use these numbers as new baseline.
+E29,"Test set: Average loss: <*>, Accuracy: <*> (<*>%)"
+E30,network_driver version actual: <*> expected: <*> for channel <*>.
+E31,database_connector version actual: <*> expected: <*> for channel <*>.
+E32,auth_module version actual: <*> expected: <*> for channel <*>.
+E33,file_system version actual: <*> expected: <*> for channel <*>.
+E34,security_patch version actual: <*> expected: <*> for channel <*>.
+E35,ui_library version actual: <*> expected: <*> for channel <*>.
+E36,logging_tool version actual: <*> expected: <*> for channel <*>.
+E37,data_processor version actual: <*> expected: <*> for channel <*>.
+E38,api_gateway version actual: <*> expected: <*> for channel <*>.
+E39,storage_service version actual: <*> expected: <*> for channel <*>.
+E40,notification_system version actual: <*> expected: <*> for channel <*>.
+E41,cache_manager version actual: <*> expected: <*> for channel <*>.
+E42,job_scheduler version actual: <*> expected: <*> for channel <*>.
+E43,analytics_engine version actual: <*> expected: <*> for channel <*>.
+E44,monitoring_tool version actual: <*> expected: <*> for channel <*>.
+E45,Skip version check for channel <*> as stable version is <*>
+E46,Nightly date check for <*> version <*>
+E47,"Caught CUDA exception with success: CUDA error: <*> (device: <*>, <*>)"
+E48,<*> is not supported for GDS smoke test
+E49,Caught CUDA exception with success: <*> failed: <*>
+E50,Picked CPU ISA <*> bit width <*>
+E51,Testing <*> with mode <*> for <*>
+E52,Path does not exist: <*>
+E53,Failed to parse the response. Check if the Azure DevOps PAT is <*> or <*>.
+E54,No more chance to retry. Giving up.
+E55,ROCm libraries setup for triton installation...
+E56,Reference in workflows but not in config <*>
+E57,"Reference in config, but not in workflows <*>"
+E58,Please run <*> to remediate the difference
+E59,All tags are listed in <*>.yml
+E60,No path/line for lint: (E0401) Import <*> could not be resolved
+E61,No path/line for lint: (<*>) Unused variable '<*>'
+E62,No path/line for lint: (<*>) Undefined variable '<*>'
+E63,No path/line for lint: (<*>) Function already defined line <*>
+E64,No path/line for lint: (<*>) Instance of <*> has no <*> member (<*>)
+E65,No path/line for lint: <*> Using the global statement
+E66,No path/line for lint: <*>
+E67,[main] Failed to fetch branch protections: <*>: API request failed with status code <*>.
+E68,[develop] Failed to fetch branch protections: <*>: The request timed out after <*> seconds.
+E69,[<*>] Failed to fetch branch protections: <*>: <*>
+E70,"[main] Has magic label or open PR, skipping"
+E71,"[develop] Has magic label or open PR, skipping"
+E72,"[feature-<*>] Has magic label or open PR, skipping"
+E73,"[<*>] Has magic label or open PR, skipping"
+E74,Failed to check tag <*>: Tag not found in the repository.
+E75,Failed to check tag <*>: <*>
+E76,The pull request does not mention an issue.
+E77,The <*> label is not present in the issue.
+E78,The pull request already has the same labels.
+E79,Labels added to the pull request!
+E80,<*> incorrect or not found in <*>
+E81,concurrency group should start with <*> but found <*>
+E82,concurrency cancel-in-progress should be True but found False
+E83,concurrency cancel-in-progress should be True but found <*>
+E84,There were no files matching the prefix `logs/<*>` in bucket <*>
+E85,There were no files matching the prefix `data/backup` in bucket `company-data-storage
+E86,There were no files matching the prefix `images/profile` in bucket `user-images`
+E87,There were no files matching the prefix `reports/<*>` in bucket <*>
+E88,There were no files matching the prefix `config/settings` in bucket `app-configurations`
+E89,There were no files matching the prefix `<*>` in bucket <*>-<*>
+E90,Error occurred when deleting file <*>: <*>: '<*>'
+E91,<*> push attempt failed with RuntimeError: Remote branch not found.
+E92,<*> push attempt failed with <*>: Authentication failed.
+E93,<*> push attempt failed with <*>: <*>
+E94,"Attempt <*> of <*> to call <*> failed with ""<*>"""
+E95,Dryrun: Adding labels <*> to PR <*>
+E96,Dryrun: Removing bug from PR <*>
+E97,Dryrun: Removing enhancement from PR <*>
+E98,Dryrun: Removing documentation from PR <*>
+E99,Dryrun: Removing <*> from PR <*>
+E100,"## LINT FAILURE: <*> ##<*> failed lint; please apply the diff below to fix lint.\nIf you think this is in error, please see <*>"
+E101,PR identifier for <*> is <*>
+E102,The pytest cache dir <*> does not exist. Skipping upload
+E103,Skipping <*> of <*> PR (#<*>) as its already been merged
+E104,"Missing comment ID or PR number, couldn't upload to s3"
+E105,"<*> does not exist, returning empty rules"
+E106,PR <*> and all additional PRs in the stack have been closed.
+E107,From Dr.CI checkrun summary: <*>
+E108,About to stack of PRs: <*>
+E109,"Failed to fetch dependent PRs: <*>, fall over to single revert"
+E110,Attempting merge of <*> (<*> elapsed)
+E111,Merge of <*> failed due to: Missing required checks. Retrying in <*> min
+E112,Merge of <*> failed due to: <*>. Retrying in <*> min
+E113,Don't know how to dry-run <*>
+E114,Updated <*> with the contents of <*>
+E115,"Output of ""<*> topo -m"" differs between machines"
+E116,PyTorch distributed rpc benchmark reinforcement learning suite
+E117,Time taken benchmark run <*> - <*>
+E118,response_time gmean=<*> mean=<*>
+E119,latency gmean=<*> mean=<*>
+E120,throughput gmean=<*> mean=<*>
+E121,download_speed gmean=<*> mean=<*>
+E122,upload_speed gmean=<*> mean=<*>
+E123,cpu_usage gmean=<*> mean=<*>
+E124,memory_usage gmean=<*> mean=<*>
+E125,disk_io gmean=<*> mean=<*>
+E126,network_traffic gmean=<*> mean=<*>
+E127,packet_loss gmean=<*> mean=<*>
+E128,error_rate gmean=<*> mean=<*>
+E129,connection_time gmean=<*> mean=<*>
+E130,request_time gmean=<*> mean=<*>
+E131,response_size gmean=<*> mean=<*>
+E132,query_time gmean=<*> mean=<*>
+E133,"<*> experiments are slow, consider setting --repeat less than <*>"
+E134,Failed to load model: <*>. Trying again (<*>) after <*>
+E135,<*> optimized model failed to run because of following error
+E136,"memory: eager: <*> GB, dynamo: <*> GB, ratio: <*>"
+E137,Dynamo produced <*> graphs covering <*> ops with <*> graph breaks (<*> unique)
+E138,Performing cold-start run for <*>
+E139,Performing warm-start run for <*>
+E140,Run failed with return code: <*>
+E141,"<*> failed to run with <*> tensors, trying <*>. Exception: <*>: Fake tensor mode is not supported for this operation."
+E142,"<*> failed to run with <*> tensors, trying <*>. Exception: RuntimeError: <*>"
+E143,"Transformer failed to run with <*> tensors, trying <*>. Exception: <*>: unsupported operand type(s) for +: <*> and '<*>'"
+E144,"ConvNet failed to run with fake tensors, trying real. Exception: IndexError: index <*> is out of bounds for dimension <*> with size <*>"
+E145,"MLP failed to run with <*> tensors, trying <*>. Exception: KeyError: <*> not found in the input dictionary."
+E146,"AutoEncoder failed to run with <*> tensors, trying <*>. Exception: AttributeError: <*> object has no attribute '<*>'"
+E147,"UNet failed to run with fake tensors, trying real. Exception: <*>: name <*> is not defined"
+E148,"GAN failed to run with <*> tensors, trying <*>. Exception: <*>: Expected tensor to be on the same device, but got <*> and <*>."
+E149,"VAE failed to run with <*> tensors, trying <*>. Exception: MemoryError: CUDA out of memory. Tried to allocate <*> MB (GPU <*>; <*> GiB total capacity; <*> GiB already allocated; <*> bytes free; <*> GiB reserved in total by PyTorch)"
+E150,mean latency <*> across <*> runs
+E151,copied contents of <*> to <*>
+E152,Running commands are generated in file commands.sh. Please run (bash <*>).
+E153,Running commands are generated in file <*>. Please run (bash <*>.sh).
+E154,Running commands failed. Please run manually (bash <*>) and inspect the errors.
+E155,[PASSED] <*> end to end training loss is less than or equal to <*>
+E156,[FAILED] <*> end to end training loss is greater than native <*>
+E157,Train model on <*> epochs with backend <*> and optimizer <*>:
+E158,"Warning: Unable to find <*> in artifacts file from <*>, continuing"
+E159,"Unable to download <*>, perhaps the CI job isn't finished?"
+E160,"Success. Now, confirm the changes to <*> and `git add` them if satisfied."
+E161,Min CuBLAS Time: <*> Selected: <*>
+E162,Triton Template: <*> Time: <*> Selected: <*>
+E163,iterating over <*> FX nodes took <*> (<*> nodes/s)
+E164,shape; torch bmm; inductor aten bmm; inductor triton bmm
+E165,shape; type; torch scatter_add; inductor scatter_add; torch scatter_add (worst case); inductor scatter_add (worst case)
+E166,shape; torch mm; triton mm; inductor aten mm; inductor triton mm
+E167,"slow compile inductor <*> {'device': <*>, 'mode': <*>}"
+E168,baseline <*> test <*> speedup <*>
+E169,Missing entry for <*> in <*>
+E170,"REGRESSION: benchmark <*> failed, actual result <*> is <*> higher than expected <*> <*> if this is an expected regression, please update the expected results."
+E171,"please update all results that changed significantly, and not only the failed ones"
+E172,"WIN: benchmark <*> failed, actual result <*> is <*> lower than expected <*> <*> please update the expected results."
+E173,"PASS: benchmark CPU performance pass, actual result <*> <*> is within expected <*> <*>"
+E174,"PASS: benchmark memory usage pass, actual result <*> -<*>% is within expected <*> <*>%"
+E175,"PASS: benchmark disk I/O speed pass, actual result <*> <*> is within expected <*> <*>%"
+E176,"PASS: benchmark network latency pass, actual result <*> <*> is within expected <*> <*>"
+E177,"PASS: benchmark GPU rendering pass, actual result <*> <*> is within expected <*> <*>"
+E178,"PASS: benchmark database query time pass, actual result <*> <*> is within expected <*> <*>"
+E179,"PASS: benchmark file transfer rate pass, actual result <*> is within expected <*> <*>"
+E180,"PASS: benchmark system uptime pass, actual result <*> <*> is within expected <*> <*>"
+E181,"PASS: benchmark response time pass, actual result <*> <*> is within expected <*> <*>"
+E182,"PASS: benchmark power consumption pass, actual result <*> is within expected <*> <*>"
+E183,"PASS: benchmark temperature pass, actual result <*> <*> is within expected <*> <*>"
+E184,"PASS: benchmark load balancing pass, actual result <*> is within expected <*> <*>"
+E185,"PASS: benchmark data throughput pass, actual result <*> <*> is within expected <*> <*>"
+E186,"PASS: benchmark error rate pass, actual result <*> <*> is within expected <*> <*>"
+E187,"PASS: benchmark security check pass, actual result <*> is within expected <*> <*>"
+E188,MISSING REGRESSION TEST: benchmark <*> does not have a regression test enabled for it.
+E189,"To update expected results, run the following command:"
+E190,There was some failures you can use the new reference expected result stored at <*> and printed above
+E191,"To reproduce locally follow the following instructions, note that absolute instructions count are going to be different than on the CI, hence you might want to run locally with and without your change:\ncd <*> \npython <*> result.csv \nnote that <*> is the name of the file containing the failing benchmark."
+E192,instruction count for iteration <*> is <*>
+E193,collecting compile time instruction count for <*>
+E194,compile time instruction count for iteration <*> is <*>
+E195,"conv2d, latency per iter (us):<*>"
+E196,"<*>, latency per iter (us):<*>"
+E197,Op <*> is not supported: Supported ops are:<*>
+E198,Generated graph is saved in <*>.pt
+E199,Benchmarking module <*> with fn <*>: Graph mode:<*>
+E200,Results for model <*> on task <*>: <*> (<*>: <*>)
+E201,"Unknown model: <*>, all available models: <*>"
+E202,device=gpu123 is not yet suppported
+E203,device=tpu456 is not yet suppported
+E204,device=mips789 is not yet suppported
+E205,device=arm101 is not yet suppported
+E206,device=npu112 is not yet suppported
+E207,device=fpga222 is not yet suppported
+E208,device=asic333 is not yet suppported
+E209,device=neuron444 is not yet suppported
+E210,device=phi555 is not yet suppported
+E211,device=apu666 is not yet suppported
+E212,device=xpu777 is not yet suppported
+E213,device=ipu888 is not yet suppported
+E214,device=vega999 is not yet suppported
+E215,device=zen111 is not yet suppported
+E216,device=powerpc222 is not yet suppported
+E217,Time to load model: <*> seconds
+E218,Average tokens/sec: <*> tokens/sec
+E219,Average bandwidth achieved: <*> GB/s
+E220,"WARNING: Expected <*>, got <*> instead"
+E221,Core pool created: cores <*>-<*>
+E222,<*> (ctrl-c) detected. <*>
+E223,Job timed out. <*>
+E224,Shutting down all outstanding jobs before re-raising.
+E225,Unknown failure. (Worker did not report exception contents.)
+E226,<*>. Shutting down jobs before re-raising.
+E227,All remaining jobs have gracefully terminated.
+E228,"Run: <*>, Forward Execution Time (us) : <*>"
+E229,"Run: <*>, Backward Execution Time (us) : <*>"
+E230,Overwriting existing OMP_NUM_THREADS value: <*>; Setting it to <*>.
+E231,Overwriting existing MKL_NUM_THREADS value: <*>; Setting it to <*>.
+E232,Time:<*> Achieved Bandwidth:<*>
+E233,Type <*> had a minimum time of <*> us and a standard deviation of <*> us.
+E234,"Payload: <*>, <*> iterations; timer min. runtime = <*>"
+E235,"Profiling enabled, tensor size <*>, use cuda: <*>, use kineto: <*>, with stacks: <*>, use script: <*>"
+E236,"Profiling disabled, tensor size <*>, use cuda: <*>, use kineto: <*>, with stacks: <*>, use script: <*>"
+E237,"Running with <*>, num threads <*> ..."
+E238,"Running without RecordFunction, num threads <*> ..."
+E239,format=<*> nnz_ratio= <*> m= <*> n= <*> k= <*> time= <*>
+E240,format=<*> nnz_ratio= <*> m= <*> time= <*>
+E241,"op=matmul[meta1](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> <*>"
+E242,"op=add[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> <*>"
+E243,"op=conv2d[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> <*>"
+E244,"op=relu[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> <*>"
+E245,"op=maxpool[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> OutOfResources"
+E246,"op=softmax[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> <*>"
+E247,"op=dropout[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> OutOfResources"
+E248,"op=batchnorm[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> <*>"
+E249,"op=transpose[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> <*>"
+E250,"op=concat[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> <*>"
+E251,"op=split[meta11](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> <*>"
+E252,"op=reduce_sum[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> <*>"
+E253,"op=reduce_mean[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> OutOfResources"
+E254,"op=<*>(<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> OutOfResources"
+E255,"op=matrix_multiply[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> Invalid dimensions for BSR matrix multiplication."
+E256,"op=vector_addition[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> Incompatible data types for vector addition."
+E257,"op=<*>[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> Solver failed due to singular matrix."
+E258,"op=dot_product[<*>](<*>,1x128) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=1x1 Dot product operation not supported for complex numbers."
+E259,"op=<*>[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> Inverse operation failed due to non-invertible matrix."
+E260,"op=<*>[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> Norm calculation failed due to invalid input."
+E261,"op=<*>[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> Eigenvalue decomposition failed due to non-symmetric matrix."
+E262,"op=<*>[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> SVD operation failed due to numerical instability."
+E263,"op=lu_factorization[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> LU factorization failed due to zero pivot encountered."
+E264,"op=qr_decomposition[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> QR decomposition failed due to rank deficiency."
+E265,"op=cholesky_decomposition[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> Cholesky decomposition failed due to non-positive definite matrix."
+E266,"op=<*>[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> Triangular solve failed due to incompatible dimensions."
+E267,"op=<*>[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> Hadamard product failed due to mismatched shapes."
+E268,"op=kronecker_product[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> Kronecker product failed due to insufficient memory."
+E269,"op=matrix_multiply[meta1](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS"
+E270,"op=vector_add[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS !!!"
+E271,"op=convolution[<*>](<*>,x256) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS"
+E272,"op=fft[<*>](<*>,x2048) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS !!!"
+E273,"op=<*>(<*>,x4096) dtype=float32 sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS"
+E274,"op=elementwise_mul[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS !!!"
+E275,"op=max_pool[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS !!!"
+E276,"op=<*>[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS"
+E277,"op=matrix_mult[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS [<*>]"
+E278,"op=vector_add[<*>](<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS [AVERAGE]"
+E279,"op=<*>(<*>,<*>) dtype=<*> sparsity=<*>(nnz=<*>) blocksize=<*> time=<*> ms performance=<*> TFLOPS [AVERAGE]"
+E280,WARNING: Incompatible benchmark class called with <*> arg: <*>
+E281,Warning: no reference result for <*>
+E282,[<*>] SDPA Backend CUDA for shape <*>. Error encountered: <*>. Try reducing the batch size or sequence length.
+E283,[<*>] SDPA Backend CPU for shape <*>. Error encountered: <*>. Check the input dimensions.
+E284,[SKIP] SDPA Backend <*> for shape <*>. Error encountered: <*>. Ensure the backend is compatible with your hardware.
+E285,[SKIP] SDPA Backend MKL for shape <*>. Error encountered: MKL library not found. Install the required libraries.
+E286,[SKIP] SDPA Backend OpenMP for shape <*>. Error encountered: <*>.
+E287,[SKIP] SDPA Backend cuDNN for shape <*>. Error encountered: <*>. Check the installation and configuration.
+E288,[SKIP] SDPA Backend Eigen for shape <*>. Error encountered: Eigen library not found. Ensure the necessary dependencies are installed.
+E289,[SKIP] SDPA Backend TorchScript for shape <*>. Error encountered: <*>
+E290,"[SKIP] SDPA Backend XLA for shape (<*>, <*>, <*>, <*>). \n Error encountered: XLA compilation failed. Check the XLA environment setup."
+E291,[<*>] SDPA Backend ONNX for shape <*>. Error encountered: <*>. Ensure the ONNX runtime is correctly configured.
+E292,[SKIP] SDPA Backend TFLite for shape <*>. Error encountered: TFLite conversion error. Check the model and conversion process.
+E293,[SKIP] SDPA Backend Numpy for shape <*>. Error encountered: Numpy array dimension mismatch. Verify the input shapes.
+E294,[SKIP] SDPA Backend PyTorch for shape <*>. Error encountered: <*>. Ensure the tensor types are compatible.
+E295,[SKIP] SDPA Backend JAX for shape <*>. Error encountered: JAX device buffer allocation error. Check the available memory and device configuration.
+E296,Flash attention <*> is not installed. Please install it to run <*> backend.
+E297,Saved activation image for <*> at <*>
+E298,Please provide a <*> or a <*>
+E299,"<*>, GPU Utilization, MM and Conv time"
+E300,"Train Epoch: <*> Loss: <*> Acc@<*>: <*> (ε = <*>, δ = <*>) for α = <*>"
+E301,Train Epoch: <*> Loss: <*> Acc@<*>: <*>
+E302,Test set:Loss: <*> Acc@<*>: <*>
+E303,[Epoch <*>] Train Loss: <*> | Acc: <*> | Time: <*>
+E304,[Epoch <*>] Test Loss: <*> | Acc: <*>
+E305,"You are using mypy version <*>, which is not supported\nin the PyTorch repo. Please switch to mypy version <*>.\n\nFor example, if you installed mypy via pip, run this:\n\n pip install mypy==<*> if you installed mypy via conda, run this:\n\n conda install -c conda-forge mypy=<*>"
+E306,DEBUG: cannot find python <*> install.
+E307,DEBUG: did not find protoc binary.
+E308,DEBUG: protoc returned a non-zero return code.
+E309,DEBUG: cannot parse protoc version string.
+E310,"All required logs appear to exist, not downloading again. Run `rm -rf <*> if this is not the case"
+E311,WARNING: we were unable to remove these <*> expectedFailures:
+E312,WARNING: <*> in <*> needs to be removed manually
+E313,"Discovered <*> new unexpected successes, <*> new xfails, <*> new skips, <*> new unexpected skips"
+E314,FastRunner : <*> ms improvement over OldRunner: improvement: <*>
+E315,OptimizedRunner : <*> ms improvement over BasicRunner: improvement: <*>
+E316,EnhancedRunner : <*> ms improvement over DefaultRunner: improvement: <*>
+E317,QuickRunner : <*> ms improvement over StandardRunner: improvement: <*>
+E318,EfficientRunner : <*> ms improvement over LegacyRunner: improvement: <*>
+E319,AdvancedRunner : <*> ms improvement over SimpleRunner: improvement: <*>
+E320,ImprovedRunner : <*> ms improvement over OriginalRunner: improvement: <*>
+E321,SuperiorRunner : <*> ms improvement over BasicRunner: improvement: <*>
+E322,EliteRunner : <*> ms improvement over DefaultRunner: improvement: <*>
+E323,HighSpeedRunner : <*> ms improvement over StandardRunner: improvement: <*>
+E324,UltraRunner : <*> ms improvement over OldRunner: improvement: <*>
+E325,ProRunner : <*> ms improvement over BasicRunner: improvement: <*>
+E326,TopRunner : <*> ms improvement over DefaultRunner: improvement: <*>
+E327,BestRunner : <*> ms improvement over StandardRunner: improvement: <*>
+E328,UltimateRunner : <*> ms improvement over BasicRunner: improvement: <*>
+E329,Using a <*> to aid with <*>.
+E330,"<*>, <*>, <*> Split not found generating from scratch."
+E331,"We are removing skip categories, <*>, BUT <*> A MORE HELPFUL CLASSIFIER FOR LABELING."
+E332,Currently this file only trains a new classifier please pass in <*> to train a new classifier
+E333,Finished creating new commit list. Results have been saved to <*>
+E334,"[<*>: Add new feature to module] Could not parse PR number, ignoring PR"
+E335,"[<*>: <*>] Could not parse PR number, ignoring PR"
+E336,"[<*>: <*>] Got two PR numbers, using the first one"
+E337,"No available accelerator detected, skipping tests"
+E338,Total time based on python measurements: <*>
+E339,CPU time measurement python side overhead: <*>%
+E340,In else block of for...else
+E341,Will attempt to run <*> models.
+E342,Operation <*> not implemented for <*>
+E343,"Skipping <*>, see <*>"
+E344,"distributed package not available, skipping tests"
+E345,Multiprocessing spawn is not compatible with <*>
+E346,Skip <*> as <*> + <*> have known issues
+E347,"c10d NCCL not available or not enough GPUs, skipping tests"
+E348,Invalid backend <*>. Tests will not be run!
+E349,"torch.distributed not available, skipping tests"
+E350,Accuracy: <*> Tracker Max:<*> CUDA Max:<*>
+E351,tests incompatible with tsan or asan
+E352,Pass: <*> First Iteration: <*> Strategy: <*> iteration in `no_sync()`: <*> of all-gathers: <*>
+E353,Distributed env vars set by agent: <*>
+E354,"Gradient test failed for <*>: tensor([<*>, <*>]) vs tensor([<*>, <*>])"
+E355,equivalence test passed <*> ref <*>
+E356,Gradient test failed for <*>: <*> vs <*>
+E357,"Parameter test failed for <*>: [<*>, <*>, <*>] vs [<*>, <*>, <*>]"
+E358,Equivalence test passed <*> ref <*>
+E359,"failed to run BW: <*>, <*>, AttributeError('module has no attribute')"
+E360,"failed to run BW: <*>, <function <*> at <*>, TypeError('<*>')"
+E361,"failed to run BW: <*>, <function <*> at <*>, <*>('<*> for int() with base <*>: ""<*>""')"
+E362,"failed to run BW: <*>, <function <*> at <*>, <*>('<*>')"
+E363,Overridable public outplace ops we care about: <*>
+E364,OpInfo-tested overridable public outplace ops: <*>
+E365,Perf Test for <*> (<*>):
+E366,very small ref error of <*>
+E367,"Config: float8_dtype=<*>, shape=<*>, keepdim=<*>. Benchmark results: Inductor: <*>, Eager: <*>, LN only Inductor: <*>."
+E368,Failed when running output code [Errno <*>] <*>: '<*>'
+E369,Failed when running output code Command <*> returned non-zero exit status <*>.
+E370,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_script.py' returned non-zero exit status <*>.
+E371,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_code.py' returned non-zero exit status <*>.
+E372,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'run_triton.py' returned non-zero exit status <*>.
+E373,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_example.py' returned non-zero exit status <*>.
+E374,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_test.py' returned non-zero exit status <*>.
+E375,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_run.py' returned non-zero exit status <*>.
+E376,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_execute.py' returned non-zero exit status <*>.
+E377,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_script_v2.py' returned non-zero exit status <*>.
+E378,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_code_v2.py' returned non-zero exit status <*>.
+E379,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'run_triton_v2.py' returned non-zero exit status <*>.
+E380,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_example_v2.py' returned non-zero exit status <*>.
+E381,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_test_v2.py' returned non-zero exit status <*>.
+E382,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_run_v2.py' returned non-zero exit status <*>.
+E383,Failed when runinng triton code with TORCHINDUCTOR_DUMP_LAUNCH_PARAMS=<*> Command 'triton_execute_v2.py' returned non-zero exit status <*>.
+E384,"Expected sum <*>, actual sum <*>"
+E385,Latency for good shape v.s. bad shape: <*> v.s. <*>
+E386,Latency with <*> and <*> shape: <*> v.s. <*>
+E387,Latency with and without padding: <*> v.s. <*>
+E388,MxKxN <*> naive_mm: <*>
+E389,MxKxN <*> optimized_mm: <*>
+E390,MxKxN <*> fast_mm: <*>
+E391,MxKxN <*> parallel_mm: <*>
+E392,MxKxN <*> vectorized_mm: <*>
+E393,MxKxN <*> gpu_mm: <*>
+E394,MxKxN <*> mixed_mm: <*>
+E395,MxKxN <*> hybrid_mm: <*>
+E396,MxKxN <*> sparse_mm: <*>
+E397,MxKxN <*> dense_mm: <*>
+E398,MxKxN <*> small_mm: <*>
+E399,MxKxN <*> large_mm: <*>
+E400,MxKxN <*> tiled_mm: <*>
+E401,MxKxN <*> fused_mm: <*>
+E402,Latency between origional matmul and padded matmul: <*> v.s. <*>
+E403,Latency with <*> and <*> shapes: <*> v.s. <*>
+E404,Latency between eager and compiled: <*> v.s. <*>
+E405,"Trace written to <*>, set debug=<*> to retain file."
+E406,monkeytype is not installed. Skipping tests for <*>
+E407,OK: completed saving modules with hooks!
+E408,"Incorrect results. expected <*>, actual <*>"
+E409,"Incorrect updated arguments. expected <*>, actual <*>"
+E410,"This script generate models for mobile test. For each model we have a <*> version\nand an <*> version. The <*> version will be generated during test,and\nshould not be committed to the repo.\nThe <*> version is for back compatibility # test (a model generated today should\nrun on master branch in the next <*>). We can use this script to update a model that\nis no longer supported.\n- use 'python gen_test_model.py <*>' to generate on-the-fly models for <*>- use 'python gen_test_model.py <*>' to generate on-the-fly models for <*>- use 'python gen_test_model.py <*>' to generate checked-in models for <*>- use 'python gen_test_model.py <*>' to generate on-the-fly models for <*>- use 'python gen_test_model.py <model_name_no_suffix>' to update the given storage model"
+E411,These tests should be run through test/test_optim.py instead
+E412,"Model <*> Evaluation accuracy on test dataset: <*>, <*>"
+E413,"Eager mode quantized model evaluation accuracy on test dataset: <*>, <*>"
+E414,ERROR: Validation for QConfig <*> failed
+E415,/* Auto-generated by <*> script. Do not modify */
+E416,"Warning: <*> toolchain will be used, but <*> linker is recommended to avoid <*> linker error!"
+E417,"Warning: Please consider upgrading to <*>, where x64 emulation is enabled!"
+E418,Skipping gcc -c main.c -o main.o -frecord-sources -gline-tables-only as it does not specify output file
+E419,Skipping clang -c test.c -frecord-sources -gline-tables-only as it does not specify output file
+E420,Skipping g++ -c source.cpp -std=c+<*> -frecord-sources -gline-tables-only as it does not specify output file
+E421,Skipping cc -c <*> as it does not specify output file
+E422,Skipping icc -c example.c -O2 -frecord-sources -gline-tables-only as it does not specify output file
+E423,Skipping msvc -c <*> -o <*> -frecord-sources -gline-tables-only as it does not specify output file
+E424,Skipping cl /c <*> -frecord-sources -gline-tables-only as it does not specify output file
+E425,Skipping gcc -c module.c -I include -frecord-sources -gline-tables-only as it does not specify output file
+E426,Skipping g++ -c <*> -I include -std=c+<*> -frecord-sources -gline-tables-only as it does not specify output file
+E427,Skipping clang -c function.c -o <*> -frecord-sources -gline-tables-only as it does not specify output file
+E428,Skipping icc -c algorithm.c -o <*> as it does not specify output file
+E429,"Not a devel setup of PyTorch, please run `python3 setup.py develop --user` first"
+E430,Only <*> build system is supported at the moment
+E431,"More than <*> items needs to be rebuild, run `ninja torch_python` first"
+E432,Failed to download (trying next):\nURLError: <urlopen error [Errno <*>] <*>
+E433,"Failed to download (trying next):<*>: HTTPConnectionPool(host='<*>', port=<*>): Max retries exceeded with url: <*> (Caused by NewConnectionError('<*>: Failed to establish a new connection: [Errno <*>] Temporary failure in name resolution'))"
+E434,"Failed to download (trying next):\nConnectionError: HTTPSConnectionPool(host='<*>', port=<*>): Max retries exceeded with url: <*> (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at <*>: Failed to establish a new connection: [Errno <*>] Name or service not known'))"
+E435,"Failed to download (trying next):<*>: HTTPConnectionPool(host='<*>', port=<*>): Max retries exceeded with url: <*> (Caused by NewConnectionError('<*>: Failed to establish a new connection: [Errno <*>] <*>'))"
+E436,"Failed to download (trying next):<*>: HTTPSConnectionPool(host='<*>', port=<*>): Max retries exceeded with url: <*> (Caused by NewConnectionError('<*>: Failed to establish a new connection: [Errno <*>] <*>'))"
+E437,Downloaded <*> file(s) to <*>:
+E438,No <*> versions available on platform <*>.
+E439,TensorFlow <*> is not available on platform <*>. Available version(s): <*>
+E440,PyTorch <*> is not available on platform <*>. Available version(s): <*>
+E441,Numpy <*> is not available on platform <*>. Available version(s): <*>
+E442,Pandas <*> is not available on platform <*>. Available version(s): <*>
+E443,Scikit-learn <*> is not available on platform <*>. Available version(s): <*>
+E444,Flask <*> is not available on platform <*>. Available version(s): <*>
+E445,Matplotlib <*> is not available on platform <*>. Available version(s): <*>
+E446,Requests <*> is not available on platform <*>. Available version(s): <*>
+E447,BeautifulSoup <*> is not available on platform <*>. Available version(s): <*>
+E448,FastAPI <*> is not available on platform <*>. Available version(s): <*>
+E449,Django <*> is not available on platform <*>. Available version(s): <*>
+E450,SQLAlchemy <*> is not available on platform <*>. Available version(s): <*>
+E451,Celery <*> is not available on platform <*>. Available version(s): <*>
+E452,Redis <*> is not available on platform <*>. Available version(s): <*>
+E453,PostgreSQL <*> is not available on platform <*>. Available version(s): <*>
+E454,Error: <*> is not installed in the current Python environment.
+E455,Failed to download patch for PR #<*>
+E456,HTTP Error: <*> when downloading patch for PR #<*>
+E457,An error occurred while downloading the patch: <*> <*> out.
+E458,An error occurred while downloading the patch: <*>
+E459,No target directory specified. Using <*> installation path.
+E460,Applying patch with strip count: <*>
+E461,Error: The <*> is not installed or not found in PATH.
+E462,An error occurred while applying the patch: <*>: <*>
+E463,Error: The specified target directory <*> does not exist.
+E464,"<*> not found, for color output use 'pip install rich'"
+E465,Coverage Compilation Flags Only Apply To: \n <*>
+E466,src/main.py\n covered lines: <*> unconvered lines: <*>
+E467,src/utils/helpers.py\n covered lines: <*> unconvered lines: <*>
+E468,tests/test_main.py\n covered lines: <*> unconvered lines: <*>
+E469,src/models/model.py\n covered lines: <*> unconvered lines: <*>
+E470,src/controllers/controller.py\n covered lines: <*> unconvered lines: <*>
+E471,src/views/view.py\n covered lines: <*> unconvered lines: <*>
+E472,src/services/service.py\n covered lines: <*> unconvered lines: <*>
+E473,src/validators/validator.py\n covered lines: <*> unconvered lines: <*>
+E474,src/handlers/handler.py\n covered lines: <*> unconvered lines: <*>
+E475,src/filters/filter.py\n covered lines: <*> unconvered lines: <*>
+E476,src/middleware/middleware.py\n covered lines: <*> unconvered lines: <*>
+E477,src/routers/router.py\n covered lines: <*> unconvered lines: <*>
+E478,src/configs/config.py\n covered lines: <*> unconvered lines: <*>
+E479,src/auth/auth.py\n covered lines: <*> unconvered lines: <*>
+E480,src/logging/logger.py\n covered lines: <*> unconvered lines: <*>
+E481,"Coverage is <*>, Please check if json profiles are valid"
+E482,CUDA not available -- skipping CUDA check on PyTorch backend
+E483,CUDA not available -- skipping CUDA check on TensorFlow backend
+E484,CUDA not available -- skipping CUDA check on JAX backend
+E485,CUDA not available -- skipping CUDA check on MXNet backend
+E486,CUDA not available -- skipping CUDA check on <*> backend
+E487,WARNING: CUDA available but triton cannot be used. Your GPU may not be supported. Skipping CUDA check on <*> backend
+E488,Usage: <*>
+E489,[-] error: <*>. please add a target to lldb.
+E490,[-] error: failed to disable all breakpoints.
+E491,[-] error: failed to enable all breakpoints.
+E492,Pretty Printing lldb summary for <*> types has been installed and is ready for use. This category is enabled by default. To disable run: `type category disable <*>
+E493,Please set it to one of the following values:
+E494,"When you specify `CMAKE_GENERATOR_TOOLSET_VERSION`, you must also activate the vs environment of this version. Please read the notes in the build steps carefully."
+E495,The following <*> are still flaky:
+E496,Exporting test times from test-infra
+E497,Could not download <*> because: <*>
+E498,"All retries exhausted, downloading <*> failed."
+E499,"Couldn't download test skip set, leaving all tests enabled..."
+E500,"collected data: <*>, errors found: <*>"
+E501,Failed to get job name for job id <*>: <*>
+E502,Failed to match job name: <*>
+E503,Time taken to group tests: <*>
+E504,Test report <*> has an invalid name. Skipping
+E505,Unable to import <*>. Will not be emitting metrics.... Reason: <*>
+E506,Not emitting metrics for <*>. <*> wasn't imported.
+E507,"Skipping <*> as it is an invalid run attempt. Expected <*>, found <*>."
+E508,"::warning title=<*>::Didn't find any test reports in s3, there might be a bug!"
+E509,Writing <*> documents to DynamoDB <*>
+E510,Done! Finish writing document to S3 <*>
+E511,"[Db Segments] detected pytest cmd: <*>, generated segments: <*>"
+E512,"[Log Model] Failed to process test log, metadata is <*>"
+E513,"[Log Model] Failed to process test log, <*>"
+E514,[dry-run-mode]: no upload in dry run mode
+E515,Failed to download artifacts for workflow <*> and job <*>
+E516,"Found more than one artifact for workflow <*> and job <*>, <*>"
+E517,Failed to parse JSON line: <*> at: line <*> column <*> (char <*>)
+E518,Failed to parse JSON line: <*>: line <*> column <*> (char <*>)
+E519,Expected at least <*> records from log file
+E520,:: warning Failed to parse metadata: <*> for data: <*>
+E521,:: warning Data model version mismatch: <*> != <*>
+E522,::warning trying to download test log <*> failed by: FileNotFoundError: [Errno <*>] <*>: '<*>'
+E523,::warning trying to download test log <*> failed by: zipfile.BadZipFile: File is not a zip file
+E524,::warning trying to download test log <*> failed by: PermissionError: [Errno <*>] Permission denied: '<*>'
+E525,::warning trying to download test log <*> failed by: KeyError: '<*>'
+E526,::warning trying to download <*> <*> failed by: <*>: '<*>'
+E527,"Can't import required modules, exiting"
+E528,"pr does exist, number is <*>, branch name is <*>, link is <*>"
+E529,Can't get commit info due to <*>: <*> was not found; please install it and try again.
+E530,Can't get commit info due to <*>: [Errno <*>] <*>: '<*>'
+E531,Can't get commit info due to <*>: <*>
+E532,Can't get PR body due to <*>: <*>
+E533,Uploading profile stats (fb-only otherwise no-op)
+E534,Fakeifying a Tensor subclass is not supported right now. Instead a <*> is used.
+E535,"Strategy: <*> (<*>: <*>) (<*> nodes, <*> inputs)"
+E536,SUCCESS: Went from <*> to <*> nodes
+E537,SUCCESS: Went from <*> to <*> inputs
+E538,SUCCESS: Went from <*> to <*> outputs
+E539,"WARNING: <*>, not applying this minification"
+E540,Wrote minimal repro out to <*>
+E541,Disabling NetworkSubsystem did not fix the issue.
+E542,Disabling StorageSubsystem did not fix the issue.
+E543,Disabling DatabaseSubsystem did not fix the issue.
+E544,Disabling SecuritySubsystem did not fix the issue.
+E545,Disabling LoggingSubsystem did not fix the issue.
+E546,Disabling AuthenticationSubsystem did not fix the issue.
+E547,Disabling MonitoringSubsystem did not fix the issue.
+E548,Disabling CachingSubsystem did not fix the issue.
+E549,Disabling NotificationSubsystem did not fix the issue.
+E550,Disabling UIComponent did not fix the issue.
+E551,Disabling APIGateway did not fix the issue.
+E552,Disabling LoadBalancer did not fix the issue.
+E553,Disabling ComputeNode did not fix the issue.
+E554,Disabling DataProcessor did not fix the issue.
+E555,Moving to the next subsystem: <*> - <*>
+E556,All subsystems in <*> have been checked. The issue is not in this system.
+E557,Moving to the next system: <*>
+E558,Setting config database field <*> to <*> fixed the issue
+E559,Setting config network field timeout to <*> fixed the issue
+E560,Setting config security field enable_ssl to <*> fixed the issue
+E561,Setting config logging field log_level to <*> fixed the issue
+E562,Setting config user_auth field <*> to <*> fixed the issue
+E563,Setting config cache field ttl to <*> fixed the issue
+E564,Setting config storage field <*> to <*> fixed the issue
+E565,Setting config email field <*> to <*> fixed the issue
+E566,Setting config session field <*> to <*> fixed the issue
+E567,Setting config api field rate_limit to <*> fixed the issue
+E568,Setting config monitoring field alert_threshold to <*> fixed the issue
+E569,Setting config backup field interval to <*> fixed the issue
+E570,Setting config ui field theme to <*> fixed the issue
+E571,Setting config notification field enabled to <*> fixed the issue
+E572,Setting config localization field default_language to <*> fixed the issue
+E573,Starting bisect by <*> upper bound.
+E574,Upper bound of <*> found for <*>.
+E575,Starting bisection process with system: <*>
+E576,"The issue is in the <*> system, but could not identify subsystem."
+E577,The issue is in the <*> system. Moving to the <*> subsystem: <*>
+E578,The issue is in the <*> system.
+E579,"Invalid command. Must be 'good', 'bad', 'start', or 'end'."
+E580,Starting <*>-tuple testing with seed <*>
+E581,"Starting random testing with bisection, seed <*>, and p <*>"
+E582,No kernel with benchmark functionality found. Make sure you run inductor with config.benchmark_kernel being True
+E583,Percent of time when <*> is busy: <*>%
+E584,Profiling result for a compiled module of benchmark <*>:
+E585,Chrome trace for the profile is written to <*>
+E586,NCU profiling results for benchmark <*>:
+E587,NCU report has been written to <*>
+E588,NCU profiling failed with error: Command <*> returned non-zero exit status <*>.
+E589,NCU profiling failed with error: [Errno <*>] <*>: '<*>'
+E590,<*> profiling failed with error: <*> (os error <*>)
+E591,NCU profiling failed with error: Timeout expired (timeout: <*> seconds)
+E592,NCU profiling failed with error: A required library is missing: <*>
+E593,NCU profiling failed with error: The NCU command line is not valid: <*>
+E594,NCU profiling failed with error: <*>
+E595,The collect memory snapshot has been written to <*>
+E596,Peak GPU memory usage <*> MB
+E597,tensor ids from device data: <*>
+E598,"<*> relies on the library <*>, which could not be found on this machine. Run <*> to install the library.``"
+E599,Adjusting learning_rate for group <*> to <*>
+E600,Adjusting momentum for group <*> to <*>
+E601,Adjusting weight_decay for group <*> to <*>
+E602,Adjusting dropout for group <*> to <*>
+E603,Adjusting batch_size for <*> data_loader to <*>
+E604,Adjusting num_epochs for <*> to <*>
+E605,Adjusting batch_size for <*> to <*>
+E606,"Running for sparse block shapes - [<*>, <*>]"
+E607,Step Time for <*>=<*> s
+E608,Saved sparsified metadata file in <*>
+E609,Model metrics file saved to <*>
+E610,Adjusting sparsity level of group <*> to <*>
+E611,Epoch <*>: adjusting sparsity level of group <*> to <*>
+E612,Kick start adaptive rounding on <*> module <*>
+E613,soft quant loss: <*> hard quant loss: <*>
+E614,"Didn't find dtype combination (<*>, <*>) during dynamic quantized op lowering for <*>"
+E615,"Didn't find corresponding quantized function or quantized relu function for <*>, int8"
+E616,"Didn't find corresponding quantized function or quantized relu function for <*>, <*>"
+E617,Make sure to install <*> and try again.
+E618,make sure to install <*> and try again.
+E619,Saving CoreML .mlmodel file to <*>
+E620,"last good: <*>, first bad: <*>"
+E621,The number of cuda retries are: <*>
+E622,Top <*> ops that generates memory are:
+E623,model.core.forward fw: <*> bw: <*>
+E624,network.layer1 fw: <*> bw: <*>
+E625,network.layer2 fw: <*> bw: <*>
+E626,data.preprocessing fw: <*> bw: <*>
+E627,optimizer.update fw: <*> bw: <*>
+E628,loss.function fw: <*> bw: <*>
+E629,metrics.calculation fw: <*> bw: <*>
+E630,validation.check fw: <*> bw: <*>
+E631,training.loop fw: <*> bw: <*>
+E632,inference.run fw: <*> bw: <*>
+E633,manual.adjustment fw: <*> bw: <*>
+E634,manual.tuning fw: <*> bw: <*>
+E635,manual.optimization fw: <*> bw: <*>
+E636,manual.debugging fw: <*> bw: <*>
+E637,manual.testing fw: <*> bw: <*>
+E638,Total Memory: <*> B Total Runtime: <*> ms Store Random: <*>
+E639,AC Trade-off for Module: <*> MSPS = <*>
+E640,PyTorch Distributed Benchmark (DDP and RPC)
+E641,Converting checkpoint from <*> to <*> using method: '<*>'
+E642,Running an example of Async Checkpointing on <*> devices.
+E643,Running <*> example on <*> devices.
+E644,"The new attribute <*> of RemoteModule is ignored during RPC pickling. To pickle this attribute, please add it to ``_REMOTE_MODULE_PICKLED_ATTRIBUTES``. Otherwise, please explicitly add it to ``_REMOTE_MODULE_ATTRIBUTES_IGNORE_FOR_PICKLING``."
+E645,"rank <*>, <*> iterations, average latency <*> ms"
+E646,"rank <*>, forward <*> ms, backward <*> ms"
+E647,"rank <*>, max reserved <*>, max allocated <*>"
+E648,example for <*> does not exist!
+E649,Adapting flat arg to match exported module's treespec
+E650,Can't find previous stored outputs named <*>!
+E651,'Find All' mode is not supported in <*> traversal.
+E652,Eliminating <*> subgraph because it's smaller than the threshold: <*> < <*>
+E653,Got <*> acc subgraphs and <*> non-acc subgraphs
+E654,[torch.onnx] Falling back to legacy torch.onnx.export due to the following error: ValueError: Input tensor must be of type <*>.
+E655,[torch.onnx] Falling back to legacy torch.onnx.export due to the following error: <*>
+E656,export_memory_timeline_html failed because <*> was not found.
+E657,Execution Trace: compressing <*> to <*>
+E658,initial_parameters=<*> lead to failure: division by zero. Optimization failed!
+E659,initial_parameters=<*> lead to failure: key error. Optimization failed!
+E660,<*>=<*> lead to failure: value out of range. Optimization failed!
+E661,<*> lead to failure: <*>. Optimization failed!
+E662,initial_parameters=<*> lead to failure: <*>. Using reference parameters instead of initial parameters.
+E663,Using <*> parameters instead of <*> parameters.
+E664,next_parameters=<*> lead to failure: Division by zero. Skipping.
+E665,next_parameters=<*> lead to failure: <*>. Skipping.
+E666,speedup_incr=<*> is negative. Rerunning minimize with reference parameters as initial parameters.
+E667,meta=<*> speedup=<*> timing=<*>
+E668,"M, K, N, (BM, BK)=(<*>, <*>, <*>, (<*>, <*>))"
+E669,Suppressing fatal exception to trigger unexpected success
+E670,TorchScript backend not yet supported in <*> builds
+E671,Failed to instantiate TestAddition for op <*>!
+E672,Failed to instantiate TestSubtraction for op <*>!
+E673,Failed to instantiate TestMultiplication for op <*>!
+E674,Failed to instantiate TestDivision for op <*>!
+E675,Failed to instantiate TestStringConcat for op <*>!
+E676,Failed to instantiate <*> for op <*>!
+E677,"Process <*> terminated with exit code <*>, terminating remaining processes."
+E678,Timing out after <*> seconds and killing subprocesses.
+E679,"dist init r=<*>, world=<*>"
+E680,Failed to instantiate test_add for module <*>!
+E681,Failed to instantiate <*> for module <*>!
+E682,"Got exit code <*>, retrying (retries left=<*>)"
+E683,"Command took <*>, retrying (retries left=<*>)"
+E684,Test exited with non-zero exitcode <*>. Command to reproduce: <*>
+E685,Test results will be stored in <*>/test_results.xml
+E686,Test results will be stored in <*>
+E687,"Test <*> is disabled for some unrecognized platforms: <*>. Please edit issue <*> to fix the platforms assigned to this flaky test, changing ""Platforms: ..."" to a comma separated subset of the following (or leave it blank to match all platforms): <*>"
+E688,TEST SUITE EARLY TERMINATION due to <*> failure
+E689,Skipping <*> on <*> for following reason: <*>
+E690,"No process group initialized, using temp directory: <*>"
+E691,Skipping test <*> on <*> for the following reason: <*>
+E692,Rank <*> finished testing <*> times in <*> seconds.
+E693,Solved! Running reward is now <*>!
+E694,"No CUDA runtime is found, using CUDA_HOME='<*>'"
+E695,"No ROCm runtime is found, using ROCM_HOME='<*>'"
+E696,"Trying to find <*> from <*> package, but it is not installed."
+E697,"No modifications detected for re-loaded extension module <*>, skipping build step..."
+E698,Using <*> as PyTorch extensions root...
+E699,Using envvar <*> (<*>) as the number of workers...
+E700,Allowing ninja to set a default number of workers... (overridable by setting the environment variable MAX_JOBS=<*>)
+E701,Testing that <*> can be activated:
+E702,Average attempts per valid config: <*>
+E703,Completed <*> benchmark on <*> (<*> of <*>)
+E704,Detected that <*> was orphaned in shared memory. Cleaning up.
+E705,"<*> is not installed, please pip install <*> to use this utility"
+E706,we will enable it automatically by setting `torch.set_float32_matmul_precision(<*>)`
+E707,Failed to compile PyTorch with mode <*>
+E708,Failed to compile TensorFlow with mode <*>
+E709,Failed to compile ONNX with mode <*>
+E710,Failed to compile Caffe with mode <*>
+E711,Failed to compile Keras with mode <*>
+E712,Failed to compile MXNet with mode <*>
+E713,Failed to compile TFLite with mode <*>
+E714,Failed to compile OpenVINO with mode <*>
+E715,Failed to compile TorchScript with mode <*>
+E716,Failed to compile Darknet with mode <*>
+E717,Callgrind bindings are not present in <*>. JIT-ing bindings.
+E718,Running your script with the autograd profiler...
+E719,Total number of unsupported CUDA function calls: <*>
+E720,Total number of replaced kernel launches: <*>
+E721,The project folder specified does not exist.
+E722,"moviepy is installed, but can't import moviepy.editor. Some packages could be missing [<*>, <*>]"
+E723,"warning: audio amplitude out of range, auto clipped."
+E724,"warning: Embedding dir exists, did you set global_step for add_embedding()?"
+E725,Error: <*> does not have enough lines for metadata.
+E726,Error writing to output file <*>: [Errno <*>] <*>: '<*>'
+E727,An error occurred executing <*>: Command <*> returned non-zero exit status <*>.
+E728,new best model with <*> correct and <*> wrong
+E729,"All learned models have too many wrong predictions, so no heuristic was generated"
+E730,"m: <*>, k: <*>, n: <*>, transpose_left: <*>, transpose_right: <*>, dtype: <*>"
+E731,m=<*> k=<*> n=<*> dtype=<*>
+E732,grouped native ops with out variant: <*>
+E733,generated functions groups with out variant: <*>
+E734,"No env var found for <*>, you must be running this code locally. Falling back to the deprecated <*> method."
+E735,"Invalid experiment name: <*>. Experiment names should only contain alphanumeric characters, '_', and '-'. They cannot contain spaces, and the special characters '_' and '-' cannot be the first or last characters."
+E736,Unexpected setting in experiment: max_attempts = <*>
+E737,Unexpected setting in experiment: timeout = <*>
+E738,Unexpected setting in experiment: debug_mode = <*>
+E739,Unexpected setting in experiment: log_level = <*>
+E740,Unexpected setting in experiment: retry_interval = <*>
+E741,Unexpected setting in experiment: data_source = <*>
+E742,Unexpected setting in experiment: user_id = <*>
+E743,Unexpected setting in experiment: api_key = <*>
+E744,Unexpected setting in experiment: environment = <*>
+E745,Unexpected setting in experiment: batch_size = <*>
+E746,Unexpected setting in experiment: cache_enabled = <*>
+E747,Unexpected setting in experiment: encryption = <*>
+E748,Unexpected setting in experiment: compression = <*>
+E749,Unexpected setting in experiment: notification_email = <*>
+E750,Unexpected setting in experiment: validation_level = <*>
+E751,"User <*> is opted into experiment <*>, but also opted out of it. Defaulting to opting out"
+E752,Branch <*> is an exception branch. Not enabling experiment <*>.
+E753,"Skipping experiment '<*>', as it is not in the eligible_experiments list: <*>"
+E754,"Skipping experiment '<*>', as it is not a default experiment"
+E755,"<*>, <*> have opted out of experiment <*>."
+E756,<*> have opted into experiment <*>.
+E757,"Based on rollout percentage of <*>%, enabling experiment <*> <*>."
+E758,"Only a fleet and one other experiment can be enabled for a job at any time. Enabling <*> and ignoring the rest, which are <*>, <*>, <*>"
+E759,Could not download <*>: HTTP Error <*>: <*>
+E760,Could not download <*>: Timeout Error
+E761,Could not download <*>: Connection Reset by Peer
+E762,Could not download <*>: SSL Certificate Verify Failed
+E763,Could not download <*>: Bad Status Line
+E764,Could not download <*>: Invalid URL
+E765,Could not download <*>: Remote End Closed Connection Without Response
+E766,Could not download <*>: Too Many Redirects
+E767,Could not download <*>: Hostname Resolution Failed
+E768,Could not download <*>: <*>
+E769,"All <*> retries exhausted, downloading <*> failed"
+E770,Failed to get the labels for #<*>
+E771,Opt-out runner determinator because <*> has opt-out label
+E772,Opt-out runner determinator because <*> has skip-runner label
+E773,Opt-out runner determinator because <*> has no-run label
+E774,Opt-out runner determinator because <*> has exclude-runner label
+E775,Opt-out runner determinator because <*> has do-not-run label
+E776,Opt-out runner determinator because <*> has runner-exclude label
+E777,Opt-out runner determinator because <*> has no-execution label
+E778,Opt-out runner determinator because <*> has opt-out-runner label
+E779,Opt-out runner determinator because <*> has skip-execution label
+E780,Opt-out runner determinator because <*> has <*> label
+E781,Failed to get issue. Defaulting to <*> and no <*>. Exception: <*>: Invalid input provided.
+E782,Failed to get issue. Defaulting to Meta runners and no experiments. Exception: KeyError: <*> not found in data.
+E783,Failed to get issue. Defaulting to <*> and no experiments. Exception: <*>
+E784,"Trying to call the empty_gpu_cache for device: <*>, which is not in list [<*>, <*>]"
+E785,Could not find batch size for <*>
+E786,"Failed to save memory snapshot, FileNotFoundError: [Errno <*>] No such file or directory: <*>"
+E787,"Failed to save memory snapshot, <*>: [Errno <*>] <*>: '<*>'"
+E788,"Failed to save memory snapshot, ValueError: invalid literal for int() with base <*>: '<*>'"
+E789,"Failed to save memory snapshot, TypeError: expected str, bytes or os.PathLike object, not <*>"
+E790,"Failed to save memory snapshot, <*>: Unable to allocate memory for the snapshot"
+E791,"Failed to save memory snapshot, <*>"
+E792,"Model <*> does not support <*>, running with <*> instead"
+E793,<*> golden ref were not generated for <*>. Setting accuracy check to <*>
+E794,<*> GPU failed in <*>()
+E795,Backend <*> failed in <*>()
+E796,Could not find repro script for model <*>
+E797,Repro script for model <*> with minified graph saved to <*>
+E798,The use <*> flag is set but there are <= <*> devices available.
+E799,<*> is unsupported as it requires sharding the embedding layer separately from DDP
+E800,"torch.cuda.is_available() == <*>, using CPU"
+E801,disabling inductor cudagraphs for compatibility with <*>
+E802,Sequence Length not defined for BERT. Choosing <*> arbitrarily
+E803,Sequence Length not defined for <*>. Choosing <*> arbitrarily
+E804,Batch size not specified for <*>. Setting batch_size=<*>
+E805,"Running smaller batch size=<*> for <*>, orig batch_size=<*>"
+E806,Failed to find suitable batch size for <*>
+E807,"Embedding inputs <*>, input data cannot be randomized"
+E808,Evaluating an op name into an OpOverload: <*>
+E809,"Note:\n- <*> includes the data loading time, training time and testing time.\n- <*> measures the training time only."
+E810,Running <*> allreduce only on rank <*>
+E811,Waiting for allreduce to complete...
+E812,dynamic sparse qlinear is only available in <*>
+E813,static sparse qlinear is only available in fbgemm
+E814,Main process launched: start(*[<*>])
+E815,Main process launched: stop(*[<*>])
+E816,Main process launched: update(*[<*>])
+E817,Main process launched: configure(*[<*>])
+E818,Main process launched: initialize(*[<*>])
+E819,Main process launched: finalize(*[<*>])
+E820,Main process launched: restart(*[<*>])
+E821,Main process launched: reset(*[<*>])
+E822,Main process launched: sync(<*>)
+E823,Main process launched: backup(*[<*>])
+E824,Main process launched: restore(*[<*>])
+E825,Main process launched: check(*[<*>])
+E826,Main process launched: validate(*[<*>])
+E827,Main process launched: test(*[<*>])
+E828,Main process result for <*> received: <*>
+E829,call logger <*> to avoid error
+E830,"schema: <*> found on allowlist, skipping"
+E831,"schema: <*> found on allowlist, but is a core ATen op, checking BC. NOTE: If you have removed an operator we will conservatively assume that it is a core ATen op. If the operator you removed is not a core ATen op, please specify that in the ALLOW_LIST entry (see comment block on top of ALLOW_LIST more info)"
+E832,"schema: torch.nn.Module has valid upgrader, skipping"
+E833,"schema: torch.optim.Adam has valid upgrader, skipping"
+E834,"schema: torch.utils.data.DataLoader has valid upgrader, skipping"
+E835,"schema: torch.Tensor has valid upgrader, skipping"
+E836,"schema: torch.nn.Conv2d has valid upgrader, skipping"
+E837,"schema: torch.nn.ReLU has valid upgrader, skipping"
+E838,"schema: torch.nn.BatchNorm2d has valid upgrader, skipping"
+E839,"schema: torch.nn.Linear has valid upgrader, skipping"
+E840,"schema: torch.nn.Dropout has valid upgrader, skipping"
+E841,"schema: torch.nn.MaxPool2d has valid upgrader, skipping"
+E842,"schema: torch.nn.Sigmoid has valid upgrader, skipping"
+E843,"schema: torch.nn.LSTM has valid upgrader, skipping"
+E844,"schema: torch.nn.GRU has valid upgrader, skipping"
+E845,"schema: torch.nn.Embedding has valid upgrader, skipping"
+E846,"schema: <*> has a valid upgrader, but is a core ATen op, checking BC"
+E847,Found backward compatible schemas for all existing schemas
+E848,Found forward compatible schemas for all existing schemas
+E849,"The PR is introducing a potentially forward incompatible changes to the operator library. Please contact PyTorch team to confirm whether this change is wanted or not. \n\nBroken ops: [<*>, <*>, <*>]"
+E850,Not parsing schema line: <*>
+E851,The module <*> is not a torch.nn.module instance. Please ensure it's a subclass of torch.nn.module in fixtures_src.py and it's registered as an instance in ALL_MODULES in generated_models.py
+E852,"Model <*> already exists, skipping"
+E853,Actual model version <*> is equal or larger than <*> + <*>. Please run the script before the commit to change operator.
+E854,Generating model <*> and it's save to <*>
+E855,(<*>) Retrying because command failed with: TimeoutExpired(timeout=<*>)
+E856,"(<*>) Retrying because command failed with: CalledProcessError(returncode=<*>, cmd='<*>')"
+E857,"(<*>) Retrying because command failed with: FileNotFoundError(<*>, '<*>')"
+E858,"(<*>) Retrying because command failed with: <*>(<*>, '<*>')"
+E859,(<*>) Retrying because command failed with: '<*>: Command <*> timed out after <*> seconds'
+E860,(<*>) Retrying because command failed with: '<*>: <*> with <*> timed out after <*> seconds'
+E861,(<*>) Retrying because command failed with: '<*>: <*>'
+E862,"In dry run mode, so not actually deleting the binary. But consider deleting it ASAP!"
+E863,Failed to delete binary: <*>
+E864,Delete this binary as soon as possible and do not execute it!
+E865,Correct binary already exists at <*>. Exiting.
+E866,Exiting as there is nothing left to do in <*> mode
+E867,Downloaded binary <*> failed its hash check
+E868,Using <*> located at <*>
+E869,"Uploading file <*> to s3 bucket: <*>, object name: <*>"
+E870,Computed new hash for binary <*>
+E871,Creating virtual environment (Python <*>) at <*>
+E872,"dest is <*> while multiple python versions specified, output will be overwritten"
+E873,Build time (<*>): <*>
+E874,"Requirements not installed, run the following command to install: <*>"
+E875,Running python setup.py bdist_wheel for <*> wheel
+E876,Running python setup.py build for <*> wheel
+E877,Running python setup.py sdist for <*> wheel
+E878,Running python setup.py install for <*> wheel
+E879,Running python setup.py clean for <*> wheel
+E880,Running python setup.py test for <*> wheel
+E881,Running python setup.py check for <*> wheel
+E882,Running python setup.py develop for <*> wheel
+E883,Running python setup.py bdist_egg for <*> wheel
+E884,Running python setup.py bdist for <*> wheel
+E885,Running python setup.py bdist_wininst for <*> wheel
+E886,Running python setup.py bdist_rpm for <*> wheel
+E887,Running python setup.py bdist_dumb for <*> wheel
+E888,Running python setup.py bdist_zipapp for <*> wheel
+E889,Running python setup.py bdist_msi for <*> wheel
+E890,Running build for <*> wheel
+E891,Running install for <*> wheel
+E892,Running sdist for <*> wheel
+E893,Running bdist_wheel for <*> wheel
+E894,Running test for <*> <*>
+E895,Running setup.py for <*> wheel
+E896,Running pip install for <*> <*>
+E897,Running python -m build for <*> wheel
+E898,Running python -m twine upload for <*> wheel
+E899,Running python -m pip install --upgrade for <*> <*>
+E900,Running python -m pip install --user for <*> <*>
+E901,Running python -m pip install --no-deps for <*> <*>
+E902,Running python -m pip install --force-reinstall for <*> <*>
+E903,Running python -m pip install --ignore-installed for <*> <*>
+E904,Running python -m pip install --no-cache-dir for <*> <*>
+E905,Exception in callback for <*> registered with <*> <*>
+E906,"TORCH_COMPILE_STROBELIGHT is <*>, but seems like you are not on a <*> machine."
+E907,Strobelight profiler is enabled via <*>
+E908,skipping because no torch.* forward <*> /home/user/project/model.py <*>
+E909,skipping because no torch.* backward <*> <*> <*>
+E910,skipping because no torch.* predict <*> <*> <*>
+E911,skipping because no torch.* evaluate <*>
+E912,skipping because no torch.* load_data <*>
+E913,skipping because no torch.* save_model <*>
+E914,skipping because no torch.* preprocess <*> <*>
+E915,skipping because no torch.* postprocess <*> <*>
+E916,skipping because no torch.* train <*>
+E917,skipping because no torch.* validate <*> <*>
+E918,skipping because no torch.* test <*> <*>
+E919,skipping because no torch.* main <*> <*>
+E920,skipping because no torch.* initialize <*> <*>
+E921,skipping because no torch.* finalize <*> <*>
+E922,### Cprofile for calculate_metrics trace id [<*>] took <*> seconds ###
+E923,### Cprofile for process_data trace id [<*>] took <*> seconds ###
+E924,### Cprofile for generate_report trace id [<*>] took <*> seconds ###
+E925,### Cprofile for update_database trace id [<*>] took <*> seconds ###
+E926,### Cprofile for send_email trace id [<*>] took <*> seconds ###
+E927,### Cprofile for fetch_data trace id [<*>] took <*> seconds ###
+E928,### Cprofile for validate_input trace id [<*>] took <*> seconds ###
+E929,### Cprofile for save_file trace id [<*>] took <*> seconds ###
+E930,### Cprofile for load_config trace id [<*>] took <*> seconds ###
+E931,### Cprofile for authenticate_user trace id [<*>] took <*> seconds ###
+E932,### Cprofile for parse_log trace id [<*>] took <*> seconds ###
+E933,### Cprofile for compress_data trace id [<*>] took <*> seconds ###
+E934,### Cprofile for decompress_data trace id [<*>] took <*> seconds ###
+E935,### Cprofile for encrypt_data trace id [<*>] took <*> seconds ###
+E936,### Cprofile for decrypt_data trace id [<*>] took <*> seconds ###
+E937,Generated SVG from profile at <*>
+E938,Failed to generate SVG from profile -- dumping stats instead. Try installing gprof2dot and dot for a better visualization
+E939,Restarting analysis due to TypeError: unsupported operand type(s) for +: 'int' and 'str'
+E940,Restarting analysis due to ValueError: invalid literal for int() with base <*>: '<*>'
+E941,Restarting analysis due to KeyError: <*>
+E942,Restarting analysis due to IndexError: list index out of range
+E943,Restarting analysis due to AttributeError: <*> object has no attribute '<*>'
+E944,Restarting analysis due to NameError: name <*> is not defined
+E945,Restarting analysis due to <*>: <*>
+E946,No graph captured with one_graph=<*>
+E947,"torch._dynamo hit config.max_recompiles (<*>)\n function: <*> (<*>)\n last reason: <*> log all recompilation reasons, use TORCH_LOGS=""<*>"".\nTo diagnose recompilation issues, see <*>."
+E948,"torch._dynamo hit config.max_graph_size (<*>)\n function: <*> (<*>)\n last reason: <*> log all recompilation reasons, use TORCH_LOGS=""<*>"".\nTo diagnose recompilation issues, see <*>."
+E949,"skipping: forward (reason: <*> torch dispatch mode present, this is not supported today in torch.compile, file: <*>)"
+E950,"skipping: backward (reason: <*> torch dispatch mode present, this is not supported today in torch.compile, file: <*>)"
+E951,"skipping: update (reason: <*>, file: <*>)"
+E952,"skipping: predict (reason: <*> torch dispatch mode present, this is not supported today in torch.compile, file: <*>)"
+E953,"skipping: train (reason: <*>, file: <*>)"
+E954,"skipping: evaluate (reason: <*> torch dispatch mode present, this is not supported today in torch.compile, file: <*>)"
+E955,"skipping: initialize (reason: <*>, file: <*>)"
+E956,"skipping: <*> (reason: non-infra torch dispatch mode present, this is not supported today in torch.compile, file: <*>)"
+E957,"skipping: preprocess (reason: <*>, file: <*>)"
+E958,"skipping: <*> (reason: dynamo tracing is disabled, file: <*>)"
+E959,Found an example that reproduces the error. Run this cmd to repro - buck build <*>
+E960,Found an example that reproduces the error. Run this cmd to repro - buck test <*>
+E961,Found an example that reproduces the error. Run this cmd to repro - buck run //<*>
+E962,Found an example that reproduces the error. Run this cmd to repro - <*> && <*> //path/to/<*>
+E963,Found an example that reproduces the error. Run this cmd to repro - <*>
+E964,We have not tested reprs of some modules - [<*>]
+E965,"While minifying the program in accuracy minification mode, ran into a runtime exception which is likely an unrelated issue. Skipping this graph."
+E966,"no save_dir specified, will generate random data"
+E967,"could not load <*>, generating random data instead"
+E968,could not determine __code__ for <*>
+E969,Parameter <*> is optional with a default value of <*>
+E970,Summary of dimension constraints: All dimensions are within the specified limits.
+E971,"Summary of dimension constraints: Some dimensions exceed the upper bounds, please review the input data."
+E972,Summary of dimension constraints: The <*> and <*> dimensions are not consistent with the expected values.
+E973,Summary of dimension constraints: The <*> dimension is below the minimum required value.
+E974,Summary of dimension constraints: No constraints were violated in this iteration.
+E975,Summary of dimension constraints: The <*> dimension is outside the acceptable range.
+E976,"Summary of dimension constraints: The <*> dimension is too <*>, exceeding the <*> allowed value."
+E977,"Summary of dimension constraints: The <*> dimension is too small, falling below the minimum threshold."
+E978,"Summary of dimension constraints: The length and width dimensions are within the acceptable range, but the height is <*>."
+E979,"Summary of dimension constraints: The width and height dimensions are within the acceptable range, but the length is <*>."
+E980,"Summary of dimension constraints: The length and depth dimensions are within the acceptable range, but the width is <*>."
+E981,"Summary of dimension constraints: The height and depth dimensions are within the acceptable range, but the width is <*>."
+E982,"Summary of dimension constraints: The length, width, and height dimensions are all within the acceptable range, but the depth is <*>."
+E983,"Summary of dimension constraints: The length, width, and depth dimensions are all within the acceptable range, but the height is <*>."
+E984,NYI: Failed to substitute region <*> due to input alias or mutation
+E985,Unable to hash node <*> with exception <*>: Hash collision detected
+E986,Unable to hash node <*> with exception <*>: <*>
+E987,Untracked tensor used in export constraints
+E988,Failed to visit <*> at line <*>
+E989,<*> is turned off using justknobs killswitch
+E990,Failure in <*> callback - raising here will cause a <*> Error on <*> eval
+E991,COMPILING GRAPH due to <*>
+E992,_track_unbacked_symbols <*> for tensor_proxy.size()[<*>] at debug_level <*>
+E993,_track_unbacked_symbols <*> for tensor_proxy.stride()[<*>] at debug_level <*>
+E994,_track_unbacked_symbols <*> for array_proxy.stride()[<*>] at debug_level <*>
+E995,_track_unbacked_symbols <*> for matrix_proxy.stride()[<*>] at debug_level <*>
+E996,_track_unbacked_symbols <*> for data_proxy.stride()[<*>] at debug_level <*>
+E997,_track_unbacked_symbols <*> for buffer_proxy.stride()[<*>] at debug_level <*>
+E998,_track_unbacked_symbols <*> for vector_proxy.stride()[<*>] at debug_level <*>
+E999,_track_unbacked_symbols <*> for image_proxy.stride()[<*>] at debug_level <*>
+E1000,<*> for <*>[<*>] at debug_level <*>-<*>
+E1001,automatic dynamic int <*> val <*> != <*>
+E1002,"batch_size is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1003,"num_layers is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1004,"hidden_size is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1005,"input_dim is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1006,"output_dim is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1007,"kernel_size is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1008,"stride is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1009,"padding is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1010,"dilation is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1011,"dropout_rate is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1012,"embedding_dim is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1013,"vocab_size is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1014,"num_heads is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1015,"max_length is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1016,"sequence_length is converted to a symbolic integer. It is an attribute of a user defined nn module class. If you wish to keep it static, you can mark the nn module class as <*>."
+E1017,get_code_state failed remote read on <*>
+E1018,get_code_state failed parsing remote result on <*>
+E1019,"put_code_state: <*>, will not write"
+E1020,"put_code_state: wrote local <*>, <*> entries"
+E1021,"put_code_state: wrote remote <*>, <*> entries"
+E1022,"can't resolve package from <*> or <*>, falling back on <*> and <*>"
+E1023,Running test changed grad mode
+E1024,Unable to write execution record <*>; file already exists.
+E1025,Unable to write execution record <*>
+E1026,ChromiumEventLogger initialized with id <*>
+E1027,"ChromiumEventLogger: Detected overlapping events, fixing stack"
+E1028,"ChromiumEventLogger: Start event not in stack, ignoring"
+E1029,Both <*> and <*> failed
+E1030,Found nan in reference. Consider running in higher precision.
+E1031,aot_autograd-based backend ignoring extra kwargs <*>
+E1032,Unable to use <*> Autograd because graph has mutation
+E1033,eager backend ignoring extra kwargs <*>
+E1034,eager_noexcept backend ignoring extra kwargs <*>
+E1035,pre_dispatch_eager backend ignoring extra kwargs <*>
+E1036,eager_debug backend ignoring extra kwargs <*>
+E1037,aot_eager_decomp_partition backend ignoring extra kwargs <*>
+E1038,DDPOptimizer used bucket cap <*> and created <*> buckets. Enable debug logs for detailed bucket info.
+E1039,"Some buckets were extended beyond their requested parameter capacities in order to ensure each subgraph has an output node, required for fx graph partitioning. This can be the case when a subgraph would have only contained nodes performing inplace mutation, and returning no logical outputs. This should not be a problem, unless it results in too few graph partitions for optimal DDP performance."
+E1040,Please `pip install <*> in order to display ddp bucket sizes and diagnostic information.
+E1041,DDPOptimizer captured no parameters and did not split this graph.
+E1042,Explicitly fall back to eager due to <*> output
+E1043,Accuracy failed for the AOT Autograd graph <*>
+E1044,Copying repro file for convenience to <*>
+E1045,No write permissions for <*>
+E1046,"Constant bias was not serialized, generated random data instead. If you think this is affecting you, please comment on <*>"
+E1047,"Constant weight was not serialized, generated random data instead. If you think this is affecting you, please comment on <*>"
+E1048,"<*> embedding was not serialized, generated random data instead. If you think this is affecting you, please comment on <*>"
+E1049,"Constant scale was not serialized, generated random data instead. If you think this is affecting you, please comment on <*>"
+E1050,"Constant filter was not serialized, generated random data instead. If you think this is affecting you, please comment on <*>"
+E1051,"Constant kernel was not serialized, generated random data instead. If you think this is affecting you, please comment on <*>"
+E1052,"Constant mean was not serialized, generated random data instead. If you think this is affecting you, please comment on <*>"
+E1053,"Constant <*> was not serialized, generated random data instead. If you think this is affecting you, please comment on <*>"
+E1054,"load_args does not have a <*> attribute, please file a bug to PyTorch and describe how you generate this repro script"
+E1055,"load_args is version <*>, but this version of PyTorch only supports version <*>. We will try to run it anyway but there may be an incompatibility; if so, try upgrading your version of PyTorch."
+E1056,Unrecognized kwarg <*>; perhaps this repro was made on a newer version of PyTorch
+E1057,"patch_code no longer works on this version of PyTorch, silently ignoring"
+E1058,Accuracy failed for the <*> produced graph. Creating script to minify the error.
+E1059,Compiled Fx GraphModule failed. Creating script to minify the error.
+E1060,Writing checkpoint with <*> nodes to <*>_<*>.py
+E1061,Copying <*> to <*> for convenience
+E1062,Accuracy failed for the <*> produced graph
+E1063,Input graph does not fail accuracy testing
+E1064,Writing repro file to /path/to/repro_file<*>.txt
+E1065,Writing repro file to <*>
+E1066,DataSource1 marked dynamic via <*>
+E1067,<*> marked dynamic via source whitelist
+E1068,automatic <*> marked dynamic
+E1069,incorrect arg count <*> TypeError: <*> takes <*> positional arguments but <*> were given and no constant handler
+E1070,incorrect arg count <*> TypeError: <*> missing <*> required positional argument: <*> and no constant handler
+E1071,incorrect arg count <*> TypeError: update_record_handler() got an unexpected keyword argument <*> and no constant handler
+E1072,incorrect arg count <*> TypeError: <*>() takes exactly <*> argument (<*> given) and no constant <*>
+E1073,incorrect arg count <*> TypeError: validate_input_handler() got multiple values for argument <*> and no constant handler
+E1074,incorrect arg count <*> TypeError: fetch_records_handler() got an unexpected keyword argument <*> and no constant handler
+E1075,incorrect arg count <*> TypeError: parse_json_handler() got an unexpected keyword argument <*> and no constant handler
+E1076,incorrect arg count <*> TypeError: generate_report_handler() takes exactly <*> arguments (<*> given) and no constant handler
+E1077,incorrect arg count <*> TypeError: log_event_handler() got an unexpected keyword argument <*> and no constant handler
+E1078,Failed to create UserFunctionVariable: AssertionError(<*>)
+E1079,"torch._export.aot_compile()/torch._export.aot_load() is being deprecated, please switch to directly calling torch._inductor.aoti_compile_and_package(torch.export.export())/torch._inductor.aoti_load_package() instead."
+E1080,"TS2EPConverter logging starts from here.\n\nINFO: (TORCH_LOGS=""<*>"" <cmd>)\n * Log TorchScript IR.\n\nDEBUG: (TORCH_LOGS=""<*>"" <cmd>), additionally\n * Log conversion IR by IR in a format of [<conversion handler name>] converts [<IR>]."
+E1081,my_function called at <*> in <*>
+E1082,process_data called at <*> in <*>
+E1083,calculate_metrics called at <*> in <*>
+E1084,save_results called at <*> in <*>
+E1085,load_config called at <*> in <*>
+E1086,fetch_data called at <*> in <*>
+E1087,parse_json called at <*> in <*>
+E1088,validate_input called at <*> in <*>
+E1089,log_event called at <*> in <*>
+E1090,update_status called at <*> in <*>
+E1091,send_email called at <*> in <*>
+E1092,generate_report called at <*>/reports/generator.py:<*> in <*>
+E1093,authenticate_user called at <*> in <*>
+E1094,handle_request called at <*> in process_request
+E1095,Failed exporting <*> with exception: <*>('<*>')
+E1096,"Export constraints cannot be non-integer expressions. Found type <*>, and value <*>. We will attempt to round this value."
+E1097,"Export constraints cannot be non-integer expressions. Found type <*>, and value ""<*>"". We will attempt to convert this value."
+E1098,"Export constraints cannot be non-integer expressions. Found type <*>, and value <*>. We will attempt to floor this value."
+E1099,"Export constraints cannot be non-integer expressions. Found type <*>, and value <*>. We will attempt to <*> this value."
+E1100,"Unsure how to serialize the given <*>, as we don't know what is the type of this argument. Serializing it as a <*> by default."
+E1101,Symbol <*> did not appear in the graph that was deserialized
+E1102,-------\nPyTorch Development Environment set up!\nPlease activate to enable this environment:\n\n $ <*>
+E1103,tabulate is not installed. Proceeding without it.
+E1104,We cannot decide what's wrong with this collective entry because we missed FR dumps from ranks <*> so we don't have enough information. If you want to debug further use -j to dump all raw trace
+E1105,"No errors found for this collective entry, There could be some other reasons why we see <*> timeout."
+E1106,appending a non-matching collective
+E1107,"Too many mismatches for process_group <*>: Exceeded the maximum allowed mismatches, aborting"
+E1108,Too many mismatches for process_group <*>: <*>
+E1109,loaded <*> files in <*>
+E1110,No nodes in graph <*>
+E1111,FXGraphCache cache miss for key <*>
+E1112,AOTAutograd cache hit for key <*>
+E1113,AOTAutograd cache miss for key <*>
+E1114,AOTAutograd cache unable to load compiled graph: <*>
+E1115,remote autograd cache unable to load compiled graph
+E1116,Writing AOTAutograd cache entry to <*>
+E1117,Bypassing autograd cache due to: <*> triggered by <*>
+E1118,AOTAutograd cache unable to serialize compiled graph: ValueError: invalid literal for int() with base <*>: '<*>'
+E1119,AOTAutograd cache unable to serialize compiled graph: <*>: cannot serialize object of type '<*>'
+E1120,AOTAutograd cache unable to serialize compiled graph: KeyError: <*>
+E1121,AOTAutograd cache unable to serialize compiled graph: AttributeError: <*> object has no attribute '<*>'
+E1122,AOTAutograd cache unable to serialize compiled graph: RuntimeError: <*>
+E1123,AOTAutograd cache unable to serialize compiled graph: <*>: [Errno <*>] <*>: '<*>'
+E1124,AOTAutograd cache unable to serialize compiled graph: <*>: list index out of range
+E1125,AOTAutograd cache unable to serialize compiled graph: <*>: name <*> is not defined
+E1126,AOTAutograd cache unable to serialize compiled graph: <*> in the graph definition
+E1127,"AOTAutograd cache unable to serialize compiled graph: AssertionError: expected a <*>, got a <*>"
+E1128,AOTAutograd cache unable to serialize compiled graph: <*>
+E1129,Encountered AOTAutograd case: differentiable outputs that alias each other from a multi-output view call
+E1130,static input indices metadata analysis: <*>
+E1131,"grad_mode mutation encountered in graph. Will emit mutation epilogue, to set grad_mode=<*>"
+E1132,"failed to eagerly compile backwards for dynamic, suppressing in case backwards not needed"
+E1133,"Tracing torchbind method <*> with real ScriptObject. This may cause the original object being mutated. If this is not intended, You can register a fake class with torch._library.register_fake_class(""<*>::<*>"")."
+E1134,TTIR mutation analysis: Skipping pure <*> op (is_pure=<*>)
+E1135,"Encountered an exception in <*>, assuming every input is mutated"
+E1136,You no longer need to specify <*> to <*> as we can get this information from <*>
+E1137,Creating <*> pool with <*> workers
+E1138,Sub-process autotune device list: <*>
+E1139,Failed to pickle <*>
+E1140,Ephemeral NCCL timeout increase fudge factor <*> and original increase value <*>
+E1141,Increasing NCCL timeout by <*>
+E1142,fx graph cache unable to load compiled graph
+E1143,fx graph cache key <*> evaluating guards <*> with values <*> => hit=<*>
+E1144,"fx graph cache key <*> post-load guards: {guard1=<*>, guard2=<*>}"
+E1145,"fx graph cache key abcdefghij post-load guards: {guardA=<*>, guardB=<*>}"
+E1146,"fx graph cache key <*> post-load guards: {guardX=<*>, guardY=<*>}"
+E1147,fx graph cache key zyxwvutsrq post-load guards: <*>
+E1148,"fx graph cache key <*> post-load guards: {guardP=<*>, guardQ=<*>, guardR=<*>}"
+E1149,"fx graph cache key <*> post-load guards: {guardM=<*>, guardN=<*>, guardO=<*>}"
+E1150,"fx graph cache key <*> post-load guards: {guardS=<*>, guardT=<*>, guardU=<*>}"
+E1151,fx graph cache key <*> post-load guards: <*>
+E1152,fx graph cache unable to serialize compiled graph
+E1153,fx graph unable to write to cache
+E1154,dont cache graph when <*> enabled
+E1155,<*> graph cache <*> env
+E1156,Bypassing FX Graph Cache because <*>
+E1157,fx graph cache hit for key <*>
+E1158,fx graph cache miss for key <*>
+E1159,aot wrapper compilation command: g++ -o <*> -c <*>
+E1160,aot wrapper compilation command: clang++ -std=c+<*> -o <*> -c <*>
+E1161,aot wrapper compilation command: gcc -Wall -o <*> -c <*>
+E1162,aot wrapper compilation command: nvcc -o <*> -c <*>
+E1163,aot wrapper compilation command: icpc -o <*> -c <*>
+E1164,aot wrapper compilation command: <*> -o <*> -c <*>
+E1165,aot wrapper compilation command: python -m nuitka --module <*>
+E1166,aot wrapper compilation command: javac -d . <*>
+E1167,aot wrapper compilation command: scalac -d . <*>
+E1168,aot wrapper compilation command: tsc -out wrapper.js wrapper.ts
+E1169,aot kernel compilation command: g++ -o <*> <*> -std=c+<*> -O3
+E1170,aot kernel compilation command: nvcc -o <*> <*>.cu -arch=<*> -Xptxas=-v
+E1171,aot kernel compilation command: clang -o optimized_kernel optimized_kernel.cpp -Ofast -march=native
+E1172,aot kernel compilation command: gcc -o simple_kernel simple_kernel.c -Wall -Wextra -pedantic
+E1173,aot kernel compilation command: icc -o <*> <*> -ipo -xHost
+E1174,aot kernel compilation command: cl.exe /EHsc /O2 /Fe:<*> <*>
+E1175,aot kernel compilation command: rustc -o <*> rust_kernel.rs -C opt-level=<*>
+E1176,aot kernel compilation command: msvc /nologo /W4 /O2 /Fe:<*> <*>
+E1177,aot kernel compilation command: arm-linux-gnueabihf-gcc -o <*> <*> -mfpu=neon -mfloat-abi=hard
+E1178,aot kernel compilation command: aarch64-linux-gnu-gcc -o <*> <*> -march=armv8-a
+E1179,aot kernel compilation command: <*>-w64-mingw32-gcc -o mingw_kernel mingw_kernel.c -static-libgcc -static-libstdc++
+E1180,"aot kernel compilation command: go build -o <*> -ldflags=""<*>"""
+E1181,aot kernel compilation command: swiftc -o <*> <*> -Ounchecked
+E1182,aot kernel compilation command: dmd -<*> <*> -O -inline -release
+E1183,aot kernel compilation command: fpc -<*> pascal_kernel.pas -O2 -CX
+E1184,saving script object model as <*>
+E1185,saving script object <*> as <*>
+E1186,"dll unloading function was not found, library may not be unloaded properly!"
+E1187,CUDA Compilation skipped: <*> since output already exists
+E1188,Skip compiling <*>: output <*> already exists
+E1189,Inductor support for distributed collectives depends on building <*>
+E1190,For graph input <*>: <*> node <*> at index <*> after <*> node <*> at index <*>.\nSkipping <*> FX graph pass for that unsharded param.
+E1191,"Invalid value of <*> for mode. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1192,"Invalid value of <*> for type. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1193,"Invalid value of <*> for format. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1194,"Invalid value of <*> for option. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1195,"Invalid value of <*> for setting. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1196,"Invalid value of <*> for parameter. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1197,"Invalid value of <*> for level. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1198,"Invalid value of <*> for state. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1199,"Invalid value of <*> for status. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1200,"Invalid value of <*> for choice. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1201,"Invalid value of <*> for flag. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1202,"Invalid value of <*> for field. Expected one of '<*>', '<*>', '<*>'. Using default."
+E1203,FX codegen and compilation took <*>
+E1204,"Overview info of inductor aten mms: (count: <*>), (shapes: [<*>, <*>]), (dtype: <*>)"
+E1205,Sleeping for <*> seconds since <*> is set
+E1206,Sleeping for <*> second since <*> is set
+E1207,<*> set to <*> via <*>
+E1208,Failed to copy debug files from <*> to <*>
+E1209,Ignoring exception in debug code
+E1210,Writing provenance tracing debugging info to <*>
+E1211,Creating node mappings for provenance tracking
+E1212,Provenance tacking error: <*> is not a dict
+E1213,Provenance tacking error: <*> is not an int
+E1214,Provenance tacking error: <*> value is not a list
+E1215,Provenance tacking error: node provenance in post_to_pre_grad_nodes_json has wrong format
+E1216,"unable to decide loop order. self_dep=<*> v.s. other_dep=<*>, self_strides=<*> v.s. other_strides=<*>"
+E1217,Only python <*> and later supported
+E1218,Skipped layout opt because only a few <*>
+E1219,See perf regression with <*> shape. Follow up in <*>
+E1220,Conv inputs meta not found
+E1221,"Skipped layout opt in inference because weighted flops indicate slowdown, default: <*>, channels last: <*>"
+E1222,Skip layout opt because found grouped convolution with <*> in_channels!
+E1223,Skip layout opt because some convolutions have <*>
+E1224,Skip layout opt because all convolution channels are too small
+E1225,Force channels last inputs for <*> conv for the current graph with id <*>
+E1226,Finished codegen for all nodes. The list of kernel names available: <*>
+E1227,Output code written to: <*>
+E1228,"Use previous IRNode's range and reduction_ranges instead of split. current ranges: [<*>], current reduction ranges: [<*>], current split: <*>, new ranges: [<*>], new reduction ranges: [<*>]"
+E1229,convert_to_reinterpret_view failed: stride=<*> offset=<*> index=<*>
+E1230,AddOperator has <*> unprovided positional arguments. Will check if they are in the keyword arguments or will use default values.
+E1231,<*> has <*> unprovided positional arguments. Will check if they are in the keyword arguments or will use default values.
+E1232,Extern kernel node added for node <*> with target <*>.
+E1233,"<*> is missing a c-shim implementation, using proxy executor as fallback"
+E1234,"A make_fallback error occurred in <*> config, and <*> is being disabled to surface it."
+E1235,"using triton random, expect difference from eager"
+E1236,Reordering for peak memory -- <*> nodes
+E1237,Failed to reorder for process_data: <*>('<*>')
+E1238,Failed to reorder for load_dataset: <*>
+E1239,Failed to reorder for <*>: <*>('<*>')
+E1240,Failed to load artifact: <*>
+E1241,"Replacement pattern <*> failed to apply due to shape mismatch: RuntimeError('Shape mismatch: expected <*>, got <*>')"
+E1242,Precompiled pattern <*> not found. Run <*>
+E1243,"No choices for <*>, using <*> backend as fallback"
+E1244,Unable to create a <*>
+E1245,ComboKernels: <*> foreach nodes are filtered
+E1246,ComboKernels: Not speeding up <*> group
+E1247,<*>: Combining <*> nodes for <*>-th group
+E1248,"Generated ComboKernel nodes: <*> ComboKernels, totally <*> -> <*> nodels"
+E1249,Generating code for node <*> with estimated runtime <*>
+E1250,Max autotune selects from <*> choices.
+E1251,"Precompilation timeout is <*> or <= <*>, returning no_op"
+E1252,"Timings found in cache, returning no_op"
+E1253,"Found only <*> timings for <*>, not skipping precompilation"
+E1254,"Precompile function found in cache, returning it"
+E1255,Multithreaded precompilation for <*> choices using <*> worker threads
+E1256,Precompiling choice with captured stdout: <*>
+E1257,"Precompilation complete for future: <*>, elapsed time: <*>"
+E1258,"Skipping already seen choice: ChoiceCaller(hash=<*>, name=<*>)"
+E1259,Submitted triton async compile for choice: <*> with kernel_name=<*> and module_path=<*>
+E1260,Exception <*> for benchmark choice '<*>'
+E1261,Precompiling benchmark choice <*> took <*>
+E1262,Precompilation elapsed time: <*>
+E1263,Autotuning elapsed time: <*>
+E1264,CUDA compilation error during autotuning: \nError: CUDA kernel launch failed. \nIgnoring this choice.
+E1265,CUDA compilation error during autotuning: \nError: <*>. \nIgnoring this choice.
+E1266,"Bundle contains illegal <*>, payload: <*>"
+E1267,failed to collect triton kernel
+E1268,"Bailing out TritonBundler.read_and_emit, <*> is non empty"
+E1269,Using inductor cache dir <*>
+E1270,Failed to remove temporary cache dir at <*>
+E1271,"on error, temporary cache dir kept at <*>"
+E1272,GPU arch does not support max_autotune_gemm mode usage
+E1273,Not enough SMs to use <*> mode
+E1274,Failed to import CUTLASS lib. Please check whether _inductor.config.cuda.cutlass_dir is set correctly. Skipping CUTLASS backend for now.
+E1275,Please pip install <*> package
+E1276,Invalid path to <*> library
+E1277,"Graph recompiled, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1278,"Optimization pass, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1279,"Post-processing, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1280,"Transformation applied, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1281,"Refactoring completed, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1282,"Update finalized, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1283,"Validation check, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1284,"Debugging step, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1285,"Integration test, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1286,"Final review, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1287,"Pre-release check, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1288,"Release candidate, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1289,"Hotfix applied, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1290,"Security patch, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1291,"Performance tuning, save before/after graph to <*>, graph before/after are the same = <*>, time elapsed = <*>"
+E1292,Cannot Append Choice: <*>. KernelTemplate type is <*>
+E1293,"Number of threads: <*>, occupancy: <*>"
+E1294,MultiKernel type is not supported in AOTI debug printer tool yet.
+E1295,Creating directory to save inductor intermediate tensor values.
+E1296,Saved intermediate tensor <*> for <*> to <*>
+E1297,Load picked kernel <*> from cache file <*>
+E1298,Store picked kernel <*> to cache file <*>
+E1299,pick <*> sub-kernel in <*>. Size hints <*>. Reduction hint <*>. Timings <*>
+E1300,Generating kernel code with kernel_name: <*>
+E1301,ComboKernels: <*> nodes partitioned into <*> groups
+E1302,kernel src code for <*> written to: <*>
+E1303,"Exception (TypeError) in compiling fused nodes [<*>, <*>]"
+E1304,Exception (<*>) in compiling fused nodes <*>
+E1305,The fused kernel for <*> took <*> ms to run
+E1306,"The fused kernel for <*> took <*> ms to run, <*> ms to clone inputs"
+E1307,ComboKernels: <*> long reduction nodes are separated
+E1308,ComboKernels: <*> large pointwise nodes are separated
+E1309,Error getting cuda arch: CUDA error: <*>
+E1310,Error getting cuda arch: <*>
+E1311,Error getting cuda version: <*> not found on the system.
+E1312,Error getting cuda version: <*>
+E1313,CUTLASS version < <*> is not recommended.
+E1314,"Found <*> in <*> search path, overriding <*>"
+E1315,"<*> not found in sys.path, trying to import from <*>"
+E1316,"Failed to import CUTLASS packages: <*>, ignoring the CUTLASS backend."
+E1317,Failed to import CUTLASS packages: CUTLASS repo does not exist: <*>
+E1318,Detected CUDA architecture >= <*>: <*>. We will generate operations with <*> (if available) and <*>. Please file an issue for any problems and feedback.
+E1319,Cannot detect cuda arch <*> or cuda version <*>. Will discard all cutlass ops. Please consider setting _inductor.cuda.arch and _inductor.cuda.version configs.
+E1320,Cannot find <*>. Only <*> will be used.
+E1321,GEMM Layout swapped <*> and <*> -> explicit transpose
+E1322,"Cutlass GEMM Layout change: Input and/or output layouts have changed between autotuning/retuning and call to render on <*>. Applying workaround. This can lead to suboptimal performance. Match List: [<*>, <*>, <*>]"
+E1323,Skipping due to alignment mismatch. op: <*>
+E1324,Skipping due to alignment setting failure. op: <*>
+E1325,Skipping due to bias layout and alignment setting failure. op: <*>
+E1326,"Detected change in configuration name. Original name: <*>, filtered configuration name: <*>"
+E1327,"Got cutlass configs: total number of ops: <*>,"
+E1328,Failed to prefetch_stages for <*> with exception <*>: <*>
+E1329,"Op <*> is not compatible due to invalid number of pipeline prefetch stages. Parameters: kBatch=<*>, block_gemm_pipeline_version=<*>, prefetch_stages=<*>, num_k_loop=<*>"
+E1330,Unspecified Composable Kernel include dir
+E1331,"make_run_fn: self.kernel_name=<*>, self.source_file=<*>, self.hash_key=<*>, self.DLL=<*>, args=<*>, self.extra_args=<*>"
+E1332,"update_workspace_size called: new workspace size=<*>, self.kernel_name=<*>, self.source_file=<*>, self.hash_key=<*>, self.DLL=<*>, args=<*>, self.extra_args=<*>"
+E1333,Ignored OSError in pool shutdown: [Errno <*>] <*> <*> not connected
+E1334,Ignored OSError in pool shutdown: [Errno <*>] <*>
+E1335,"DDP bucketing: <*>, count=<*>, curr_size=<*>, bucket_size=<*>"
+E1336,"Decompose aten::<*> with input shape: (<*>, <*>), (<*>, <*>)"
+E1337,"Decompose aten::<*> with input shape: (<*>, <*>)"
+E1338,exception when update <*> meta data with stack error tracekey <*>: '<*>'
+E1339,GreedyFusion: key = <*>; subset size = <*>
+E1340,IndependentSubsetRule: key = <*>; subset size = <*>
+E1341,GraphFusion: key = <*>; subset size = <*>
+E1342,OptimizationRule: key = <*>; subset size = <*>
+E1343,SubgraphFusion: key = <*>; subset size = <*>
+E1344,LazyFusion: key = <*>; subset size = <*>
+E1345,NodeFusion: key = <*>; subset size = <*>
+E1346,GraphOptimization: key = <*>; subset size = <*>
+E1347,SubsetFusion: key = <*>; subset size = <*>
+E1348,GreedySubset: key = <*>; subset size = <*>
+E1349,LazySubset: key = <*>; subset size = <*>
+E1350,IndependentFusion: key = <*>; subset size = <*>
+E1351,OptimizedFusion: key = <*>; subset size = <*>
+E1352,SubgraphOptimization: key = <*>; subset size = <*>
+E1353,LazyGraphFusion: key = <*>; subset size = <*>
+E1354,Mismatch keys found before and after pre/post grad fx passes.
+E1355,keys before pre/post grad fx passes <*>
+E1356,keys after pre/post grad fx passes <*>
+E1357,Mismatch parameter name <*> does not exist after pre/post grad fx passes
+E1358,Mismatch parameter values found before and after pre/post grad fx passes.
+E1359,value before pre/post grad fx passes <*>
+E1360,value after pre/post grad fx passes <*>
+E1361,"Mismatch fw output length. before transformation: <*>, after transformation: <*>"
+E1362,forward output before pre/post grad fx passes <*>
+E1363,forward output after pre/post grad fx passes tensor(<*>)
+E1364,forward output after pre/post grad fx passes <*>
+E1365,"compare parameters. Numerical result : {""parameter_diff"": <*>, ""max_diff"": <*>, ""min_diff"": <*>}"
+E1366,"compare loss/predict. Numerical result : {""loss_diff"": <*>, ""predict_diff"": <*>}"
+E1367,compare param grad. Numerical result : All gradients match within the specified precision.
+E1368,compare param grad. Numerical result : Gradients for layer <*> do not match; difference exceeds threshold.
+E1369,"compare param grad. Numerical result : Gradients for all layers match, but with minor numerical differences."
+E1370,compare param grad. Numerical result : Gradients for layers <*> and <*> do not match; difference is significant.
+E1371,compare param grad. Numerical result : Gradients for all parameters match perfectly.
+E1372,compare param grad. Numerical result : Gradients for parameter <*> in layer <*> do not match; difference is <*>.
+E1373,"compare param grad. Numerical result : Gradients for all parameters match, but with a small numerical difference in <*> <*>."
+E1374,"compare parameters with optimizer added. Numerical result : {""parameter_diff"": <*>, ""tolerance"": <*>}"
+E1375,Exception when optimizer is added to <*> parameter names
+E1376,no parameter with <*> to compare with length <*> before transformation and the length <*> after transformation
+E1377,Runtime numeric check failed in <*> <*> passes with error: <*>: <*>
+E1378,"For node Conv2D, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1379,"For node Dense, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1380,"For node MaxPool, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1381,"For node BatchNorm, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1382,"For node Dropout, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1383,"For node Flatten, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1384,"For node ReLU, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1385,"For node Softmax, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1386,"For node Embedding, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1387,"For node LSTM, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1388,"For node <*>, attempted to reinplace <*>. We were unable to reinplace <*>; <*> (if non-empty) are possible missed reinplacing opportunities that may be bad for memory usage and performance. Total size of missed opportunities with static shapes is : <*> bytes."
+E1389,couldn't find <*>
+E1390,example value absent for node: <*>
+E1391,dynamic shape not supported: <*>
+E1392,val absent for node: tensor('<*>')
+E1393,"Tuned aten.bmm: m=<*>, n=<*>, k=<*>, mat1_dtype=<*>, mat2_dtype=<*>, output_layout=<*>"
+E1394,"Tuned aten.baddbmm: m=<*>, n=<*>, k=<*>, mat1_dtype=<*>, mat2_dtype=<*>, inp=<*>, output_layout=<*>"
+E1395,"Tuned aten.mm: m=<*>, n=<*>, k=<*>, mat1_dtype=<*>, mat2_dtype=<*>, output_layout=<*>"
+E1396,"Tuned aten._int_mm: m=<*>, n=<*>, k=<*>, mat1_dtype=<*>, mat2_dtype=<*>, output_layout=<*>"
+E1397,"Tuned aten.addmm: m=<*>, n=<*>, k=<*>, mat1_dtype=<*>, mat2_dtype=<*>, output_layout=<*>"
+E1398,"No choices for GEMM, using ATen backend as fallback. This behavior is being deprecated. Please add include Aten in max_autotune_gemm_backends."
+E1399,"No choices for GEMM, chose not to fallback to ATen backend. To temporarily change this behavior, set autotune_fallback_to_aten to True via TORCHINDUCTOR_AUTOTUNE_FALLBACK_TO_ATEN=<*>, but this knob is being deprecated. The long term fix is to include Aten in max_autotune_gemm_backends."
+E1400,"Tuned aten._scaled_mm.default: m=<*>, n=<*>, k=<*>, mat1_dtype=<*>, mat2_dtype=<*>, output_layout=<*>"
+E1401,Saving AOTI generated file <*> to archive in <*>
+E1402,AOTICompiledModel deepcopy warning: <*> is not deepcopied.
+E1403,Writing buffer to tmp file located at <*>
+E1404,"<*> is not passed on the <*>, unable to use autotune remote cache"
+E1405,"Warning, failed to recreate remote cache after pickling"
+E1406,Save coordesc tuning result to <*>
+E1407,Save heuristic tuning result to <*>
+E1408,= Do coordinate descent tuning for <*> =
+E1409,"Baseline Config <*>, baseline timing <*>"
+E1410,"Improve from <*> -> <*>, <*>"
+E1411,CachingAutotuner gets <*> configs for <*>
+E1412,"Dynamically scale down max_batch_size from TritonConfig(cpu: <*>, gpu: <*>) and get a new TritonConfig(cpu: <*>, gpu: <*>)"
+E1413,"Dynamically scale down num_instances from TritonConfig(cpu: <*>, memory: <*>) and get a new TritonConfig(cpu: <*>, memory: <*>)"
+E1414,"Dynamically scale down concurrency_limit from TritonConfig(gpu: <*>, memory: <*>) and get a new TritonConfig(gpu: <*>, memory: <*>)"
+E1415,"Dynamically scale down timeout_microseconds from TritonConfig(cpu: <*>, memory: <*>) and get a new TritonConfig(cpu: <*>, memory: <*>)"
+E1416,"Dynamically scale down response_cache_size from TritonConfig(cpu: <*>, gpu: <*>) and get a new TritonConfig(cpu: <*>, gpu: <*>)"
+E1417,"Dynamically scale down max_queue_delay_microseconds from TritonConfig(gpu: <*>, memory: <*>) and get a new TritonConfig(gpu: <*>, memory: <*>)"
+E1418,"Dynamically scale down min_compute_capability from TritonConfig(cpu: <*>, memory: <*>) and get a new TritonConfig(cpu: <*>, memory: <*>)"
+E1419,"Dynamically scale down max_compute_capability from TritonConfig(gpu: <*>, memory: <*>) and get a new TritonConfig(gpu: <*>, memory: <*>)"
+E1420,"Dynamically scale down priority from TritonConfig(cpu: <*>, gpu: <*>) and get a new TritonConfig(cpu: <*>, gpu: <*>)"
+E1421,Dynamically scale down instance_group_count from <*> and get a new <*>
+E1422,"Dynamically scale down thread_pool_size from TritonConfig(gpu: <*>, memory: <*>) and get a new TritonConfig(gpu: <*>, memory: <*>)"
+E1423,"Dynamically scale down pinned_memory_pool_size from TritonConfig(cpu: <*>, memory: <*>) and get a new TritonConfig(cpu: <*>, memory: <*>)"
+E1424,"Dynamically scale down max_concurrent_requests from TritonConfig(gpu: <*>, memory: <*>) and get a new TritonConfig(gpu: <*>, memory: <*>)"
+E1425,Dynamically scale down max_sequence_length from <*> and get a new <*>
+E1426,"Dynamically scale down max_batch_latency_microseconds from TritonConfig(gpu: <*>, memory: <*>) and get a new TritonConfig(gpu: <*>, memory: <*>)"
+E1427,Triton compilation failed: <*> to compile kernel '<*>'\nmetadata: <*>
+E1428,Triton compilation failed: <*> in function '<*>'\nmetadata: <*>
+E1429,Triton compilation failed: <*> to allocate memory for '<*>'\nmetadata: <*>
+E1430,Triton compilation failed: <*> mismatch in '<*>'\nmetadata: <*>
+E1431,Triton compilation failed: <*> argument in '<*>'\nmetadata: <*>
+E1432,Triton compilation failed: <*> in '<*>'\nmetadata: <*>
+E1433,Skip config <*> because of register spilling: <*>
+E1434,"Benchmark all input configs for <*>, get:"
+E1435,"config1: <*>, nreg <*>, nspill <*>, #shared-mem <*>"
+E1436,"config2: <*>, nreg <*>, nspill <*>, #shared-mem <*>"
+E1437,"config3: <*>, nreg <*>, nspill <*>, #shared-mem <*>"
+E1438,"config4: <*>, nreg <*>, nspill <*>, #shared-mem <*>"
+E1439,"config5: <*>, nreg <*>, nspill <*>, #shared-mem <*>"
+E1440,"<*>: <*>, nreg <*>, nspill <*>, #shared-mem <*>"
+E1441,Save profile bandwidth results to <*>
+E1442,failed to write profile bandwidth result into <*>: PermissionError: [Errno <*>] Permission denied: '<*>'
+E1443,failed to write profile bandwidth result into <*>: IOError: [Errno <*>] No space left on device: '<*>'
+E1444,failed to write profile bandwidth result into <*>: FileNotFoundError: [Errno <*>] <*>: '<*>'
+E1445,failed to write profile bandwidth result into <*>: <*>: [Errno <*>] <*>: '<*>'
+E1446,autotune caching is disabled by <*>
+E1447,Attempted to enable kernel for <*> but no kernel was registered for this device type.
+E1448,Attempted to disable kernel for <*> but no kernel was registered for this device type.
+E1449,Attempted to disable kernel for GPU but it was already disabled.
+E1450,Attempted to disable kernel for CPU but it was already disabled.
+E1451,Attempted to disable kernel for FPGA but it was already disabled.
+E1452,Attempted to disable kernel for TPU but it was already disabled.
+E1453,Attempted to disable kernel for NIC but it was already disabled.
+E1454,Attempted to disable kernel for <*> but it was already disabled.
+E1455,Attempted to enable kernel for GPU but it was already enabled.
+E1456,Attempted to enable kernel for CPU but it was already enabled.
+E1457,Attempted to enable kernel for FPGA but it was already enabled.
+E1458,Attempted to enable kernel for TPU but it was already enabled.
+E1459,Attempted to enable kernel for VPU but it was already enabled.
+E1460,Attempted to enable kernel for <*> but it was already enabled.
+E1461,Unable to deepcopy the custom object <*>. Defaulting to the user given object. This might be dangerous as side effects may be directly applied to the object.
+E1462,<*> is already registered. Previous fake class is overridden with <*>.
+E1463,Cannot deregister <*>. Please use register_fake_class to register it first. Or do you deregister it twice?
+E1464,fake object of <*> doesn't implement method <*>.
+E1465,"Using <*> environment variable for log settings, ignoring call to <*>"
+E1466,LazyTraceHandler: disabled because not <*> or <*> on <*>
+E1467,LazyTraceHandler: disabled because justknobs_check(<*>) returned <*>
+E1468,LazyTraceHandler: disabled because <*> does not exist
+E1469,LazyTraceHandler: disabled because <*> is not writeable
+E1470,strobelight run id is: <*>
+E1471,work function took <*> seconds
+E1472,"URL shortening failed: Exception(<*>), using long URL"
+E1473,"URL shortening failed: <*>, using long URL"
+E1474,compile time strobelight profiling already enabled
+E1475,compile time strobelight profiling enabled
+E1476,"strobeclient not found, cant enable compile time strobelight profiling, seemslike you are not on a FB machine."
+E1477,Unique sample tag for this run is: <*>
+E1478,URL to access the strobelight profile at the end of the run: http://example.com/strobelight/profile/<*>
+E1479,<*> strobelight success runs out of <*> non-recursive compilation events.
+E1480,"profile_compile_time is requested for phase: <*>, frame <*>, while already in running phase: <*>, frame <*>, recursive call ignored"
+E1481,profiling frame <*> is skipped due to frame_id_filter <*>
+E1482,FakeTensor unrecognized subclass(es): <*>
+E1483,FakeTensorMode unrecognized subclass(es): <*>
+E1484,real-tensor fallback failed for <*>: <*>; silently ignoring
+E1485,failed while attempting to run meta for <*>
+E1486,"Comparing non Tensors: <*> and <*>, they must be equal"
+E1487,Cannot compare for handle <*> because it wasn't found in the transformed model
+E1488,Expecting <*> to have <*> user
+E1489,Expecting <*> user to be a <*> op but got <*>
+E1490,Operand <*> has runtime flex shape
+E1491,"Numa Aware: cores:<*> on different NUMA nodes:<*>. To avoid this behavior, please use <*> knob to make sure number of cores is divisible by <*>. Alternatively, please use <*> knob."
+E1492,Overriding value with the one set in environment variable: <*>. Value applied: <*>. Value ignored: <*>
+E1493,"only first <*> cores will be used, but you specify <*> cores in core_list"
+E1494,"there are <*> core(s) per socket, but you specify <*> ncores_per_instance and skip_cross_node_cores. Please make sure --ncores-per-instance < core(s) per socket"
+E1495,"<*> is set, but there are no cross-node cores."
+E1496,<*> is exclusive to <*>. <*> won't take effect even if it is set explicitly.
+E1497,<*> is exclusive to <*>. They won't take effect even they are set explicitly.
+E1498,assigning <*> cores for instance <*>
+E1499,Core binding with numactl is not available. Disabling numactl and using taskset instead. This may affect performance in multi-socket system; please use numactl if memory binding is needed.
+E1500,"Core binding with <*> is not available, and <*> is set. Please unset <*> to use <*> instead of <*>."
+E1501,<*> doesn't exist. Removing it from LD_PRELOAD.
+E1502,Failed to un-pickle cache <*>
+E1503,"Found tensor with pointer: <*>, but no matching tensor allocation in the trace. Backfilling the trace now. Perhaps the sanitizer was enabled after some torch operations?"
+E1504,Found duplicate tensor allocation in the trace for tensor with pointer: <*>. Assuming the trace for tensor deallocation wasn't caught and backfilling it now. Perhaps the sanitizer was enabled after some torch operations?
+E1505,"Found Stream with id: <*>, but no matching stream creation in the trace. Backfilling the trace now. Perhaps the sanitizer was enabled after some torch operations?"
+E1506,"Found Event with id: <*>, but no matching event creation in the trace. Backfilling the trace now. Perhaps the sanitizer was enabled after some torch operations?"
+E1507,Found duplicate event creation in the trace for event with id: <*>. Assuming the trace for event deletion wasn't caught and backfilling it now. Perhaps the sanitizer was enabled after some torch operations?
+E1508,"Found duplicate Stream creation in the trace for Stream with id: <*>. PyTorch Streams are only created once, so this trace entry is ignored."
+E1509,"Skip the breakpoint, counter=<*>"
+E1510,DeviceMesh requires numpy >= <*> to be installed for type checking
+E1511,Added key: <*> to store for rank: <*>
+E1512,"Waiting in store based barrier to initialize process group for <*> secondsrank: <*>, key: <*> (world_size=<*>, num_workers_joined=<*>, timeout=<*> error=<*>: <*>"
+E1513,Rank <*>: Completed store-based barrier for key:<*> with <*> nodes.
+E1514,Performing barrier after ProcessGroup initialization since TORCH_DIST_INIT_BARRIER = <*>
+E1515,"TORCH_DISTRIBUTED_DEBUG was set to DETAIL, but\n GLOO is not available. Build with Gloo to\n create a wrapper process group in debug mode\n to aid collective desynchronization debugging."
+E1516,_object_to_tensor size: <*> hash value: <*>
+E1517,_tensor_to_object size: <*> hash value: <*>
+E1518,Rank <*> is assigned to subgroup <*>
+E1519,"Using nproc_per_node=<*>, setting nproc_per_node to <*> since the instance has <*> GPUs"
+E1520,"Using nproc_per_node=<*>, setting nproc_per_node to <*> since the instance has <*> CPUs"
+E1521,"Using nproc_per_node=<*>, setting nproc_per_node to <*> since the instance has <*> TPUs"
+E1522,"Using nproc_per_node=<*>, setting nproc_per_node to <*> since the instance has <*> CPU"
+E1523,Using logs_spec <*> mapped to <*>
+E1524,master_addr is only used for static rdzv_backend and when rdzv_endpoint is not specified.
+E1525,"*****************************************\nSetting OMP_NUM_THREADS environment variable for each process to be <*> in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. \n*****************************************"
+E1526,"activation memory from memory tracker is <*>,"
+E1527,activation memory from SAC estimator is <*>
+E1528,Something is wrong. Please check!
+E1529,Overriding the latter with the former.
+E1530,Solver failed to find a solution: <*>
+E1531,Local SGD will be started after <*> iterations
+E1532,Start to apply local SGD after <*> iterations.
+E1533,The matrices to be orthogonalized has at least a column of all <*>. Please set a small value such as <*> as `orthogonalization_epsilon` in PowerSGD state.
+E1534,"Compression stats: iter <*>, total before compression <*>, total after compression <*>, rate <*>"
+E1535,NOTE: Process group is not serializable and excluded from a saved state.
+E1536,"NOTE: Process group will be set to a default group (i.e. the world size). If a different group is desired, please set `self.process_group` after PowerSGD state is loaded."
+E1537,Start to apply PowerSGD after <*> iterations.
+E1538,A zero tensor of length <*> that represents local error is created.
+E1539,"Allocating contiguous memory of length <*> for Ps, and of length <*> for Qs, respectively."
+E1540,"Initializing low-rank tensors <*> and <*>, each of which has a shape of <*> x <*>."
+E1541,"Each group that has <*> processes average parameters every <*> iterations, if no higher-level averaging."
+E1542,Terminating the checkpoint background process...
+E1543,Checkpoint background process is dead calling <*>()...
+E1544,Initializing dist.ProcessGroup in checkpoint background process
+E1545,Checkpoint background process is <*>...
+E1546,Waiting for checkpoint save request...
+E1547,Received async checkpoint request with id=<*>
+E1548,Submitted checkpoint save request for checkpoint_id=<*>
+E1549,Checkpoint background process encountered an exception: <*>
+E1550,"Duplicate keys to remove: {<*>: [<*>, <*>, <*>], <*>: [<*>, <*>, <*>], <*>: [<*>, <*>, <*>]}"
+E1551,"DefaultSavePlanner's <*> argument is being deprecated, and no longer has any effect. Please remove this argument from your call."
+E1552,No change in the local plan. Skipping sending the plan to the coordinator
+E1553,key:<*> has overlapping chunks: <*> <*>
+E1554,[trainer] <*> worker group
+E1555,[worker-<*>] Rendezvous'ing worker group
+E1556,[validator] <*> worker group
+E1557,[optimizer] <*> worker group
+E1558,[scheduler] <*> worker group
+E1559,[data-loader] <*> worker group
+E1560,[model-saver] <*>
+E1561,[logger] <*> worker group
+E1562,[coordinator] <*> worker group
+E1563,[controller] <*> worker group
+E1564,[monitor] <*> worker group
+E1565,[initializer] <*> worker group
+E1566,[finalizer] <*> worker group
+E1567,"Received <*> death signal, shutting down workers"
+E1568,[<*>] starting workers for entrypoint: <*>
+E1569,[DataProcessor] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1570,[ComputeNode] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1571,[StorageManager] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1572,[NetworkHandler] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1573,[LoadBalancer] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1574,[DatabaseAgent] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1575,[SecurityMonitor] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1576,[LogAnalyzer] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1577,[TaskScheduler] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1578,[EventEmitter] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1579,[ResourceAllocator] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1580,[HealthChecker] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1581,[CacheManager] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1582,[NotificationService] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1583,[BackupAgent] worker group successfully finished. Waiting <*> seconds for other agents to finish.
+E1584,[Worker] Worker group <*>. <*> attempts left; will restart worker group
+E1585,[Manager] Worker group FAILED. <*> attempts left; will restart worker group
+E1586,[Coordinator] Worker group <*>. <*> attempts left; will restart worker group
+E1587,[Executor] Worker group UNHEALTHY. <*> attempts left; will restart worker group
+E1588,[Controller] Worker group FAILED. <*> attempts left; will restart worker group
+E1589,[<*>] Detected <*> new nodes from group_rank=<*>; will restart worker group
+E1590,Local worker group finished (completed). Waiting <*> seconds for other agents to finish
+E1591,Local worker group finished (<*>). Waiting <*> seconds for other agents to finish
+E1592,Done waiting for other agents. Elapsed: <*> seconds
+E1593,Error waiting on exit barrier. Elapsed: <*> seconds
+E1594,Starting a FileTimerServer with <*> ...
+E1595,"Empty envs variables, using empty run_id for <*>"
+E1596,Environment variable <*> not found. Do not start FileTimerServer.
+E1597,Found healthcheck port TORCHELASTIC_HEALTH_CHECK_PORT: <*>
+E1598,"<*> doesn't exist, using current time as dummy callback"
+E1599,"Invalid healthcheck port value: '<*>', expecting integer. Not starting healthcheck server."
+E1600,Environment variable <*> not found. Do not start health check.
+E1601,"[Worker] worker pids do not match process_context pids. Expected: <*>, actual: <*>"
+E1602,"[Manager] worker pids do not match process_context pids. Expected: <*>, actual: <*>"
+E1603,"[Coordinator] worker pids do not match process_context pids. Expected: <*>, actual: <*>"
+E1604,"[Executor] worker pids do not match process_context pids. Expected: {<*>, <*>, <*>}, actual: {<*>, <*>, <*>}"
+E1605,"[Scheduler] worker pids do not match process_context pids. Expected: <*>, actual: <*>"
+E1606,log directory set to: <*>
+E1607,Empty envs map provided when defining logging destinations.
+E1608,Setting <*> reply file to: <*>
+E1609,Failed to register signal handlers since torchelastic is running on a <*>. This could lead to orphaned worker processes if the torchrun is terminated.
+E1610,"entrypoint fn finished, waiting for all child procs to exit..."
+E1611,failed (exitcode: <*>) local_rank: <*> (pid: <*>) of fn: <*> (start_method: <*>)
+E1612,Closing process <*> via signal <*>
+E1613,"Unable to shutdown process <*> via SIGTERM, forcefully exiting via SIGKILL"
+E1614,"Unable to shutdown process <*> via <*>, forcefully exiting via <*>"
+E1615,failed (exitcode: <*>) local_rank: <*> (pid: <*>) of binary: <*>
+E1616,Sending process <*> closing signal <*>
+E1617,NOTE: Redirects are currently not supported in <*>
+E1618,error in log tailor for <*>. <*>: invalid literal for int() with base <*>: <*>
+E1619,"error in log tailor for <*>. <*>: can only concatenate str (not ""<*>"") to str"
+E1620,error in log tailor for <*>. <*>: <*>
+E1621,"User process failed with error data: {\n ""error_code"": ""<*>"",\n ""message"": ""<*>"",\n ""timestamp"": ""<*>"",\n ""file_path"": ""<*>""\n}"
+E1622,Failed to parse reply file: <*>
+E1623,"('<*> FAILED with no error file. Decorate your entrypoint fn with @record for traceback info. See: <*>', <*>)"
+E1624,child error file (<*>) does not have field `message`. \ncannot override error code: <*>
+E1625,dumped error file to parent's <*>
+E1626,"no error file defined for parent, to copy child error file (<*>)"
+E1627,<*> already exists and will be overwritten. Unable to load original contents:
+E1628,Creating EtcdStore as the c10d::Store implementation
+E1629,Shutdown failed. Error occurred: <*>: The operation timed out after <*> seconds.
+E1630,Shutdown failed. Error occurred: ValueError: Invalid value provided for the configuration setting.
+E1631,Shutdown failed. Error occurred: <*>: An error occurred while closing the file.
+E1632,Shutdown failed. Error occurred: <*>: Unable to connect to the remote server.
+E1633,Shutdown failed. Error occurred: KeyError: <*> is missing from the configuration.
+E1634,Shutdown failed. Error occurred: <*>
+E1635,Attempting to join next rendezvous
+E1636,Rendezvous timeout occurred in <*>
+E1637,Rendezvous for run_id=<*> was observed to be closed
+E1638,"Rendezvous attempt failed, will retry. Reason: <*>: Failed to connect to the server."
+E1639,"Rendezvous attempt failed, will retry. Reason: <*>: The operation timed out."
+E1640,"Rendezvous attempt failed, will retry. Reason: KeyError: <*>"
+E1641,"Rendezvous attempt failed, will retry. Reason: <*>: <*>"
+E1642,New rendezvous state created: <*>
+E1643,Observed existing rendezvous state: <*>
+E1644,Joined rendezvous version <*> as rank <*>. Full state: <*>
+E1645,Rank <*> is responsible for join <*> call.
+E1646,Rank <*> finished join last call.
+E1647,All peers arrived. Confirming membership.
+E1648,Waiting for confirmations from all peers.
+E1649,"Rendezvous version <*> is complete. Final state: {""nodes"": <*>, ""status"": <*>, ""timestamp"": <*>"
+E1650,Added self to waiting list. Rendezvous full state: <*>
+E1651,Previously existing rendezvous state changed. Will re-try joining.
+E1652,"Join rendezvous CAS unsuccessful, <*>"
+E1653,"Confirm membership CAS unsuccessful, retrying"
+E1654,"Announce self as waiting CAS unsuccessful, <*>"
+E1655,Keep-alive key <*> is not renewed.
+E1656,Rendezvous version <*> is incomplete.
+E1657,Destroyed rendezvous version <*> successfully.
+E1658,Join last-call transition CAS unsuccessful. Will retry
+E1659,"Join last-call TTL refresh CAS unsuccessful, will retry"
+E1660,"Set closed CAS <*>, retrying"
+E1661,deleting etcd data dir: <*>
+E1662,"Failed to start etcd server, got error: <*>, retrying"
+E1663,etcd server ready. version: <*>
+E1664,Exception while registering out of tree plugin <*>:
+E1665,Creating TCPStore as the c10d::Store implementation
+E1666,"Uncaught exception thrown from _reap_worker(), check that the implementation correctly catches exceptions"
+E1667,Reaping worker_id=[<*>]. Expired timers: [<*>]
+E1668,Error reaping worker=[<*>]. Will retry on next watchdog.
+E1669,"No watchdog thread running, <*>"
+E1670,Timer client configured to: <*>
+E1671,Could not open the FileTimerServer pipe
+E1672,Reaping worker_pid=[<*>]. Expired timers: [<*>]
+E1673,No signal specified with worker=[<*>]. Do not reap it.
+E1674,Successfully reaped worker=[<*>] with signal=SIGTERM
+E1675,Successfully reaped worker=[<*>] with signal=SIGKILL
+E1676,Successfully reaped worker=[<*>] with signal=<*>
+E1677,Terminating the server process=[<*>] because of expired timers
+E1678,Process with pid=<*> does not exist. Skipping
+E1679,"argument <*> is deprecated and ignored. Set <*> environment variable to <*> to disable libuv, or <*> to enable it. If the env var is not set, libuv will be used by default."
+E1680,Creating c10d store on <*> world_size : <*> is_server : <*> timeout(sec): <*> use_libuv : <*>
+E1681,"port: <*> already in use, attempt: [<*>]"
+E1682,FSDP firing post-backward hooks for parameters <*>
+E1683,FSDP FlatParameter address alignment created <*> numel of padding (<*> vs. <*>)
+E1684,FSDP FlatParameter world size divisibility created <*> numel of padding
+E1685,"Memory Summary before calling to _allgather_orig_param_states <*> used, <*> free, <*> total"
+E1686,FSDP is casting the dtype of <*> to <*>
+E1687,"Did not find param with FQN <*>, skipping it. The weight will not be filled if you expect it to be."
+E1688,"FSDP finished processing state_dict(), prefix=<*>"
+E1689,"FQN=<*>: type=<*>, shape=<*>, local_shape=<*>, dtype=<*>, device=<*>"
+E1690,"config has no run_id, generated a random run_id: <*>"
+E1691,Created a temporary directory at <*>
+E1692,"Creating the optimizer <*> without TorchScript support, this might result in slow computation time in multithreading environment (i.e. Distributed Model Parallel training on CPU) due to the Python's Global Interpreter Lock (GIL). Please file an issue if you need this optimizer in TorchScript."
+E1693,"`parameters_as_bucket_view=<*> will be ignored since `overlap_with_ddp=<*>; instead, a different bucketing strategy will be used"
+E1694,ZeroRedundancyOptimizer detected that the trainable parameters changed; rebuilding the parameter buckets if enabled
+E1695,<*> should not be included in the training loop when <*>
+E1696,Adam does not support the argument '<*>'; ZeroRedundancyOptimizer may error due to an empty parameter list
+E1697,SGD does not support the argument '<*>'; ZeroRedundancyOptimizer may error due to an empty parameter list
+E1698,RMSprop does not support the argument <*>; ZeroRedundancyOptimizer may error due to an empty parameter list
+E1699,Adagrad does not support the argument <*>; ZeroRedundancyOptimizer may error due to an empty parameter list
+E1700,<*> does not support the argument <*>; ZeroRedundancyOptimizer may error due to an empty parameter list
+E1701,rank <*> with <*> parameters across <*> buckets
+E1702,<*> DDP buckets and <*> bucket assignments
+E1703,Using the functional optimizer <*> instead of <*> since `overlap_with_ddp=<*>
+E1704,Changing device of Node <*> from <*> to <*>
+E1705,Skipping device modification for submodule <*> because it is a <*>
+E1706,"Deleted <*> from user <*>, arg index = <*>"
+E1707,Moved parameter <*> to <*>
+E1708,Parameter weight used in multiple stages: <*>: <*>
+E1709,Parameter bias used in multiple stages: <*>: <*>.
+E1710,Parameter kernel used in multiple stages: <*>.
+E1711,Parameter embedding used in multiple stages: <*>: <*>.
+E1712,Parameter activation used in multiple stages: <*>: <*>
+E1713,Parameter dropout used in multiple stages: <*>: <*>.
+E1714,Parameter batchnorm used in multiple stages: <*>: <*>.
+E1715,Parameter scale used in multiple stages: <*>.
+E1716,Parameter filter used in multiple stages: <*>: <*>.
+E1717,Parameter stride used in multiple stages: <*>: <*>.
+E1718,Parameter padding used in multiple stages: <*>.
+E1719,Parameter dilation used in multiple stages: <*>: <*>.
+E1720,Parameter <*> used in multiple stages: <*>.
+E1721,"Pipeline is in <*> mode, <*> pass generated"
+E1722,"Pipeline is in <*> mode, backward pass not generated"
+E1723,Original model takes <*> args but the first pipeline stage takes <*>. Please provide args to respective pipeline stages.
+E1724,Expected a `torch.fx.GraphModule` but got <*>
+E1725,"Tensor size on chunking dimension is <*>, downsizing the number of chunks from <*> to <*>."
+E1726,"Deprecation warning: <*> is no longer supported. Simply stop passing it, and everything should still work fine."
+E1727,[Rank <*>] pipeline schedule <*> caught the following exception at time_step <*> when running action <*>
+E1728,_PipelineScheduleRuntime caught exception at step <*> when running action <*>. Full Schedule:
+E1729,Non zero bubbles added: total_bubbles_added=<*> bubbles_added=<*>
+E1730,Worker-<*> Grad send info: [<*>]
+E1731,Thread-<*> Grad send info: [<*>]
+E1732,Process-<*> Grad send info: [<*>]
+E1733,Node-<*> Grad send info: [<*>]
+E1734,Task-<*> Grad send info: [<*>]
+E1735,"[Pipeline] Sending tensor to Stage <*>: torch.Size([<*>, <*>, <*>])"
+E1736,"[Worker-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1737,"[GPU-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1738,"[Node-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1739,"[Process-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1740,"[Thread-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1741,"[Executor-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1742,"[Task-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1743,"[Batch-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1744,"[Queue-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1745,"[Buffer-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1746,"[Stream-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1747,"[Channel-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1748,"[Session-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1749,"[Job-<*>] Sending tensor to Stage <*>: torch.Size([<*>, <*>])"
+E1750,"[INFO] Sending gradient to Stage <*>: torch.Size([<*>, <*>])"
+E1751,"[DEBUG] Sending gradient to Stage <*>: torch.Size([<*>, <*>])"
+E1752,"[INFO] Forwarded chunk <*>, outputs: <*>"
+E1753,"[DEBUG] Forwarded chunk <*>, outputs: <*>"
+E1754,[<*>] Creating PipelineStage <*> for <*>
+E1755,"[Stage <*>] Creating recv buffer for input <*> : (<*>, <*>), <*>"
+E1756,"Stage1 Grad recv info: (<*>, <*>)"
+E1757,Stage2 Grad recv info: <*>
+E1758,Stage3 Grad recv info: <*>
+E1759,Stage4 Grad recv info: <*>
+E1760,"Stage5 Grad recv info: (tensor(<*>, device='cuda:<*>'), tensor(<*>, device='cuda:<*>'))"
+E1761,Stage6 Grad recv info: <*>
+E1762,Stage7 Grad recv info: <*>
+E1763,"Stage8 Grad recv info: (tensor(<*>, device='cuda:<*>'), tensor(<*>, device='cuda:<*>'))"
+E1764,"Stage9 Grad recv info: (tensor(<*>, device='cuda:<*>'), tensor(<*>, device='cuda:<*>'))"
+E1765,"<*> Grad recv info: (tensor(<*>, device='<*>'), tensor(<*>, device='<*>'))"
+E1766,"Deprecation warning: passing <*> and performing init-time shape inference is deprecated. PipelineStage now supports runtime shape inference using the real inputs provided to schedule step(). Either delete <*> arg to PipelineStage to opt-into runtime shape inference, or additionally pass <*> to PipelineStage to fully override shape inference."
+E1767,"Shape inference: stage <*> skipping recv, because shape info passed in via <*>"
+E1768,Shape inference: stage <*> receiving from stage <*>
+E1769,"Shape inference: stage <*> inputs <*>, outputs <*>"
+E1770,<*>: stage <*> skipping send to next stage
+E1771,<*> inference: stage <*> sending to stage <*>
+E1772,Group membership token <*> timed out waiting for resource_lock to be released.
+E1773,Group membership token <*> timed out waiting for <*> to be released.
+E1774,"Failed to complete barrier, got error <*>: <*> operation failed due to a <*>."
+E1775,"Failed to complete barrier, got error RuntimeError: <*>"
+E1776,"Failed to respond to <*> in time, got error <*>: The operation timed out after <*> seconds."
+E1777,"Failed to respond to <*> in time, got error <*>: <*>"
+E1778,"CPU process group does not support <*> yet, falling back with <*> + <*>!"
+E1779,redistribute from <*> to <*> on mesh dim <*>
+E1780,"##############################################################################################\nCongratuations: No issues are found during export, and it was able to soundly produce a graph.\nYou can now change back to <*>##############################################################################################"
+E1781,Trying to remove <*> for module call <*>
+E1782,"More than one user found for flatten node, <*>: <*>. Unable to fuse it with another unflatten call."
+E1783,Flatten node <*>'s user is not a pytree.tree_unflatten. Instead it is: <*>. Passing...
+E1784,Module Conv2D's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1785,Module Linear's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>
+E1786,Module BatchNorm2d's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1787,Module ReLU's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1788,Module MaxPool2d's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1789,Module Dropout's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1790,Module Sigmoid's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1791,Module Softmax's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1792,Module Embedding's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1793,Module LSTM's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1794,Module GRU's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1795,Module RNN's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1796,Module Transformer's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1797,Module LayerNorm's outputs are not all directly used as inputs to the subsequent module. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1798,"Module Conv2D's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>, <*>, <*>."
+E1799,"Module Linear's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: (<*>, <*>, <*>)."
+E1800,"Module BatchNorm2d's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>, <*>, <*>."
+E1801,Module ReLU's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1802,Module MaxPool2d's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1803,Module Dropout's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1804,Module Embedding's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1805,Module LSTM's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1806,Module GRU's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1807,Module RNN's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1808,Module Transformer's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1809,Module Attention's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: (<*>).
+E1810,Module ResBlock's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1811,Module DenseLayer's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1812,Module Conv1D's outputs are not all directly used in the same order as outputted. Unable to fuse the connecting flatten/unflatten. The inputs to the subsequent module are: <*>.
+E1813,"More than one user found for unflatten node, <*>: <*>. Unable to fuse it with another flatten call."
+E1814,"Shared module found between <*> and <*>, AttrProxy is enabled."
+E1815,"failed while running <*>(<*>, <*>)"
+E1816,failed when running event: <*>
+E1817,Failed to convert to <*>: <*>
+E1818,"failed to eval <*>(<*> + <*>, <*> - <*>)"
+E1819,"RecursionError in sympy.xreplace(<*> + <*>, {{'<*>': <*>, '<*>': <*>})"
+E1820,Failed to reduce inequalities: <*>
+E1821,<*> Warning only constraints violated
+E1822,"Ignored guard x > <*> == <*>, this could result in accuracy problems"
+E1823,"Ignored guard y < <*> == <*>, this could result in accuracy problems"
+E1824,"Ignored guard z == <*> == <*>, this could result in accuracy problems"
+E1825,"Ignored guard <*>, this could result in accuracy problems"
+E1826,"Unable to find user code corresponding to <*>, <*>, <*>"
+E1827,pytree.tree_leaves_with_path failed for value of type <*> in local variable <*>
+E1828,translation validation: could not validate: got <*>
+E1829,translation validation succeeded: <*>
+E1830,Ran pass optimize_graph Return value: True
+E1831,Ran pass compile_code Return value: <*>
+E1832,Ran pass validate_input Return value: None
+E1833,"Ran pass process_data Return value: {'status': 'success', 'data': [<*>, <*>, <*>]}"
+E1834,"Ran pass generate_report Return value: ""Report generated successfully"""
+E1835,Ran pass check_permissions Return value: False
+E1836,Ran pass load_configuration Return value: {'config': 'loaded'}
+E1837,"Ran pass execute_query Return value: [{'id': <*>, 'name': 'John Doe'}, {'id': <*>, 'name': 'Jane Smith'}]"
+E1838,"Ran pass update_database Return value: ""Database updated"""
+E1839,"Ran pass send_notification Return value: ""Notification sent to <*> users"""
+E1840,"Ran pass parse_log Return value: [""log1"", ""log2"", ""log3""]"
+E1841,"Ran pass authenticate_user Return value: ""User authenticated"""
+E1842,"Ran pass compress_files Return value: ""Files compressed successfully"""
+E1843,"Ran pass decompress_files Return value: ""Files decompressed successfully"""
+E1844,CSE node <*> -> <*> for expr <*>
+E1845,deleting unused reified symbol for <*>
+E1846,Reassigning getitem nodes to its producer node's partition...
+E1847,Filtering out single node partitions...
+E1848,Graph after pass '<*>': Nodes(<*>) -> Nodes(<*>)
+E1849,Graph after pass '<*>': Constants(<*>) -> Constants(<*>)
+E1850,Graph after pass '<*>': Functions(<*>) -> Functions(<*>)
+E1851,Graph after pass '<*>': Parameters(<*>) -> Parameters(<*>)
+E1852,Graph after pass '<*>': Edges(<*>) -> Edges(<*>)
+E1853,Graph after pass '<*>': Operations(<*>) -> Operations(<*>)
+E1854,Graph after pass '<*>': Shapes(<*>) -> Shapes(<*>)
+E1855,Trying to match anchor <*> to <*>
+E1856,Failed to match anchor <*> to <*>
+E1857,Filtered out <*> matches because they are not fully contained
+E1858,Terminating process <*> via signal <*>
+E1859,"For NestedTensor inputs, Flash attention requires q,k,v to have the same last dimension and to be a multiple of <*> and less than or equal to <*>. Got Query.size(<*>): <*>, Key.size(<*>): <*>, Value.size(<*>): <*> instead."
+E1860,"For NestedTensor inputs, cuDNN attention requires q,k,v to have the same last dimension and to be a multiple of <*> and less than or equal to <*>. Got Query.size(<*>): <*>, Key.size(<*>): <*>, Value.size(<*>): <*> instead."
+E1861,"Fused kernels do not support ragged <*>, <*> has a ragged <*>."
+E1862,"Fused kernels do not support seq_len == <*>, input_tensor has a seq len of <*>."
+E1863,"Fused kernels do not support seq_len == <*>, query_tensor has a seq len of <*>."
+E1864,"Fused kernels do not support seq_len == <*>, key_tensor has a seq len of <*>."
+E1865,"Fused kernels do not support seq_len == <*>, value_tensor has a seq len of <*>."
+E1866,"Fused kernels do not support seq_len == <*>, attention_weights has a seq len of <*>."
+E1867,"Fused kernels do not support seq_len == <*>, batch_data has a seq len of <*>."
+E1868,"Fused kernels do not support seq_len == <*>, sequence_input has a seq len of <*>."
+E1869,"Fused kernels do not support seq_len == <*>, token_sequence has a seq len of <*>."
+E1870,"Fused kernels do not support seq_len == <*>, embedding_layer has a seq len of <*>."
+E1871,"Fused kernels do not support seq_len == <*>, transformer_input has a seq len of <*>."
+E1872,"Fused kernels do not support seq_len == <*>, positional_encoding has a seq len of <*>."
+E1873,"Fused kernels do not support seq_len == <*>, context_vector has a seq len of <*>."
+E1874,"Fused kernels do not support seq_len == <*>, output_tensor has a seq len of <*>."
+E1875,"Fused kernels do not support seq_len == <*>, layer_output has a seq len of <*>."
+E1876,"Both fused kernels require query, key and value to have broadcastable dimensions, got Query shape <*>, Key shape <*>, Value shape <*> instead."
+E1877,"Both fused kernels require query, key and value to have broadcastable sizes, got Query length <*>, Key length <*>, Value length <*> instead."
+E1878,"Both fused kernels require query, key and value to have broadcastable shapes, got Query size <*>, Key size <*>, Value size <*> instead."
+E1879,"Both fused kernels require query, key and value to have broadcastable dimensions, got Query dimension <*>, Key dimension <*>, Value dimension <*> instead."
+E1880,"Both fused kernels require query, key and value to have broadcastable sizes, got Query size <*>, Key size <*>, Value size <*> instead."
+E1881,"Both fused kernels require query, key and value to have broadcastable shapes, got Query shape <*>, Key shape <*>, Value shape <*> instead."
+E1882,Both fused kernels do not support training with broadcasted <*> inputs.
+E1883,If inputs are nested tensors they must be contiguous after transposing.
+E1884,Nested tensors for query / key are not supported when is_causal=<*>.
+E1885,Memory efficient kernel not used because: <*>
+E1886,Flash attention kernel not used because: <*>
+E1887,Math attention kernel not used because: <*>
+E1888,cuDNN attention kernel not used because: <*>
+E1889,Delay the AllReduce of all parameters.
+E1890,Received mixed precision config <*>
+E1891,Reducer buckets have been rebuilt in this iteration.
+E1892,Experimental flag <*> is deprecated. Please remove it from your environment.
+E1893,Experimental flag <*> is enabled. This will override the default settings.
+E1894,Experimental flag <*> is enabled. This will increase logging verbosity.
+E1895,Experimental flag <*> is enabled. This will reduce the initialization time.
+E1896,Experimental flag <*> is enabled. This will use <*> for all connections.
+E1897,Experimental flag <*> is enabled. This will optimize resource usage.
+E1898,Experimental flag <*> is enabled. This will enable compatibility with older versions.
+E1899,Experimental flag <*> is enabled. This will enforce stricter security policies.
+E1900,Experimental flag <*> is enabled. This will compress data to save storage space.
+E1901,Experimental flag <*> is enabled. This will automatically adjust resources based on load.
+E1902,Experimental flag <*> is enabled. This will improve cache hit rates.
+E1903,Experimental flag <*> is enabled. This will process tasks <*>.
+E1904,Experimental flag <*> is enabled. This will utilize multiple threads for faster execution.
+E1905,Experimental flag <*> is enabled. This will log user interactions for analytics.
+E1906,Experimental flag <*> is enabled. This will send error reports to the monitoring system.
+E1907,support_dict supports node.target: <*> (type: <*>)
+E1908,extra_support_dict supports node.target: torch.add (type: <*>)
+E1909,extra_support_dict supports node.target: <*> (type: <*>)
+E1910,<*> and <*> don't support node.target: <*> (type: <*>)
+E1911,"Optional parameter <*> is not provided. Added as None. Signature: def my_function(<*>=None, retry=False)"
+E1912,"Optional parameter <*> is not provided. Added as None. Signature: def process_data(retry=None, data=None)"
+E1913,"Optional parameter <*> is not provided. Added as None. Signature: def load_file(data=<*>, path='default_path')"
+E1914,"Optional parameter <*> is not provided. Added as None. Signature: def save_file(content, path=<*>)"
+E1915,"Optional parameter <*> is not provided. Added as None. Signature: def connect_to_server(<*>=None, timeout=<*>)"
+E1916,"Optional parameter <*> is not provided. Added as None. Signature: def log_info(message, verbose=None)"
+E1917,"Optional parameter <*> is not provided. Added as None. Signature: def get_user_profile(<*>=None, include_details=True)"
+E1918,"Optional parameter <*> is not provided. Added as None. Signature: def fetch_data(include_details=None, limit=<*>)"
+E1919,"Optional parameter <*> is not provided. Added as None. Signature: def query_database(query, limit=<*>, offset=<*>)"
+E1920,"Optional parameter <*> is not provided. Added as None. Signature: def paginate_results(limit=<*>, offset=None)"
+E1921,"Optional parameter <*> is not provided. Added as None. Signature: def async_task(callback=None, data=None)"
+E1922,"Optional parameter <*> is not provided. Added as None. Signature: def process_metadata(metadata=None, content=None)"
+E1923,"Optional parameter <*> is not provided. Added as None. Signature: def parse_content(content=None, encoding='utf-<*>')"
+E1924,"Optional parameter <*> is not provided. Added as None. Signature: def read_file(file_path, encoding=<*>)"
+E1925,"Optional parameter <*> is not provided. Added as None. Signature: def write_file(content, <*>=None, mode='w')"
+E1926,"Optional attribute <*> is None. Dropped. Signature: def process_user(<*>, user_name)"
+E1927,"Optional attribute <*> is None. Dropped. Signature: def load_data(<*>, <*>)"
+E1928,"Optional attribute <*> is None. Dropped. Signature: def execute_command(command, timeout=<*>)"
+E1929,"Optional attribute <*> is None. Dropped. Signature: def send_request(url, max_retries=<*>)"
+E1930,"Optional attribute <*> is <*>. Dropped. Signature: def load_config(<*>, <*>)"
+E1931,"Optional attribute <*> is None. Dropped. Signature: def setup_logging(<*>, <*>)"
+E1932,"Optional attribute <*> is None. Dropped. Signature: def connect_to_db(<*>, username, password)"
+E1933,"Optional attribute <*> is None. Dropped. Signature: def authenticate(api_key, secret_key)"
+E1934,"Optional attribute <*> is None. Dropped. Signature: def process_batch(data, batch_size=<*>)"
+E1935,"Optional attribute <*> is None. Dropped. Signature: def async_task(task, callback=<*>)"
+E1936,"Optional attribute 'headers' is <*>. Dropped. Signature: def make_http_request(url, headers=<*>, data=<*>)"
+E1937,"Optional attribute <*> is None. Dropped. Signature: def download_file(url, cache_dir=<*>)"
+E1938,"Optional attribute <*> is None. Dropped. Signature: def fetch_data(url, proxy=<*>, timeout=<*>)"
+E1939,"Optional attribute <*> is None. Dropped. Signature: def secure_connection(url, ssl_verify=<*>)"
+E1940,"Optional attribute <*> is None. Dropped. Signature: def translate_text(text, language=<*>, source_language='en')"
+E1941,Replaced <*> with <*> to allow dynamo tracing
+E1942,"Expected meta_vals to be a sequence, but got <*>. There may be an internal error."
+E1943,Setting shape and type of tensors is not supported yet
+E1944,nn_module_stack not found for node '<*>'. Skip adding metadata...
+E1945,"Expected node.target for the node <*> to be a string, but got <*>. There may be an internal error."
+E1946,Model output <*> has multiple values: <*> (output spec: <*>). Please make sure this is expected.
+E1947,Tensor <*> is not one of the initializers
+E1948,Failed to save report due to an error.
+E1949,Output <*> has a large absolute difference of <*>.
+E1950,Output <*> has a large relative difference of <*>.
+E1951,Failed to add <*> <*> to the model.
+E1952,The model initializers is larger than <*> (<*>).
+E1953,Failed to infer the signature for function <*> because '<*>'All nodes targeting <*> will be dispatched to this function
+E1954,torchvision is not installed. Skipping <*>
+E1955,<*> does not have a <*> overload. This could be an error in specifying the op name. Ignoring.
+E1956,<*> is not found in this version of PyTorch.
+E1957,Failed to find torch op '<*>'
+E1958,Failed to register '<*>'. Skipped
+E1959,"Missing annotation for parameter <*> from def example_function(<*>, <*>: int). Treating as an Input."
+E1960,"Missing annotation for parameter <*> from def process_data(<*>, <*>: <*>). Treating as an Input."
+E1961,"Missing annotation for parameter <*> from def read_file(<*>, mode: <*>). Treating as an Input."
+E1962,"Missing annotation for parameter <*> from def get_user_info(<*>, include_details: <*>). Treating as an Input."
+E1963,"Missing annotation for parameter <*> from def calculate_sum(<*>, total: <*>). Treating as an Input."
+E1964,"Missing annotation for parameter <*> from def add_to_cart(<*>, quantity: int). Treating as an Input."
+E1965,"Missing annotation for parameter <*> from def greet(<*>, greeting: <*>). Treating as an Input."
+E1966,"Missing annotation for parameter <*> from def get_value(<*>, dictionary: <*>). Treating as an Input."
+E1967,"Missing annotation for parameter <*> from def get_element(<*>, list: list). Treating as an Input."
+E1968,"Missing annotation for parameter <*> from def log_event(<*>, <*>: str). Treating as an Input."
+E1969,"Missing annotation for parameter <*> from def fetch_data(<*>, headers: <*>). Treating as an Input."
+E1970,"Missing annotation for parameter <*> from def <*>(<*>, settings: <*>). Treating as an Input."
+E1971,"Missing annotation for parameter <*> from def check_threshold(<*>, value: float). Treating as an Input."
+E1972,"Missing annotation for parameter <*> from def find_by_id(<*>, collection: <*>). Treating as an Input."
+E1973,Failed to compute value for node <*>: <*>
+E1974,"Verification info for node <*>: max_abs_diff: <*>, max_rel_diff: <*>"
+E1975,Tabular diff is not available because <*> is not installed.
+E1976,"Failed to load the checkpoint with memory-map enabled, retrying without memory-map. Consider updating the checkpoint with mmap by using torch.save() on PyTorch version >= <*>."
+E1977,Cannot find op: <*> in module: <*>
+E1978,"Op: <*> is not an OpOverloadPacket, got: <*>"
+E1979,Cannot find type promotion rule for: <*>
+E1980,Mismatch between allocation and free: <*> vs. <*>
+E1981,Started process <*> with pid <*>
+E1982,Starting event listener thread for rank <*>
+E1983,"Pipe closed for process <*>, stopping event listener thread"
+E1984,Received event <*> on process <*>
+E1985,Process <*> skipping test <*> for following reason: Test not applicable for this rank
+E1986,Process <*> skipping test <*> for following reason: <*> not supported in this environment
+E1987,Process <*> skipping test <*> for following reason: <*>
+E1988,Encountered error while trying to get traceback for process <*>: <*>('<*>')
+E1989,"Pipe closed for process <*>, cannot retrieve traceback"
+E1990,Could not retrieve traceback for timed out process: <*>
+E1991,Encountered error while trying to get traceback for process <*>: <*>: <*>
+E1992,"Note: <*>, test was likely skipped."
+E1993,Thread <*> skipping test <*> for following reason: Test skipped due to <*>
+E1994,Thread <*> skipping test <*> for following reason: <*>
+E1995,Attempted to load json file <*> but it does not exist.
+E1996,could not print repro string
+E1997,test/dynamo_expected_failures directory not found - known dynamo errors won't be skipped.
+E1998,The module hierarchy tracking seems to be broken as this Module was already entered. <*> during backward
+E1999,The module hierarchy tracking seems to be broken as this Module was already entered. <*> during forward
+E2000,The Module hierarchy tracking is confused as we're exiting a Module that was never entered. <*> during forward
+E2001,The Module hierarchy tracking is confused as we're exiting a Module that was never entered. <*> during backward
+E2002,failed while executing process_data(<*>)
+E2003,failed while executing fetch_user(<*>)
+E2004,"failed while executing save_file(<*>, <*>)"
+E2005,failed while executing <*>(<*>)
+E2006,expression with unsupported type: <class '<*>'>
+E2007,thing (<*>) found in both sides of expression: <*> + <*> == <*> - <*>
+E2008,"parameter: <*> should be a dictionary, nothing logged."
+E2009,The temporary file used by moviepy cannot be deleted.
+E2010,"CUDA Memory changed during GC, <*> bytes freed."
+E2011,No CUDA Tensors found in garbage
+E2012,Watching Python reference cycles for CUDA Tensors.
+E2013,Reference cycle includes a CUDA Tensor see visualization of cycle <*>
+E2014,High relative std: <*>. times=<*>
+E2015,cannot compute speedup over default because default_time=<*>
+E2016,All top k choices have no time which means all top k are unavailable
+E2017,NOT SUPPORTED TYPE CONVERTING: <*>
+E2018,"NON-TENSOR RET TYPE: add(<*>, <*>) -> <*>"
+E2019,"NON-TENSOR RET TYPE: multiply(<*>, <*>) -> <*>"
+E2020,NON-TENSOR RET TYPE: get_name(<*>) -> <*>
+E2021,NON-TENSOR RET TYPE: calculate_area(<*>) -> <*>
+E2022,NON-TENSOR RET TYPE: check_status(<*>) -> <*>
+E2023,NON-TENSOR RET TYPE: get_length(<*> array) -> int
+E2024,NON-TENSOR RET TYPE: <*>
