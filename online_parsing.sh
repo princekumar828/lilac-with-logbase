@@ -1,5 +1,6 @@
 cd benchmark/evaluation
 python LILAC_eval.py -full --shot 32 --example_size 3 --model gpt-3.5-turbo-0613
+python LILAC_eval.py  --shot 32 --example_size 3 --model gpt-3.5-turbo --dataset 
 
 # for a in 8 16 32 64 128
 # do

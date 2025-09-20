@@ -25,50 +25,75 @@ from evaluation.utils.evaluator_main import evaluator, prepare_results
 from evaluation.utils.postprocess import post_average
 
 
-datasets_2k = [
-    "Proxifier",
-    "Linux",
-    "Apache",
-    "Zookeeper",
-    "Hadoop",
-    "HealthApp",
-    "OpenStack",
-    "HPC",
-    "Mac",
-    "OpenSSH",
-    "Spark",
-    "Thunderbird",
-    "BGL",
-    "HDFS",
-    'pytorch', 'transformers', 'flink', 'presto', 'cassandra', 
-    'liquibase', 'jenkins', 'maven', 'spring-boot', 'netty', 
-    'activemq', 'rocketmq', 'elasticsearch', 'logstash', 'cas', 
-    'shenyu', 'cpython', 'Python', 'jitsi', 'openpilot','javacv'
+# datasets_2k = [
+#     "Proxifier",
+#     "Linux",
+#     "Apache",
+#     "Zookeeper",
+#     "Hadoop",
+#     "HealthApp",
+#     "OpenStack",
+#     "HPC",
+#     "Mac",
+#     "OpenSSH",
+#     "Spark",
+#     "Thunderbird",
+#     "BGL",
+#     "HDFS",
+#     'pytorch', 'transformers', 'flink', 'presto', 'cassandra', 
+#     'liquibase', 'jenkins', 'maven', 'spring-boot', 'netty', 
+#     'activemq', 'rocketmq', 'elasticsearch', 'logstash', 'cas', 
+#     'shenyu', 'cpython', 'Python', 'jitsi', 'openpilot','javacv'
    
+# ]
+datasets_2k = [
+    "activemq",
+    "cas",
+    "CoreNLP",
+    "hive",
+    "OpenSearch",
+    "camel",
+    "cassandra",
+    "hbase",
+    "jenkins",
+    "pytorch"
 ]
 
-datasets_full = [
-    "Proxifier",
-    "Apache",
-    "OpenSSH",
-    "HDFS",
-    "OpenStack",
-    "HPC",
-    "Zookeeper",
-    "HealthApp",
-    "Hadoop",
-    "Spark",
-    "BGL",
-    "Linux",
-    "Mac",
-    "Thunderbird",
-    "BGL",
-    "HDFS",
-    'pytorch', 'transformers', 'flink', 'presto', 'cassandra', 
-    'liquibase', 'jenkins', 'maven', 'spring-boot', 'netty', 
-    'activemq', 'rocketmq', 'elasticsearch', 'logstash', 'cas', 
-    'shenyu', 'cpython', 'Python', 'jitsi', 'openpilot', 'javacv'
+# datasets_full = [
+#     "Proxifier",
+#     "Apache",
+#     "OpenSSH",
+#     "HDFS",
+#     "OpenStack",
+#     "HPC",
+#     "Zookeeper",
+#     "HealthApp",
+#     "Hadoop",
+#     "Spark",
+#     "BGL",
+#     "Linux",
+#     "Mac",
+#     "Thunderbird",
+#     "BGL",
+#     "HDFS",
+#     'pytorch', 'transformers', 'flink', 'presto', 'cassandra', 
+#     'liquibase', 'jenkins', 'maven', 'spring-boot', 'netty', 
+#     'activemq', 'rocketmq', 'elasticsearch', 'logstash', 'cas', 
+#     'shenyu', 'cpython', 'Python', 'jitsi', 'openpilot', 'javacv'
      
+# ]
+
+datasets_full = [
+    "activemq",
+    "cas",
+    "CoreNLP",
+    "hive",
+    "OpenSearch",
+    "camel",
+    "cassandra",
+    "hbase",
+    "jenkins",
+    "pytorch"
 ]
 
 

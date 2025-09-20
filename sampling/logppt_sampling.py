@@ -13,208 +13,261 @@ import time
 import calendar
 import argparse
 
+# datasets = [
+#     "Apache",
+#     "BGL",
+#     "Hadoop",
+#     "HDFS",
+#     "HealthApp",
+#     "HPC",
+#     "Linux",
+#     "Mac",
+#     "OpenSSH",
+#     "OpenStack",
+#     "Proxifier",
+#     "Spark",
+#     "Thunderbird",
+#     "Zookeeper",
+#     'brave',
+#     'airflow',
+#     'dbeaver',
+#     'pytorch', 'transformers', 'flink', 'presto', 'cassandra', 
+#     'liquibase', 'jenkins', 'maven', 'spring-boot', 'netty', 
+#     'activemq', 'rocketmq', 'elasticsearch', 'logstash', 'cas', 
+#     'shenyu', 'cpython', 'Python', 'jitsi', 'openpilot' , 'javacv'
+# ]
 datasets = [
-    "Apache",
-    "BGL",
-    "Hadoop",
-    "HDFS",
-    "HealthApp",
-    "HPC",
-    "Linux",
-    "Mac",
-    "OpenSSH",
-    "OpenStack",
-    "Proxifier",
-    "Spark",
-    "Thunderbird",
-    "Zookeeper",
-    'brave',
-    'airflow',
-    'dbeaver',
-    'pytorch', 'transformers', 'flink', 'presto', 'cassandra', 
-    'liquibase', 'jenkins', 'maven', 'spring-boot', 'netty', 
-    'activemq', 'rocketmq', 'elasticsearch', 'logstash', 'cas', 
-    'shenyu', 'cpython', 'Python', 'jitsi', 'openpilot' , 'javacv'
+    "activemq",
+    "cas",
+    "CoreNLP",
+    "hive",
+    "OpenSearch",
+    "camel",
+    "cassandra",
+    "hbase",
+    "jenkins",
+    "pytorch"
 ]
-
 # datasets = [
 #     "Apache",
 # ]
 
+# benchmark = {
+#     'HDFS': {
+#         'log_file': 'HDFS/HDFS_full.log',
+#         'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
+#     },
+
+#     'Hadoop': {
+#         'log_file': 'Hadoop/Hadoop_full.log',
+#         'log_format': '<SessionId> <Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
+#     },
+
+#     'Spark': {
+#         'log_file': 'Spark/Spark_full.log',
+#         'log_format': '<Date> <Time> <Level> <Component>: <Content>',
+#     },
+
+#     'Zookeeper': {
+#         'log_file': 'Zookeeper/Zookeeper_full.log',
+#         'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
+#     },
+
+#     'BGL': {
+#         'log_file': 'BGL/BGL_full.log',
+#         'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
+#     },
+
+#     'HPC': {
+#         'log_file': 'HPC/HPC_full.log',
+#         'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
+#     },
+
+#     'Thunderbird': {
+#         'log_file': 'Thunderbird/Thunderbird_full.log',
+#         'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
+#     },
+
+#     'Windows': {
+#         'log_file': 'Windows/Windows_full.log',
+#         'log_format': '<Date> <Time>, <Level>                  <Component>    <Content>',
+#     },
+
+#     'Linux': {
+#         'log_file': 'Linux/Linux_full.log',
+#         'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
+#     },
+
+#     'HealthApp': {
+#         'log_file': 'HealthApp/HealthApp_full.log',
+#         'log_format': '<Time>\|<Component>\|<Pid>\|<Content>',
+#     },
+
+#     'Apache': {
+#         'log_file': 'Apache/Apache_full.log',
+#         'log_format': '\[<Time>\] \[<Level>\] <Content>',
+#     },
+
+#     'Proxifier': {
+#         'log_file': 'Proxifier/Proxifier_full.log',
+#         'log_format': '\[<Time>\] <Program> - <Content>',
+#     },
+
+#     'OpenSSH': {
+#         'log_file': 'OpenSSH/OpenSSH_full.log',
+#         'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
+#     },
+
+#     'OpenStack': {
+#         'log_file': 'OpenStack/OpenStack_full.log',
+#         'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
+#     },
+
+#     'Mac': {
+#         'log_file': 'Mac/Mac_full.log',
+#         'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
+#     },
+#     'brave': {
+#         'log_file': 'brave/brave_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'airflow': {
+#         'log_file': 'airflow/airflow_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'dbeaver': {
+#         'log_file': 'dbeaver/dbeaver_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'pytorch': {
+#         'log_file': 'pytorch/pytorch_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'transformers': {
+#         'log_file': 'transformers/transformers_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'flink': {
+#         'log_file': 'flink/flink_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'presto': {
+#         'log_file': 'presto/presto_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'cassandra': {
+#         'log_file': 'cassandra/cassandra_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'liquibase': {
+#         'log_file': 'liquibase/liquibase_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'jenkins': {
+#         'log_file': 'jenkins/jenkins_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'maven': {
+#         'log_file': 'maven/maven_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'spring-boot': {
+#         'log_file': 'spring-boot/spring-boot_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'netty': {
+#         'log_file': 'netty/netty_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'activemq': {
+#         'log_file': 'activemq/activemq_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'rocketmq': {
+#         'log_file': 'rocketmq/rocketmq_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'elasticsearch': {
+#         'log_file': 'elasticsearch/elasticsearch_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'logstash': {
+#         'log_file': 'logstash/logstash_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'cas': {
+#         'log_file': 'cas/cas_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'shenyu': {
+#         'log_file': 'shenyu/shenyu_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'cpython': {
+#         'log_file': 'cpython/cpython_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'Python': {
+#         'log_file': 'Python/Python_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'jitsi': {
+#         'log_file': 'jitsi/jitsi_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'openpilot': {
+#         'log_file': 'openpilot/openpilot_full.log',
+#         'log_format': '<Content>',
+#     },
+#     'javacv': {
+#         'log_file': 'javacv/javacv_full.log',
+#         'log_format': '<Content>',  
+#     }
+# }
+
+
 benchmark = {
-    'HDFS': {
-        'log_file': 'HDFS/HDFS_full.log',
-        'log_format': '<Date> <Time> <Pid> <Level> <Component>: <Content>',
-    },
-
-    'Hadoop': {
-        'log_file': 'Hadoop/Hadoop_full.log',
-        'log_format': '<SessionId> <Date> <Time> <Level> \[<Process>\] <Component>: <Content>',
-    },
-
-    'Spark': {
-        'log_file': 'Spark/Spark_full.log',
-        'log_format': '<Date> <Time> <Level> <Component>: <Content>',
-    },
-
-    'Zookeeper': {
-        'log_file': 'Zookeeper/Zookeeper_full.log',
-        'log_format': '<Date> <Time> - <Level>  \[<Node>:<Component>@<Id>\] - <Content>',
-    },
-
-    'BGL': {
-        'log_file': 'BGL/BGL_full.log',
-        'log_format': '<Label> <Timestamp> <Date> <Node> <Time> <NodeRepeat> <Type> <Component> <Level> <Content>',
-    },
-
-    'HPC': {
-        'log_file': 'HPC/HPC_full.log',
-        'log_format': '<LogId> <Node> <Component> <State> <Time> <Flag> <Content>',
-    },
-
-    'Thunderbird': {
-        'log_file': 'Thunderbird/Thunderbird_full.log',
-        'log_format': '<Label> <Timestamp> <Date> <User> <Month> <Day> <Time> <Location> <Component>(\[<PID>\])?: <Content>',
-    },
-
-    'Windows': {
-        'log_file': 'Windows/Windows_full.log',
-        'log_format': '<Date> <Time>, <Level>                  <Component>    <Content>',
-    },
-
-    'Linux': {
-        'log_file': 'Linux/Linux_full.log',
-        'log_format': '<Month> <Date> <Time> <Level> <Component>(\[<PID>\])?: <Content>',
-    },
-
-    'HealthApp': {
-        'log_file': 'HealthApp/HealthApp_full.log',
-        'log_format': '<Time>\|<Component>\|<Pid>\|<Content>',
-    },
-
-    'Apache': {
-        'log_file': 'Apache/Apache_full.log',
-        'log_format': '\[<Time>\] \[<Level>\] <Content>',
-    },
-
-    'Proxifier': {
-        'log_file': 'Proxifier/Proxifier_full.log',
-        'log_format': '\[<Time>\] <Program> - <Content>',
-    },
-
-    'OpenSSH': {
-        'log_file': 'OpenSSH/OpenSSH_full.log',
-        'log_format': '<Date> <Day> <Time> <Component> sshd\[<Pid>\]: <Content>',
-    },
-
-    'OpenStack': {
-        'log_file': 'OpenStack/OpenStack_full.log',
-        'log_format': '<Logrecord> <Date> <Time> <Pid> <Level> <Component> \[<ADDR>\] <Content>',
-    },
-
-    'Mac': {
-        'log_file': 'Mac/Mac_full.log',
-        'log_format': '<Month>  <Date> <Time> <User> <Component>\[<PID>\]( \(<Address>\))?: <Content>',
-    },
-    'brave': {
-        'log_file': 'brave/brave_full.log',
-        'log_format': '<Content>',
-    },
-    'airflow': {
-        'log_file': 'airflow/airflow_full.log',
-        'log_format': '<Content>',
-    },
-    'dbeaver': {
-        'log_file': 'dbeaver/dbeaver_full.log',
-        'log_format': '<Content>',
-    },
-    'pytorch': {
-        'log_file': 'pytorch/pytorch_full.log',
-        'log_format': '<Content>',
-    },
-    'transformers': {
-        'log_file': 'transformers/transformers_full.log',
-        'log_format': '<Content>',
-    },
-    'flink': {
-        'log_file': 'flink/flink_full.log',
-        'log_format': '<Content>',
-    },
-    'presto': {
-        'log_file': 'presto/presto_full.log',
-        'log_format': '<Content>',
-    },
-    'cassandra': {
-        'log_file': 'cassandra/cassandra_full.log',
-        'log_format': '<Content>',
-    },
-    'liquibase': {
-        'log_file': 'liquibase/liquibase_full.log',
-        'log_format': '<Content>',
-    },
-    'jenkins': {
-        'log_file': 'jenkins/jenkins_full.log',
-        'log_format': '<Content>',
-    },
-    'maven': {
-        'log_file': 'maven/maven_full.log',
-        'log_format': '<Content>',
-    },
-    'spring-boot': {
-        'log_file': 'spring-boot/spring-boot_full.log',
-        'log_format': '<Content>',
-    },
-    'netty': {
-        'log_file': 'netty/netty_full.log',
-        'log_format': '<Content>',
-    },
-    'activemq': {
+        'activemq': {
         'log_file': 'activemq/activemq_full.log',
-        'log_format': '<Content>',
-    },
-    'rocketmq': {
-        'log_file': 'rocketmq/rocketmq_full.log',
-        'log_format': '<Content>',
-    },
-    'elasticsearch': {
-        'log_file': 'elasticsearch/elasticsearch_full.log',
-        'log_format': '<Content>',
-    },
-    'logstash': {
-        'log_file': 'logstash/logstash_full.log',
         'log_format': '<Content>',
     },
     'cas': {
         'log_file': 'cas/cas_full.log',
         'log_format': '<Content>',
     },
-    'shenyu': {
-        'log_file': 'shenyu/shenyu_full.log',
+    'CoreNLP': {
+        'log_file': 'CoreNLP/CoreNLP_full.log',
         'log_format': '<Content>',
     },
-    'cpython': {
-        'log_file': 'cpython/cpython_full.log',
+    'hive': {
+        'log_file': 'hive/hive_full.log',
         'log_format': '<Content>',
     },
-    'Python': {
-        'log_file': 'Python/Python_full.log',
+    'OpenSearch': {
+        'log_file': 'OpenSearch/OpenSearch_full.log',
         'log_format': '<Content>',
     },
-    'jitsi': {
-        'log_file': 'jitsi/jitsi_full.log',
+    'camel': {
+        'log_file': 'camel/camel_full.log',
         'log_format': '<Content>',
     },
-    'openpilot': {
-        'log_file': 'openpilot/openpilot_full.log',
+    'cassandra': {
+        'log_file': 'cassandra/cassandra_full.log',
         'log_format': '<Content>',
     },
-    'javacv': {
-        'log_file': 'javacv/javacv_full.log',
-        'log_format': '<Content>',  
+    'hbase': {
+        'log_file': 'hbase/hbase_full.log',
+        'log_format': '<Content>',
+    },
+    'jenkins': {
+        'log_file': 'jenkins/jenkins_full.log',
+        'log_format': '<Content>',
+    },
+    'pytorch': {
+        'log_file': 'pytorch/pytorch_full.log',
+        'log_format': '<Content>',
     }
 }
-
-
 def generate_logformat_regex(log_format):
     """ Function to generate regular expression to split log messages
     """

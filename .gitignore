@@ -1,2 +1,7 @@
 full_dataset/
 venvlilac/
+LogBase/
+openai_key.txt
+__pycache__/
+venv/
+openai_key.txt
